@@ -1,0 +1,152 @@
+{
+  "deploymentId": "7433d627-92a8-410e-9695-81c9c78c17ce",
+  "releaseId": "4e074fdb-3e91-420a-b6be-2f28df152fca",
+  "moduleId": "995db5ed-c126-4ebf-a564-043975d3edeb",
+  "runtime": {
+    "build": "2fc2f81246d85e8ffa164bc1fa4805ccad19bc771ad167eda99dda73590dfcf9",
+    "kind": "atlas-web"
+  },
+  "checks": [
+    "Public catalog exposes the exact published release to a separate player"
+  ],
+  "errors": [
+    "response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.",
+    "response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.",
+    "response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.",
+    "response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.",
+    "response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.",
+    "response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.",
+    "response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.",
+    "response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.",
+    "response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.",
+    "response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.",
+    "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n3 !== 13\n\n    at file:///game/tests/production.mjs:102:10"
+  ],
+  "requests": [
+    {
+      "path": "/api/sessions",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/realms",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "path": "/api/sessions/be405293-9351-4542-85f6-c5a55bacbee2/activate",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/be405293-9351-4542-85f6-c5a55bacbee2/save",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/be405293-9351-4542-85f6-c5a55bacbee2/files/assets/kart-0.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/be405293-9351-4542-85f6-c5a55bacbee2/files/assets/goose.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/be405293-9351-4542-85f6-c5a55bacbee2/files/assets/kart-2.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/be405293-9351-4542-85f6-c5a55bacbee2/files/assets/kart-3.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/be405293-9351-4542-85f6-c5a55bacbee2/files/assets/kart-1.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/be405293-9351-4542-85f6-c5a55bacbee2/files/assets/jelly.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/be405293-9351-4542-85f6-c5a55bacbee2/files/assets/pickup.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/be405293-9351-4542-85f6-c5a55bacbee2/files/assets/soda.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/be405293-9351-4542-85f6-c5a55bacbee2/files/assets/wheel.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/be405293-9351-4542-85f6-c5a55bacbee2/files/assets/picnic.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/be405293-9351-4542-85f6-c5a55bacbee2/files/game.json",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/be405293-9351-4542-85f6-c5a55bacbee2/files/scene/scene.json",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/be405293-9351-4542-85f6-c5a55bacbee2/files/scripts/main.js",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/be405293-9351-4542-85f6-c5a55bacbee2/save",
+      "method": "PUT",
+      "status": 200
+    }
+  ],
+  "notice": "Actual public PWA smoke check under software rendering; not a physical-device performance result.",
+  "browser": "151.0.7922.34",
+  "realm": {
+    "realm_id": "module:995db5ed-c126-4ebf-a564-043975d3edeb",
+    "module_id": "wobble-rally",
+    "version": "0.1.0",
+    "title": "Wobble Rally",
+    "summary": "A tiny picnic. A very silly race. Three rivals, three buttons, and one honking goose.",
+    "art_ref": null,
+    "available": true,
+    "execution_policy": "browser",
+    "release_id": "4e074fdb-3e91-420a-b6be-2f28df152fca"
+  },
+  "session": {
+    "id": 113,
+    "uuid": "be405293-9351-4542-85f6-c5a55bacbee2",
+    "state": "active",
+    "title": "Wobble Rally",
+    "realm_id": "module:995db5ed-c126-4ebf-a564-043975d3edeb",
+    "module_id": "wobble-rally",
+    "created_at": "2026-10-01T19:21:53.366724+00:00",
+    "release_id": "4e074fdb-3e91-420a-b6be-2f28df152fca",
+    "updated_at": "2026-10-01T19:21:53.366724+00:00",
+    "last_played_at": null,
+    "module_version": "0.1.0",
+    "execution_policy": "browser",
+    "workspace_status": "none"
+  },
+  "testSessionDeleted": true,
+  "finishedAt": "2026-10-01T19:22:03.114Z"
+}

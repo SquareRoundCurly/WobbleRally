@@ -1,0 +1,60 @@
+name: Test Wobble Rally
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wobble-rally-tests-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned public CLI
+        run: |
+          python -m venv .venv
+          .venv/bin/python tools/install-cli.py
+      - run: npm ci
+      - run: npm run runtime
+      - name: Rebuild game and verify generated payload
+        run: |
+          npm run build
+          git diff --exit-code -- assets scene scripts src/track.json
+      - run: npm test
+      - run: npx playwright install --with-deps chromium
+      - name: Test browser controls, powerups, complete race and rematches
+        env:
+          SPARSE_RENDER: '1'
+        run: |
+          rm -rf evidence/shared-inputs
+          mkdir -p evidence/shared-inputs
+          npm run test:browser
+      - name: Build reproducible package and play the exact ZIP
+        run: |
+          npm run package
+          npm run test:package
+      - name: Retain browser evidence and validated package
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wobble-rally-${{ github.sha }}
+          path: |
+            evidence/shared-inputs
+            dist
+          retention-days: 7

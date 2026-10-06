@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-01T19:24:39.406919+00:00",
+  "prepareRun": "https://github.com/SquareRoundCurly/PocketRealms/actions/runs/36913356502",
+  "credentialMethod": "Existing operator workflow; temporary encrypted owner/player logins. No publisher key created.",
+  "encryptedArtifactDeleted": true,
+  "archiveDigest": "c418bcb2f941f5f6d1f657148c37e4656eef3240ac3356dd9523a55a9cbd0ffd",
+  "contentDigest": "f97aa481743b85b12abd969f818b9a7132bb1e7f505894c9dd1da3dba610473d",
+  "selectedRelease": "4e074fdb-3e91-420a-b6be-2f28df152fca",
+  "visibility": "public",
+  "cleanupRun": "https://github.com/SquareRoundCurly/PocketRealms/actions/runs/36914534524",
+  "cleanupConclusion": "success",
+  "disposablePlayerDeleted": true,
+  "testSessionsDeleted": true,
+  "localCredentialCopiesRemoved": true,
+  "completedAt": "2026-10-01T19:29:57.690104+00:00"
+}

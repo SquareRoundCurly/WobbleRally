@@ -1,0 +1,108 @@
+{
+  "module": {
+    "id": "995db5ed-c126-4ebf-a564-043975d3edeb",
+    "owner_id": 9,
+    "slug": "wobble-rally",
+    "title": "Wobble Rally",
+    "summary": "A tiny picnic. A very silly race. Three rivals, three buttons, and one honking goose.",
+    "visibility": "public",
+    "selected_release": "4e074fdb-3e91-420a-b6be-2f28df152fca",
+    "revision": 2,
+    "created_at": "2026-10-01T19:21:18.250522+00:00",
+    "updated_at": "2026-10-01T19:21:21.67243+00:00"
+  },
+  "releases": [
+    {
+      "id": "4e074fdb-3e91-420a-b6be-2f28df152fca",
+      "module_id": "995db5ed-c126-4ebf-a564-043975d3edeb",
+      "version": "0.1.0",
+      "content_digest": "f97aa481743b85b12abd969f818b9a7132bb1e7f505894c9dd1da3dba610473d",
+      "manifest": {
+        "save": {
+          "schema": 1
+        },
+        "entry": "game.json",
+        "files": [
+          {
+            "path": "assets/goose.gltf",
+            "size": 61065,
+            "sha256": "9fde2183f57a2f831a4a9abd2156af3d8eae160e639f9fd537032752b4ee505a"
+          },
+          {
+            "path": "assets/jelly.gltf",
+            "size": 13285,
+            "sha256": "04260a3d311ae55c6f2bcccd71f6f3f6bccbba08b58491b2882d027a9c9b35ed"
+          },
+          {
+            "path": "assets/kart-0.gltf",
+            "size": 76623,
+            "sha256": "25afd3cc4bedd411bd409e20c07f3e43c6c70c14192723257cd18b38aa1e4af0"
+          },
+          {
+            "path": "assets/kart-1.gltf",
+            "size": 77035,
+            "sha256": "981a5f37e9915f94ed81fbc2f2d5beed37e3af5716077a45801a3f492f6e4c3a"
+          },
+          {
+            "path": "assets/kart-2.gltf",
+            "size": 57438,
+            "sha256": "2c6e7d9125c452cf718456cc93c270546864b66a360a1156efac3f19ec0b7b7a"
+          },
+          {
+            "path": "assets/kart-3.gltf",
+            "size": 77075,
+            "sha256": "12a7d796367a7a918b24de26d21c0e438128577ddb63e77aff93b7a0ea44c5da"
+          },
+          {
+            "path": "assets/pickup.gltf",
+            "size": 5218,
+            "sha256": "8ebbc51fbc0725f9386aed443932e383f404f62ca960cda2c6005e8010ef5481"
+          },
+          {
+            "path": "assets/picnic.gltf",
+            "size": 2590502,
+            "sha256": "57c772e41b28a5f55859aba5b562517306c00da605d5eaf032001471d513faa8"
+          },
+          {
+            "path": "assets/soda.gltf",
+            "size": 15958,
+            "sha256": "a4d099dee6907c7f93347893f7f09b57b4b9900cee2a1e0bd11d5379972b37c0"
+          },
+          {
+            "path": "assets/wheel.gltf",
+            "size": 18872,
+            "sha256": "16d5b3bc7df110193b6124d6e17cca158353f1fbbe5857682db7c1efa889956e"
+          },
+          {
+            "path": "game.json",
+            "size": 50,
+            "sha256": "3cbb2bd7164482d49747f05dfb5ee8225902bb807d7c2f3aa446ff6cc07e9d7b"
+          },
+          {
+            "path": "scene/scene.json",
+            "size": 75948,
+            "sha256": "477a2c0d89a2e2a211d6db0dedcd6ade43b718ae33ef59d64fe7664062d388fd"
+          },
+          {
+            "path": "scripts/main.js",
+            "size": 63869,
+            "sha256": "4b6fc18a06670254c137da262b4785d02c02085edb5206db1255051113ac74af"
+          }
+        ],
+        "title": "Wobble Rally",
+        "format": 1,
+        "module": "wobble-rally",
+        "runtime": {
+          "kind": "atlas-web",
+          "build": "2fc2f81246d85e8ffa164bc1fa4805ccad19bc771ad167eda99dda73590dfcf9"
+        },
+        "summary": "A tiny picnic. A very silly race. Three rivals, three buttons, and one honking goose.",
+        "version": "0.1.0",
+        "capabilities": [
+          "session.save"
+        ]
+      },
+      "created_at": "2026-10-01T19:21:21.141964+00:00"
+    }
+  ]
+}

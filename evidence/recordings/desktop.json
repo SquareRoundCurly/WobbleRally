@@ -1,0 +1,13 @@
+{
+  "sourceSha": "4b6fc18a06670254c137da262b4785d02c02085edb5206db1255051113ac74af",
+  "viewport": {
+    "width": 640,
+    "height": 400
+  },
+  "angle": "swiftshader-webgl",
+  "fps": 10,
+  "desktopFrames": 680,
+  "captures": [],
+  "sha256": "59d3351828aec7245096c3aaba49cff7c63000f922ef03593cc490597a7ef2b6",
+  "recoveryNotice": "Desktop video finalized successfully in capture-session.log before a redundant final touchEnd failed the separate touch take. Metadata recovered from that completed capture configuration; final duration and frames are independently decoded in review.json. Native race evidence is in drive.json and replay.json. The touch take is re-recorded."
+}

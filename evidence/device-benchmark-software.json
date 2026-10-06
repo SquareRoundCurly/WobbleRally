@@ -1,0 +1,198 @@
+{
+  "format": "wobble-device-benchmark-v1",
+  "deviceClass": "desktop",
+  "targetFps": 60,
+  "build": {
+    "module": "wobble-rally",
+    "version": "0.1.0",
+    "runtime": {
+      "kind": "atlas-web",
+      "build": "2fc2f81246d85e8ffa164bc1fa4805ccad19bc771ad167eda99dda73590dfcf9"
+    },
+    "probeSha256": "0e143958dd2ff14c59cdfa46b6c0ce4543e572236e7fb37e4def886140b1d5e9",
+    "files": {
+      "assets/goose.gltf": "9fde2183f57a2f831a4a9abd2156af3d8eae160e639f9fd537032752b4ee505a",
+      "assets/jelly.gltf": "04260a3d311ae55c6f2bcccd71f6f3f6bccbba08b58491b2882d027a9c9b35ed",
+      "assets/kart-0.gltf": "25afd3cc4bedd411bd409e20c07f3e43c6c70c14192723257cd18b38aa1e4af0",
+      "assets/kart-1.gltf": "981a5f37e9915f94ed81fbc2f2d5beed37e3af5716077a45801a3f492f6e4c3a",
+      "assets/kart-2.gltf": "2c6e7d9125c452cf718456cc93c270546864b66a360a1156efac3f19ec0b7b7a",
+      "assets/kart-3.gltf": "12a7d796367a7a918b24de26d21c0e438128577ddb63e77aff93b7a0ea44c5da",
+      "assets/pickup.gltf": "8ebbc51fbc0725f9386aed443932e383f404f62ca960cda2c6005e8010ef5481",
+      "assets/picnic.gltf": "57c772e41b28a5f55859aba5b562517306c00da605d5eaf032001471d513faa8",
+      "assets/soda.gltf": "a4d099dee6907c7f93347893f7f09b57b4b9900cee2a1e0bd11d5379972b37c0",
+      "assets/wheel.gltf": "16d5b3bc7df110193b6124d6e17cca158353f1fbbe5857682db7c1efa889956e",
+      "game.json": "3cbb2bd7164482d49747f05dfb5ee8225902bb807d7c2f3aa446ff6cc07e9d7b",
+      "scene/scene.json": "477a2c0d89a2e2a211d6db0dedcd6ade43b718ae33ef59d64fe7664062d388fd",
+      "scripts/main.js": "4b6fc18a06670254c137da262b4785d02c02085edb5206db1255051113ac74af"
+    }
+  },
+  "instrumentation": "An observational rAF probe is appended only in this local benchmark preview. Published payload files are unchanged.",
+  "measuredAt": "2026-10-01T17:22:23.000Z",
+  "durationMs": 30365.399999999998,
+  "frames": 65,
+  "meanFps": 2.140594228957959,
+  "frameMsP50": 449.90000000000146,
+  "frameMsP95": 683.2999999999993,
+  "frameMs": [
+    450,
+    450.0000000000009,
+    449.89999999999964,
+    466.6999999999989,
+    466.60000000000036,
+    450.10000000000036,
+    449.89999999999964,
+    466.60000000000036,
+    450,
+    683.2999999999993,
+    466.7000000000007,
+    449.89999999999964,
+    450.10000000000036,
+    449.89999999999964,
+    483.39999999999964,
+    466.60000000000036,
+    483.3000000000011,
+    700,
+    466.7000000000007,
+    466.59999999999854,
+    499.90000000000146,
+    450.09999999999854,
+    449.90000000000146,
+    450,
+    433.2999999999993,
+    616.7000000000007,
+    449.8999999999978,
+    483.2999999999993,
+    450,
+    433.3000000000029,
+    433.3999999999978,
+    433.2999999999993,
+    433.3000000000029,
+    600,
+    433.2999999999993,
+    416.59999999999854,
+    416.7000000000007,
+    416.59999999999854,
+    433.3000000000029,
+    500.09999999999854,
+    416.59999999999854,
+    599.9000000000015,
+    416.7000000000007,
+    416.59999999999854,
+    416.7000000000007,
+    416.7000000000007,
+    466.59999999999854,
+    416.6000000000022,
+    400.09999999999854,
+    399.90000000000146,
+    400,
+    400,
+    750,
+    400,
+    399.90000000000146,
+    450,
+    416.6999999999971,
+    433.3000000000029,
+    416.59999999999854,
+    433.40000000000146,
+    433.1999999999971,
+    816.6999999999971,
+    449.90000000000146,
+    450.09999999999854,
+    449.90000000000146
+  ],
+  "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "softwareRenderer": true,
+  "viewport": {
+    "width": 740,
+    "height": 420,
+    "devicePixelRatio": 1
+  },
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+  "logicalCpus": 2,
+  "interruptions": 1,
+  "startState": {
+    "elapsed": 2.5999999999999956,
+    "racers": [
+      {
+        "id": 0,
+        "position": [
+          9.471617698669434,
+          2.335958957672119,
+          -49.79640197753906
+        ],
+        "progress": 9.827508779371982
+      },
+      {
+        "id": 1,
+        "position": [
+          12.07249641418457,
+          2.3434083461761475,
+          -49.97841262817383
+        ],
+        "progress": 12.15417284916677
+      },
+      {
+        "id": 2,
+        "position": [
+          11.416871070861816,
+          2.3465042114257812,
+          -46.712162017822266
+        ],
+        "progress": 12.828773272563154
+      },
+      {
+        "id": 3,
+        "position": [
+          9.134637832641602,
+          2.3336849212646484,
+          -51.19316101074219
+        ],
+        "progress": 9.004614406548995
+      }
+    ]
+  },
+  "endState": {
+    "elapsed": 9.100000000000032,
+    "racers": [
+      {
+        "id": 0,
+        "position": [
+          52.811279296875,
+          3.0303497314453125,
+          -30.05010986328125
+        ],
+        "progress": 57.392348557805036
+      },
+      {
+        "id": 1,
+        "position": [
+          56.58380126953125,
+          3.7625820636749268,
+          -18.557689666748047
+        ],
+        "progress": 70.14892516634782
+      },
+      {
+        "id": 2,
+        "position": [
+          56.411643981933594,
+          3.6117000579833984,
+          -20.625947952270508
+        ],
+        "progress": 67.9174492169378
+      },
+      {
+        "id": 3,
+        "position": [
+          56.100040435791016,
+          3.3897526264190674,
+          -25.0058650970459
+        ],
+        "progress": 63.08864472219554
+      }
+    ]
+  },
+  "simulationRate": 0.21405942289579705,
+  "note": "Thirty continuous seconds of live sandbox requestAnimationFrame cadence after two simulation seconds of racing warm-up. No fixed stepping or render-cadence overrides.",
+  "deviceLabel": "Linux SwiftShader container — benchmark harness validation"
+}

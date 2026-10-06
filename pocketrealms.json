@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "module": "wobble-rally",
+  "version": "0.2.0",
+  "title": "Wobble Rally",
+  "summary": "A tiny picnic. A very silly race. Three rivals, three buttons, and one honking goose.",
+  "runtime": {
+    "kind": "atlas-web",
+    "build": "799b5956e06acf409d62176d3a1c99eb3eddc72a5a0d2482f8d691c892d85343"
+  },
+  "entry": "game.json",
+  "include": [
+    "game.json",
+    "inputs.json",
+    "scene/**",
+    "scripts/**",
+    "assets/**"
+  ],
+  "capabilities": [
+    "session.save"
+  ],
+  "save": {
+    "schema": 1
+  }
+}

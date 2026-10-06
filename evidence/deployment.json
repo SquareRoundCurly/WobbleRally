@@ -1,0 +1,16 @@
+{
+  "id": "7433d627-92a8-410e-9695-81c9c78c17ce",
+  "module_id": "995db5ed-c126-4ebf-a564-043975d3edeb",
+  "version": "0.1.0",
+  "content_digest": "f97aa481743b85b12abd969f818b9a7132bb1e7f505894c9dd1da3dba610473d",
+  "archive_digest": "c418bcb2f941f5f6d1f657148c37e4656eef3240ac3356dd9523a55a9cbd0ffd",
+  "archive_bytes": 553742,
+  "phase": "succeeded",
+  "bytes_validated": 3134827,
+  "files_validated": 14,
+  "total_files": 14,
+  "release_id": "4e074fdb-3e91-420a-b6be-2f28df152fca",
+  "error": null,
+  "created_at": "2026-10-01T19:21:18.250522+00:00",
+  "updated_at": "2026-10-01T19:21:21.141964+00:00"
+}

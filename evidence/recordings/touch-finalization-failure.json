@@ -1,0 +1,10 @@
+{
+  "sourceSha": "4b6fc18a06670254c137da262b4785d02c02085edb5206db1255051113ac74af",
+  "ticks": 480,
+  "frames": 80,
+  "disconnected": false,
+  "errors": [
+    "cdpSession.send: Protocol error (Input.dispatchTouchEvent): Must send a TouchStart first to start a new touch.\n    at touch (/game/tools/record.mjs:87:13)\n    at /game/tools/record.mjs:172:9"
+  ],
+  "encoderLog": ""
+}

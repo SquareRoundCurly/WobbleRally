@@ -1,0 +1,157 @@
+2026-10-01T16:49:46.394Z pw:browser <launching> /ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --no-sandbox --disable-gpu-watchdog --use-angle=swiftshader-webgl --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-C9LT2j --remote-debugging-pipe --no-startup-window
+2026-10-01T16:49:46.400Z pw:browser <launched> pid=27
+2026-10-01T16:49:46.485Z pw:browser [pid=27][err] [1001/164946.483950:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+2026-10-01T16:49:46.496Z pw:browser [pid=27][err] [1001/164946.494909:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+2026-10-01T16:49:46.496Z pw:browser [pid=27][err] [1001/164946.494989:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+2026-10-01T16:49:46.516Z pw:browser [pid=27][err]
+2026-10-01T16:49:46.533Z pw:browser [pid=27][err] Fontconfig error: No writable cache directories
+2026-10-01T16:49:46.534Z pw:browser [pid=27][err] 	/var/cache/fontconfig
+2026-10-01T16:49:46.538Z pw:browser [pid=27][err] 	/.cache/fontconfig
+2026-10-01T16:49:46.538Z pw:browser [pid=27][err] 	/.fontconfig
+2026-10-01T16:49:46.539Z pw:browser [pid=27][err]
+2026-10-01T16:49:46.539Z pw:browser [pid=27][err] Fontconfig error: No writable cache directories
+2026-10-01T16:49:46.540Z pw:browser [pid=27][err] 	/var/cache/fontconfig
+2026-10-01T16:49:46.540Z pw:browser [pid=27][err] 	/.cache/fontconfig
+2026-10-01T16:49:46.540Z pw:browser [pid=27][err] 	/.fontconfig
+2026-10-01T16:49:46.541Z pw:browser [pid=27][err]
+2026-10-01T16:49:46.541Z pw:browser [pid=27][err] Fontconfig error: No writable cache directories
+2026-10-01T16:49:46.542Z pw:browser [pid=27][err] 	/var/cache/fontconfig
+2026-10-01T16:49:46.542Z pw:browser [pid=27][err] 	/.cache/fontconfig
+2026-10-01T16:49:46.543Z pw:browser [pid=27][err] 	/.fontconfig
+2026-10-01T16:49:46.543Z pw:browser [pid=27][err]
+2026-10-01T16:49:46.543Z pw:browser [pid=27][err] Fontconfig error: No writable cache directories
+2026-10-01T16:49:46.543Z pw:browser [pid=27][err] 	/var/cache/fontconfig
+2026-10-01T16:49:46.543Z pw:browser [pid=27][err] 	/.cache/fontconfig
+2026-10-01T16:49:46.543Z pw:browser [pid=27][err] 	/.fontconfig
+2026-10-01T16:49:46.544Z pw:browser [pid=27][err] [1001/164946.540707:WARNING:media/gpu/vaapi/vaapi_wrapper.cc:1655] drmGetDevices2() has not found any devices
+2026-10-01T16:49:46.546Z pw:browser [pid=27][err] [1001/164946.546183:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
+2026-10-01T16:49:46.551Z pw:browser [pid=27][err]
+2026-10-01T16:49:46.551Z pw:browser [pid=27][err] Fontconfig error: No writable cache directories
+2026-10-01T16:49:46.552Z pw:browser [pid=27][err] 	/var/cache/fontconfig
+2026-10-01T16:49:46.552Z pw:browser [pid=27][err] 	/.cache/fontconfig
+2026-10-01T16:49:46.552Z pw:browser [pid=27][err] 	/.fontconfig
+2026-10-01T16:49:46.553Z pw:browser [pid=27][err]
+2026-10-01T16:49:46.553Z pw:browser [pid=27][err] Fontconfig error: No writable cache directories
+2026-10-01T16:49:46.554Z pw:browser [pid=27][err] 	/var/cache/fontconfig
+2026-10-01T16:49:46.555Z pw:browser [pid=27][err] 	/.cache/fontconfig
+2026-10-01T16:49:46.555Z pw:browser [pid=27][err] 	/.fontconfig
+2026-10-01T16:49:46.558Z pw:browser [pid=27][err]
+2026-10-01T16:49:46.558Z pw:browser [pid=27][err] Fontconfig error: No writable cache directories
+2026-10-01T16:49:46.558Z pw:browser [pid=27][err] 	/var/cache/fontconfig
+2026-10-01T16:49:46.558Z pw:browser [pid=27][err] 	/.cache/fontconfig
+2026-10-01T16:49:46.558Z pw:browser [pid=27][err] 	/.fontconfig
+2026-10-01T16:49:46.560Z pw:browser [pid=27][err]
+2026-10-01T16:49:46.560Z pw:browser [pid=27][err] Fontconfig error: No writable cache directories
+2026-10-01T16:49:46.560Z pw:browser [pid=27][err] 	/var/cache/fontconfig
+2026-10-01T16:49:46.560Z pw:browser [pid=27][err] 	/.cache/fontconfig
+2026-10-01T16:49:46.560Z pw:browser [pid=27][err] 	/.fontconfig
+2026-10-01T16:49:46.561Z pw:browser [pid=27][err]
+2026-10-01T16:49:46.561Z pw:browser [pid=27][err] Fontconfig error: No writable cache directories
+2026-10-01T16:49:46.561Z pw:browser [pid=27][err] 	/var/cache/fontconfig
+2026-10-01T16:49:46.561Z pw:browser [pid=27][err] 	/.cache/fontconfig
+2026-10-01T16:49:46.561Z pw:browser [pid=27][err] 	/.fontconfig
+2026-10-01T16:49:46.573Z pw:browser [pid=27][err]
+2026-10-01T16:49:46.574Z pw:browser [pid=27][err] Fontconfig error: No writable cache directories
+2026-10-01T16:49:46.574Z pw:browser [pid=27][err] 	/var/cache/fontconfig
+2026-10-01T16:49:46.574Z pw:browser [pid=27][err] 	/.cache/fontconfig
+2026-10-01T16:49:46.574Z pw:browser [pid=27][err] 	/.fontconfig
+2026-10-01T16:49:46.576Z pw:browser [pid=27][err]
+2026-10-01T16:49:46.576Z pw:browser [pid=27][err] Fontconfig error: No writable cache directories
+2026-10-01T16:49:46.576Z pw:browser [pid=27][err] 	/var/cache/fontconfig
+2026-10-01T16:49:46.576Z pw:browser [pid=27][err] 	/.cache/fontconfig
+2026-10-01T16:49:46.576Z pw:browser [pid=27][err] 	/.fontconfig
+2026-10-01T16:49:46.626Z pw:browser [pid=27][err]
+2026-10-01T16:49:46.626Z pw:browser [pid=27][err] Fontconfig error: No writable cache directories
+2026-10-01T16:49:46.626Z pw:browser [pid=27][err] 	/var/cache/fontconfig
+2026-10-01T16:49:46.627Z pw:browser [pid=27][err] 	/.cache/fontconfig
+2026-10-01T16:49:46.627Z pw:browser [pid=27][err] 	/.fontconfig
+2026-10-01T16:49:46.645Z pw:browser [pid=27][err]
+2026-10-01T16:49:46.645Z pw:browser [pid=27][err] Fontconfig error: No writable cache directories
+2026-10-01T16:49:46.645Z pw:browser [pid=27][err] 	/var/cache/fontconfig
+2026-10-01T16:49:46.645Z pw:browser [pid=27][err] 	/.cache/fontconfig
+2026-10-01T16:49:46.645Z pw:browser [pid=27][err] 	/.fontconfig
+2026-10-01T16:49:46.652Z pw:browser [pid=27][err]
+2026-10-01T16:49:46.652Z pw:browser [pid=27][err] Fontconfig error: No writable cache directories
+2026-10-01T16:49:46.652Z pw:browser [pid=27][err] 	/var/cache/fontconfig
+2026-10-01T16:49:46.652Z pw:browser [pid=27][err] 	/.cache/fontconfig
+2026-10-01T16:49:46.652Z pw:browser [pid=27][err] 	/.fontconfig
+2026-10-01T16:49:46.661Z pw:browser [pid=27][err]
+2026-10-01T16:49:46.662Z pw:browser [pid=27][err] Fontconfig error: No writable cache directories
+2026-10-01T16:49:46.663Z pw:browser [pid=27][err] 	/var/cache/fontconfig
+2026-10-01T16:49:46.663Z pw:browser [pid=27][err] 	/.cache/fontconfig
+2026-10-01T16:49:46.663Z pw:browser [pid=27][err] 	/.fontconfig
+2026-10-01T16:49:46.684Z pw:browser [pid=27][err]
+2026-10-01T16:49:46.685Z pw:browser [pid=27][err] Fontconfig error: No writable cache directories
+2026-10-01T16:49:46.685Z pw:browser [pid=27][err] 	/var/cache/fontconfig
+2026-10-01T16:49:46.685Z pw:browser [pid=27][err] 	/.cache/fontconfig
+2026-10-01T16:49:46.686Z pw:browser [pid=27][err] 	/.fontconfig
+2026-10-01T16:49:46.687Z pw:browser [pid=27][err]
+2026-10-01T16:49:46.687Z pw:browser [pid=27][err] Fontconfig error: No writable cache directories
+2026-10-01T16:49:46.688Z pw:browser [pid=27][err] 	/var/cache/fontconfig
+2026-10-01T16:49:46.688Z pw:browser [pid=27][err] 	/.cache/fontconfig
+2026-10-01T16:49:46.688Z pw:browser [pid=27][err] 	/.fontconfig
+2026-10-01T16:49:46.699Z pw:browser [pid=27][err] [1001/164946.697628:WARNING:device/bluetooth/dbus/bluez_dbus_manager.cc:209] Floss manager service not available, cannot set Floss enable/disable.
+2026-10-01T16:49:48.795Z pw:browser [pid=27][err] [1001/164948.795451:ERROR:gpu/command_buffer/service/gl_utils.cc:430] [.WebGL-0x2a2c00158800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+2026-10-01T16:49:49.315Z pw:browser [pid=27][err] [1001/164949.315045:INFO:CONSOLE:0] "[.WebGL-0x2a2c00158800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels", source: about:srcdoc (0)
+2026-10-01T16:49:49.372Z pw:browser [pid=27][err] [1001/164949.371412:ERROR:gpu/command_buffer/service/gl_utils.cc:430] [.WebGL-0x2a2c00158800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+2026-10-01T16:49:49.748Z pw:browser [pid=27][err] [1001/164949.747595:INFO:CONSOLE:0] "[.WebGL-0x2a2c00158800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels", source: about:srcdoc (0)
+2026-10-01T16:49:50.192Z pw:browser [pid=27][err] Failed to create secure directory (//.config/pulse): No such file or directory
+2026-10-01T16:49:50.192Z pw:browser [pid=27][err] [1001/164950.192512:WARNING:media/audio/linux/audio_manager_linux.cc:53] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
+Capture native ticks 0–1440
+2026-10-01T16:49:50.239Z pw:browser [pid=27][err] [1001/164950.238781:ERROR:gpu/command_buffer/service/gl_utils.cc:430] [.WebGL-0x2a2c00158800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+2026-10-01T16:49:50.621Z pw:browser [pid=27][err] [1001/164950.620576:INFO:CONSOLE:0] "[.WebGL-0x2a2c00158800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels", source: about:srcdoc (0)
+{"tick":0,"encodedFrames":21}
+2026-10-01T16:49:50.778Z pw:browser [pid=27][err] [1001/164950.774566:ERROR:gpu/command_buffer/service/gl_utils.cc:430] [.WebGL-0x2a2c00158800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+2026-10-01T16:49:51.144Z pw:browser [pid=27][err] [1001/164951.144298:INFO:CONSOLE:0] "[.WebGL-0x2a2c00158800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)", source: about:srcdoc (0)
+{"tick":120,"encodedFrames":41}
+{"tick":240,"encodedFrames":61}
+{"tick":360,"encodedFrames":81}
+{"tick":480,"encodedFrames":101}
+{"tick":600,"encodedFrames":121}
+{"tick":720,"encodedFrames":141}
+{"tick":840,"encodedFrames":161}
+{"tick":960,"encodedFrames":181}
+{"tick":1080,"encodedFrames":201}
+{"tick":1200,"encodedFrames":221}
+{"tick":1320,"encodedFrames":241}
+Capture native ticks 1800–3000
+{"tick":1800,"encodedFrames":261}
+{"tick":1920,"encodedFrames":281}
+{"tick":2040,"encodedFrames":301}
+{"tick":2160,"encodedFrames":321}
+{"tick":2280,"encodedFrames":341}
+{"tick":2400,"encodedFrames":361}
+{"tick":2520,"encodedFrames":381}
+{"tick":2640,"encodedFrames":401}
+{"tick":2760,"encodedFrames":421}
+{"tick":2880,"encodedFrames":441}
+Capture native ticks 5766–7086
+{"tick":5766,"encodedFrames":461}
+{"tick":5886,"encodedFrames":481}
+{"tick":6006,"encodedFrames":501}
+{"tick":6126,"encodedFrames":521}
+{"tick":6246,"encodedFrames":541}
+{"tick":6366,"encodedFrames":561}
+2026-10-01T16:56:20.562Z pw:browser [pid=27][err] [1001/165620.551316:WARNING:services/audio/sync_reader.cc:175] SyncReader::Read timed out, audio glitch count=10
+{"tick":6486,"encodedFrames":581}
+{"tick":6606,"encodedFrames":601}
+{"tick":6726,"encodedFrames":621}
+{"tick":6846,"encodedFrames":641}
+{"tick":6966,"encodedFrames":661}
+2026-10-01T16:59:09.323Z pw:browser [pid=27] <gracefully close start>
+2026-10-01T16:59:09.519Z pw:browser [pid=27] <process did exit: exitCode=0, signal=null>
+2026-10-01T16:59:09.520Z pw:browser [pid=27] starting temporary directories cleanup
+2026-10-01T16:59:09.570Z pw:browser [pid=27] finished temporary directories cleanup
+2026-10-01T16:59:09.570Z pw:browser [pid=27] <gracefully close end>
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+cdpSession.send: Protocol error (Input.dispatchTouchEvent): Must send a TouchStart first to start a new touch.
+    at touch (/game/tools/record.mjs:87:13)
+    at /game/tools/record.mjs:172:9 {
+  log: [],
+  name: 'Error'
+}
+
+Node.js v24.18.0

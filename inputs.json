@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "inputs": [
+    {
+      "id": "left",
+      "type": "button",
+      "label": "Steer left",
+      "icon": "\u2190",
+      "scope": "game",
+      "widget": {
+        "placement": "manual"
+      }
+    },
+    {
+      "id": "right",
+      "type": "button",
+      "label": "Steer right",
+      "icon": "\u2192",
+      "scope": "game",
+      "widget": {
+        "placement": "manual"
+      }
+    },
+    {
+      "id": "use",
+      "type": "button",
+      "label": "Use power-up",
+      "icon": "\u2726",
+      "scope": "game",
+      "widget": {
+        "placement": "manual"
+      }
+    },
+    {
+      "id": "start",
+      "type": "button",
+      "label": "Let's race",
+      "icon": "\u2197",
+      "scope": "ui",
+      "widget": {
+        "placement": "manual"
+      }
+    },
+    {
+      "id": "pause",
+      "type": "button",
+      "label": "Pause race",
+      "icon": "\u2161",
+      "scope": "ui",
+      "widget": {
+        "placement": "manual"
+      }
+    },
+    {
+      "id": "mute",
+      "type": "button",
+      "label": "Mute sound",
+      "icon": "\u266a",
+      "scope": "ui",
+      "widget": {
+        "placement": "manual"
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "id": "left_widget",
+      "from": {
+        "device": "widget",
+        "input": "left"
+      },
+      "to": {
+        "input": "left"
+      }
+    },
+    {
+      "id": "left_key",
+      "from": {
+        "device": "key",
+        "code": "KeyA"
+      },
+      "to": {
+        "input": "left"
+      }
+    },
+    {
+      "id": "right_widget",
+      "from": {
+        "device": "widget",
+        "input": "right"
+      },
+      "to": {
+        "input": "right"
+      }
+    },
+    {
+      "id": "right_key",
+      "from": {
+        "device": "key",
+        "code": "KeyD"
+      },
+      "to": {
+        "input": "right"
+      }
+    },
+    {
+      "id": "use_widget",
+      "from": {
+        "device": "widget",
+        "input": "use"
+      },
+      "to": {
+        "input": "use"
+      }
+    },
+    {
+      "id": "use_key",
+      "from": {
+        "device": "key",
+        "code": "Space"
+      },
+      "to": {
+        "input": "use"
+      }
+    },
+    {
+      "id": "start_widget",
+      "from": {
+        "device": "widget",
+        "input": "start"
+      },
+      "to": {
+        "input": "start"
+      }
+    },
+    {
+      "id": "start_key",
+      "from": {
+        "device": "key",
+        "code": "Space"
+      },
+      "to": {
+        "input": "start"
+      }
+    },
+    {
+      "id": "pause_widget",
+      "from": {
+        "device": "widget",
+        "input": "pause"
+      },
+      "to": {
+        "input": "pause"
+      }
+    },
+    {
+      "id": "mute_widget",
+      "from": {
+        "device": "widget",
+        "input": "mute"
+      },
+      "to": {
+        "input": "mute"
+      }
+    }
+  ]
+}

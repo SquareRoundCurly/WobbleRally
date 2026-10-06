@@ -1,0 +1,9 @@
+{
+  "reason": "Stopped the first capture because full-size software-rendered frame readback was too slow while native replay validation was also running. This is partial footage, not the completed demo.",
+  "wall_time": 1790872683.9569159,
+  "viewport": [
+    960,
+    600
+  ],
+  "fps": 20
+}

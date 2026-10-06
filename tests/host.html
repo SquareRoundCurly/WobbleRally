@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Wobble Rally — Picnic Loop</title>
+<style>html,body,#game{margin:0;width:100%;height:100%;overflow:hidden;background:#9cbfc5}#loading{position:fixed;inset:0;display:grid;place-content:center;font:700 20px system-ui;color:#294c53}</style>
+</head><body><div id="game"></div><div id="loading">Packing the picnic…</div><script type="module">
+const {runtime:{build}}=await(await fetch('/pocketrealms.json')).json()
+const {loadBrowserRuntime,mountBrowserGame}=await import(`/.runtime/${build}/host.js`)
+const runtime=await loadBrowserRuntime('/.runtime',build)
+const names=await(await fetch('/files.json')).json()
+const sources=new Map(await Promise.all(names.map(async name=>[name,new Uint8Array(await(await fetch('/'+name)).arrayBuffer())])))
+const query=new URL(location.href).searchParams
+const benchmark=query.has('benchmark')
+if(benchmark){
+  const {installDeviceBenchmark}=await import('/tests/device-benchmark.mjs')
+  await installDeviceBenchmark({sources,container:document.querySelector('#game'),deviceClass:query.get('benchmark')==='phone'?'phone':'desktop'})
+}
+window.hostErrors=[]
+window.checkpointCount=0
+const controlled=query.has('controlled')
+let saveTimer
+const saveLocal=()=>{
+  if(controlled||benchmark||saveTimer)return
+  saveTimer=setTimeout(async()=>{
+    saveTimer=null
+    try{localStorage.setItem('wobble-rally.save.v1',JSON.stringify(await window.gameHost.snapshot()))}
+    catch(error){console.warn('Local preview checkpoint unavailable',error.message)}
+  },250)
+}
+window.mountTestGame=async(save=null)=>{
+  window.gameHost?.close()
+  window.gameHost=mountBrowserGame({container:document.querySelector('#game'),runtime,files:sources,save,
+    onError:error=>{window.hostErrors.push(error.message);console.error(error);const loading=document.querySelector('#loading');if(loading)loading.textContent=error.message},
+    onCheckpoint:()=>{window.checkpointCount++;saveLocal()}})
+  await window.gameHost.ready
+}
+let saved=null
+if(!controlled&&!benchmark&&!query.has('fresh')){
+  try{saved=JSON.parse(localStorage.getItem('wobble-rally.save.v1'))}catch{}
+}
+await window.mountTestGame(saved)
+document.querySelector('#loading').remove()
+if(!controlled){await window.gameHost.resume();setInterval(saveLocal,10000)}
+window.addEventListener('pagehide',()=>window.gameHost?.pause())
+</script></body></html>

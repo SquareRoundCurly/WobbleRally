@@ -1,0 +1,703 @@
+{
+  "format": 1,
+  "elapsedSeconds": 124.09999999999424,
+  "random": 0,
+  "scripts": [
+    {
+      "entity": 1,
+      "source": "scripts/main.js",
+      "state": {
+        "version": 1,
+        "race": {
+          "version": 1,
+          "seed": 7321,
+          "random": 637893984,
+          "phase": "finished",
+          "resumePhase": null,
+          "pausedMotion": null,
+          "countdown": -0.01666666666666101,
+          "elapsed": 121.09999999999441,
+          "ticks": 7446,
+          "finishes": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "message": "One lap down. Snacks ahead!",
+          "messageUntil": 113.09999999999498,
+          "itemSerial": 17,
+          "gooses": [],
+          "jellies": [],
+          "pickups": [
+            {
+              "s": 42.610905293832886,
+              "lane": -3.1,
+              "ready": 7.533333333333317
+            },
+            {
+              "s": 42.610905293832886,
+              "lane": 0,
+              "ready": 89.06666666666298
+            },
+            {
+              "s": 42.610905293832886,
+              "lane": 3.1,
+              "ready": 0
+            },
+            {
+              "s": 124.28180710701258,
+              "lane": -3.1,
+              "ready": 0
+            },
+            {
+              "s": 124.28180710701258,
+              "lane": 0,
+              "ready": 96.96666666666253
+            },
+            {
+              "s": 124.28180710701258,
+              "lane": 3.1,
+              "ready": 16.60000000000033
+            },
+            {
+              "s": 205.95270892019232,
+              "lane": -3.1,
+              "ready": 0
+            },
+            {
+              "s": 205.95270892019232,
+              "lane": 0,
+              "ready": 106.08333333332868
+            },
+            {
+              "s": 205.95270892019232,
+              "lane": 3.1,
+              "ready": 67.98333333333085
+            },
+            {
+              "s": 287.623610733372,
+              "lane": -3.1,
+              "ready": 111.46666666666171
+            },
+            {
+              "s": 287.623610733372,
+              "lane": 0,
+              "ready": 113.44999999999493
+            },
+            {
+              "s": 287.623610733372,
+              "lane": 3.1,
+              "ready": 0
+            }
+          ],
+          "racers": [
+            {
+              "id": 0,
+              "name": "Pip",
+              "distance": 1065.2992962486758,
+              "s": 0.02666390284019826,
+              "index": 0,
+              "lane": -0.9122305392334117,
+              "heading": -17.545947151037975,
+              "speed": 1.8410472741448992e-22,
+              "steer": -5.551924328088227e-66,
+              "nextGate": 49,
+              "lap": 3,
+              "item": null,
+              "boostUntil": 98.59999999999583,
+              "slowUntil": 0,
+              "jellyUntil": 0,
+              "immuneUntil": 0,
+              "bumpUntil": 7.566666666666646,
+              "recoverUntil": 0,
+              "stuck": 0,
+              "recoveries": 0,
+              "aiUseAt": 105.91734594418983,
+              "finished": 111.09999999999498,
+              "wheel": 2826.4473872786707,
+              "p": [
+                2.0048394203186035,
+                2.321685314178467,
+                -51.39371109008789
+              ]
+            },
+            {
+              "id": 1,
+              "name": "Mochi",
+              "distance": 1065.3041246240289,
+              "s": 0.03149227818670397,
+              "index": 0,
+              "lane": 0.14652521767097218,
+              "heading": -17.38130703982357,
+              "speed": 3.7214372040669597,
+              "steer": -0.0186935446468832,
+              "nextGate": 49,
+              "lap": 3,
+              "item": null,
+              "boostUntil": 106.33333333332872,
+              "slowUntil": 115.11666666666152,
+              "jellyUntil": 115.11666666666152,
+              "immuneUntil": 115.51666666666151,
+              "bumpUntil": 51.599999999998374,
+              "recoverUntil": 0,
+              "stuck": 0,
+              "recoveries": 0,
+              "aiUseAt": 103.82002258660437,
+              "finished": 120.94999999999442,
+              "wheel": 2790.6075031177074,
+              "p": [
+                0.7239425778388977,
+                2.320462465286255,
+                -53.10360336303711
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Crumb",
+              "distance": 1065.3145677358348,
+              "s": 0.04193538999066959,
+              "index": 0,
+              "lane": 1.0303568892045476,
+              "heading": -17.533281432664754,
+              "speed": 3.665725445656038e-8,
+              "steer": -1.139501151620404e-22,
+              "nextGate": 49,
+              "lap": 3,
+              "item": null,
+              "boostUntil": 97.86666666666254,
+              "slowUntil": 38.01666666666586,
+              "jellyUntil": 0,
+              "immuneUntil": 38.91666666666586,
+              "bumpUntil": 51.599999999998374,
+              "recoverUntil": 0,
+              "stuck": 0,
+              "recoveries": 0,
+              "aiUseAt": 112.13593556951857,
+              "finished": 117.41666666666129,
+              "wheel": 2782.1375787463853,
+              "p": [
+                3.21945858001709,
+                2.3220300674438477,
+                -53.66915512084961
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Plum",
+              "distance": 1065.3829883297813,
+              "s": 0.11035598394062163,
+              "index": 0,
+              "lane": 0.5222593467044356,
+              "heading": -17.484894962466903,
+              "speed": 0.005357160430144254,
+              "steer": 1.6505159379219843e-9,
+              "nextGate": 49,
+              "lap": 3,
+              "item": null,
+              "boostUntil": 107.93333333332863,
+              "slowUntil": 59.83333333333132,
+              "jellyUntil": 59.83333333333132,
+              "immuneUntil": 60.233333333331316,
+              "bumpUntil": 35.483333333332624,
+              "recoverUntil": 0,
+              "stuck": 0,
+              "recoveries": 0,
+              "aiUseAt": 112.90248615368694,
+              "finished": 119.69999999999449,
+              "wheel": 2821.0787523780514,
+              "p": [
+                2.051898956298828,
+                2.321239948272705,
+                -52.83224105834961
+              ]
+            }
+          ],
+          "camera": [
+            -7.069965719601805,
+            7.621661255292074,
+            -53.92828901990119
+          ],
+          "events": [
+            {
+              "kind": "lap",
+              "time": 39.717,
+              "racer": 0,
+              "lap": 1
+            },
+            {
+              "kind": "lap",
+              "time": 41.55,
+              "racer": 2,
+              "lap": 1
+            },
+            {
+              "kind": "lap",
+              "time": 42.583,
+              "racer": 1,
+              "lap": 1
+            },
+            {
+              "kind": "lap",
+              "time": 43.033,
+              "racer": 3,
+              "lap": 1
+            },
+            {
+              "kind": "pickup",
+              "time": 44.15,
+              "racer": 0,
+              "item": 1
+            },
+            {
+              "kind": "use",
+              "time": 44.2,
+              "racer": 0,
+              "item": 1
+            },
+            {
+              "kind": "pickup",
+              "time": 47.133,
+              "racer": 1,
+              "item": 0
+            },
+            {
+              "kind": "use",
+              "time": 48.383,
+              "racer": 1,
+              "item": 0
+            },
+            {
+              "kind": "bump",
+              "time": 51.25,
+              "racer": 1
+            },
+            {
+              "kind": "bump",
+              "time": 51.25,
+              "racer": 2
+            },
+            {
+              "kind": "pickup",
+              "time": 53.067,
+              "racer": 0,
+              "item": 0
+            },
+            {
+              "kind": "use",
+              "time": 53.1,
+              "racer": 0,
+              "item": 0
+            },
+            {
+              "kind": "pickup",
+              "time": 55.333,
+              "racer": 2,
+              "item": 2
+            },
+            {
+              "kind": "pickup",
+              "time": 56.85,
+              "racer": 3,
+              "item": 2
+            },
+            {
+              "kind": "use",
+              "time": 57.267,
+              "racer": 2,
+              "item": 2
+            },
+            {
+              "kind": "hit",
+              "time": 58.133,
+              "racer": 3,
+              "owner": 2,
+              "item": 2
+            },
+            {
+              "kind": "use",
+              "time": 58.817,
+              "racer": 3,
+              "item": 2
+            },
+            {
+              "kind": "pickup",
+              "time": 60.867,
+              "racer": 0,
+              "item": 0
+            },
+            {
+              "kind": "use",
+              "time": 60.9,
+              "racer": 0,
+              "item": 0
+            },
+            {
+              "kind": "pickup",
+              "time": 64.05,
+              "racer": 2,
+              "item": 2
+            },
+            {
+              "kind": "use",
+              "time": 65.767,
+              "racer": 2,
+              "item": 2
+            },
+            {
+              "kind": "hit",
+              "time": 66.333,
+              "racer": 1,
+              "owner": 2,
+              "item": 2
+            },
+            {
+              "kind": "pickup",
+              "time": 66.483,
+              "racer": 3,
+              "item": 2
+            },
+            {
+              "kind": "use",
+              "time": 67.4,
+              "racer": 3,
+              "item": 2
+            },
+            {
+              "kind": "pickup",
+              "time": 68.55,
+              "racer": 0,
+              "item": 0
+            },
+            {
+              "kind": "use",
+              "time": 68.6,
+              "racer": 0,
+              "item": 0
+            },
+            {
+              "kind": "pickup",
+              "time": 73.133,
+              "racer": 2,
+              "item": 0
+            },
+            {
+              "kind": "use",
+              "time": 74.2,
+              "racer": 2,
+              "item": 0
+            },
+            {
+              "kind": "pickup",
+              "time": 74.733,
+              "racer": 1,
+              "item": 0
+            },
+            {
+              "kind": "lap",
+              "time": 74.85,
+              "racer": 0,
+              "lap": 2
+            },
+            {
+              "kind": "use",
+              "time": 75.533,
+              "racer": 1,
+              "item": 0
+            },
+            {
+              "kind": "pickup",
+              "time": 79.267,
+              "racer": 0,
+              "item": 0
+            },
+            {
+              "kind": "use",
+              "time": 79.3,
+              "racer": 0,
+              "item": 0
+            },
+            {
+              "kind": "lap",
+              "time": 79.767,
+              "racer": 2,
+              "lap": 2
+            },
+            {
+              "kind": "lap",
+              "time": 81.467,
+              "racer": 1,
+              "lap": 2
+            },
+            {
+              "kind": "lap",
+              "time": 83.017,
+              "racer": 3,
+              "lap": 2
+            },
+            {
+              "kind": "pickup",
+              "time": 86.05,
+              "racer": 1,
+              "item": 0
+            },
+            {
+              "kind": "pickup",
+              "time": 87.183,
+              "racer": 0,
+              "item": 1
+            },
+            {
+              "kind": "use",
+              "time": 87.2,
+              "racer": 0,
+              "item": 1
+            },
+            {
+              "kind": "use",
+              "time": 87.467,
+              "racer": 1,
+              "item": 0
+            },
+            {
+              "kind": "pickup",
+              "time": 87.567,
+              "racer": 3,
+              "item": 0
+            },
+            {
+              "kind": "use",
+              "time": 88.483,
+              "racer": 3,
+              "item": 0
+            },
+            {
+              "kind": "pickup",
+              "time": 93.067,
+              "racer": 2,
+              "item": 0
+            },
+            {
+              "kind": "use",
+              "time": 95.367,
+              "racer": 2,
+              "item": 0
+            },
+            {
+              "kind": "pickup",
+              "time": 95.467,
+              "racer": 3,
+              "item": 2
+            },
+            {
+              "kind": "pickup",
+              "time": 96.017,
+              "racer": 0,
+              "item": 0
+            },
+            {
+              "kind": "use",
+              "time": 96.1,
+              "racer": 0,
+              "item": 0
+            },
+            {
+              "kind": "use",
+              "time": 97.067,
+              "racer": 3,
+              "item": 2
+            },
+            {
+              "kind": "pickup",
+              "time": 101.183,
+              "racer": 2,
+              "item": 2
+            },
+            {
+              "kind": "use",
+              "time": 102.85,
+              "racer": 2,
+              "item": 2
+            },
+            {
+              "kind": "pickup",
+              "time": 103.067,
+              "racer": 1,
+              "item": 0
+            },
+            {
+              "kind": "pickup",
+              "time": 103.733,
+              "racer": 0,
+              "item": 1
+            },
+            {
+              "kind": "use",
+              "time": 103.8,
+              "racer": 0,
+              "item": 1
+            },
+            {
+              "kind": "use",
+              "time": 103.833,
+              "racer": 1,
+              "item": 0
+            },
+            {
+              "kind": "hit",
+              "time": 104.217,
+              "racer": 1,
+              "owner": 2,
+              "item": 2
+            },
+            {
+              "kind": "pickup",
+              "time": 104.583,
+              "racer": 3,
+              "item": 0
+            },
+            {
+              "kind": "use",
+              "time": 105.433,
+              "racer": 3,
+              "item": 0
+            },
+            {
+              "kind": "pickup",
+              "time": 109.967,
+              "racer": 2,
+              "item": 1
+            },
+            {
+              "kind": "lap",
+              "time": 111.1,
+              "racer": 0,
+              "lap": 3
+            },
+            {
+              "kind": "finish",
+              "time": 111.1,
+              "racer": 0,
+              "position": 1
+            },
+            {
+              "kind": "pickup",
+              "time": 111.95,
+              "racer": 3,
+              "item": 2
+            },
+            {
+              "kind": "use",
+              "time": 112.15,
+              "racer": 2,
+              "item": 1
+            },
+            {
+              "kind": "use",
+              "time": 112.917,
+              "racer": 3,
+              "item": 2
+            },
+            {
+              "kind": "hit",
+              "time": 113.417,
+              "racer": 1,
+              "owner": 3,
+              "item": 2
+            },
+            {
+              "kind": "lap",
+              "time": 117.417,
+              "racer": 2,
+              "lap": 3
+            },
+            {
+              "kind": "finish",
+              "time": 117.417,
+              "racer": 2,
+              "position": 2
+            },
+            {
+              "kind": "lap",
+              "time": 119.7,
+              "racer": 3,
+              "lap": 3
+            },
+            {
+              "kind": "finish",
+              "time": 119.7,
+              "racer": 3,
+              "position": 3
+            },
+            {
+              "kind": "lap",
+              "time": 120.95,
+              "racer": 1,
+              "lap": 3
+            },
+            {
+              "kind": "finish",
+              "time": 120.95,
+              "racer": 1,
+              "position": 4
+            }
+          ]
+        },
+        "bodies": [
+          {
+            "type": "dynamic",
+            "position": [
+              2.005869150161743,
+              2.3216888904571533,
+              -51.384918212890625
+            ],
+            "velocity": [
+              0.06115949526429176,
+              0.00022197786893229932,
+              0.5388884544372559
+            ]
+          },
+          {
+            "type": "dynamic",
+            "position": [
+              0.7555323243141174,
+              2.3203868865966797,
+              -53.10396194458008
+            ],
+            "velocity": [
+              2.036860227584839,
+              0.0017757131718099117,
+              0.008366996422410011
+            ]
+          },
+          {
+            "type": "dynamic",
+            "position": [
+              3.239025592803955,
+              2.3220436573028564,
+              -53.67999267578125
+            ],
+            "velocity": [
+              1.2128721475601196,
+              0.000844181515276432,
+              -0.677432656288147
+            ]
+          },
+          {
+            "type": "dynamic",
+            "position": [
+              2.0870659351348877,
+              2.321282148361206,
+              -52.82234191894531
+            ],
+            "velocity": [
+              1.9205901622772217,
+              0.0018519129371270537,
+              0.5773687362670898
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

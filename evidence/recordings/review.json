@@ -1,0 +1,78 @@
+{
+  "sourceSha": "4b6fc18a06670254c137da262b4785d02c02085edb5206db1255051113ac74af",
+  "note": "Representative frames decoded from the delivered WebMs for visual inspection; sampling is not a live performance benchmark.",
+  "results": [
+    {
+      "path": "evidence/recordings/wobble-rally-preview.webm",
+      "seconds": 68,
+      "fps": 10,
+      "bytes": 13262244,
+      "sha256": "59d3351828aec7245096c3aaba49cff7c63000f922ef03593cc490597a7ef2b6",
+      "frames": [
+        {
+          "time": 12,
+          "path": "evidence/recordings/review/wobble-rally-preview-12.png",
+          "width": 640,
+          "height": 400
+        },
+        {
+          "time": 22,
+          "path": "evidence/recordings/review/wobble-rally-preview-22.png",
+          "width": 640,
+          "height": 400
+        },
+        {
+          "time": 25,
+          "path": "evidence/recordings/review/wobble-rally-preview-25.png",
+          "width": 640,
+          "height": 400
+        },
+        {
+          "time": 32,
+          "path": "evidence/recordings/review/wobble-rally-preview-32.png",
+          "width": 640,
+          "height": 400
+        },
+        {
+          "time": 50,
+          "path": "evidence/recordings/review/wobble-rally-preview-50.png",
+          "width": 640,
+          "height": 400
+        },
+        {
+          "time": 65,
+          "path": "evidence/recordings/review/wobble-rally-preview-65.png",
+          "width": 640,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "path": "evidence/recordings/wobble-rally-touch.webm",
+      "seconds": 8,
+      "fps": 10,
+      "bytes": 1563915,
+      "sha256": "02fc2a46fa7f2805343aff56507f2e94fb9217847b44a6c80a5bc7d4a62bd8b0",
+      "frames": [
+        {
+          "time": 0.1,
+          "path": "evidence/recordings/review/wobble-rally-touch-0-1.png",
+          "width": 740,
+          "height": 420
+        },
+        {
+          "time": 4,
+          "path": "evidence/recordings/review/wobble-rally-touch-4.png",
+          "width": 740,
+          "height": 420
+        },
+        {
+          "time": 7,
+          "path": "evidence/recordings/review/wobble-rally-touch-7.png",
+          "width": 740,
+          "height": 420
+        }
+      ]
+    }
+  ]
+}

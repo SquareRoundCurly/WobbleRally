@@ -1,0 +1,4902 @@
+{
+  "sourceSha": "43e1492a1d540cbd7e1071267714007089ad7c5dda5fe5c33810ed452b44ef37",
+  "browser": "151.0.7922.34",
+  "wallSeconds": 751.359,
+  "trace": [
+    {
+      "tick": 300,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 306,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 528,
+      "type": "press",
+      "key": "Space"
+    },
+    {
+      "tick": 606,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 612,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 636,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 648,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 666,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 678,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 690,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 702,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 726,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 732,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 774,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 780,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 924,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 930,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 1080,
+      "type": "press",
+      "key": "Space"
+    },
+    {
+      "tick": 1134,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 1140,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 1182,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 1188,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 1206,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 1218,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 1242,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 1254,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 1272,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 1278,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 1296,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 1308,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 1362,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 1368,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 1560,
+      "type": "press",
+      "key": "Space"
+    },
+    {
+      "tick": 1602,
+      "type": "keydown",
+      "key": "d"
+    },
+    {
+      "tick": 1608,
+      "type": "keyup",
+      "key": "d"
+    },
+    {
+      "tick": 1638,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 1644,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 1716,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 1722,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 1746,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 1752,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 1776,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 1782,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 1812,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 1818,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 1854,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 1860,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 1914,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 1920,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 1986,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 1992,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 2058,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 2064,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 2106,
+      "type": "press",
+      "key": "Space"
+    },
+    {
+      "tick": 2130,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 2136,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 2166,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 2172,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 2196,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 2202,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 2220,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 2226,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 2244,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 2250,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 2268,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 2274,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 2298,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 2304,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 2340,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 2346,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 2406,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 2412,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 2502,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 2508,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 2772,
+      "type": "press",
+      "key": "Space"
+    },
+    {
+      "tick": 2820,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 2826,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 2850,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 2862,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 2874,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 2898,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 2910,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 2916,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 2946,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 2952,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 3078,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 3084,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 3168,
+      "type": "keydown",
+      "key": "d"
+    },
+    {
+      "tick": 3174,
+      "type": "keyup",
+      "key": "d"
+    },
+    {
+      "tick": 3186,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 3192,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 3264,
+      "type": "press",
+      "key": "Space"
+    },
+    {
+      "tick": 3312,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 3318,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 3396,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 3402,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 3438,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 3444,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 3462,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 3468,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 3486,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 3492,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 3504,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 3516,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 3546,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 3558,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 3606,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 3612,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 3714,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 3720,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 3732,
+      "type": "keydown",
+      "key": "d"
+    },
+    {
+      "tick": 3738,
+      "type": "keyup",
+      "key": "d"
+    },
+    {
+      "tick": 3810,
+      "type": "press",
+      "key": "Space"
+    },
+    {
+      "tick": 3852,
+      "type": "keydown",
+      "key": "d"
+    },
+    {
+      "tick": 3858,
+      "type": "keyup",
+      "key": "d"
+    },
+    {
+      "tick": 3888,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 3894,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4008,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4014,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4038,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4044,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4068,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4074,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4098,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4104,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4146,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4152,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4200,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4206,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4278,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4284,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4338,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4344,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4404,
+      "type": "press",
+      "key": "Space"
+    },
+    {
+      "tick": 4428,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4434,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4494,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4500,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4518,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4524,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4548,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4554,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4566,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4572,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4602,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4608,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4638,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4644,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4680,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4686,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4740,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4746,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 4830,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 4836,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 5112,
+      "type": "press",
+      "key": "Space"
+    },
+    {
+      "tick": 5136,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 5142,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 5220,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 5226,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 5232,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 5244,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 5256,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 5262,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 5268,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 5280,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 5304,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 5310,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 5346,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 5352,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 5466,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 5472,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 5664,
+      "type": "press",
+      "key": "Space"
+    },
+    {
+      "tick": 5718,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 5724,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 5784,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 5790,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 5832,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 5838,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 5862,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 5874,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 5898,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 5904,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 5922,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 5934,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 5958,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 5964,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 5994,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 6000,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 6078,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 6084,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 6108,
+      "type": "keydown",
+      "key": "d"
+    },
+    {
+      "tick": 6114,
+      "type": "keyup",
+      "key": "d"
+    },
+    {
+      "tick": 6210,
+      "type": "press",
+      "key": "Space"
+    },
+    {
+      "tick": 6270,
+      "type": "keydown",
+      "key": "d"
+    },
+    {
+      "tick": 6276,
+      "type": "keyup",
+      "key": "d"
+    },
+    {
+      "tick": 6288,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 6294,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 6318,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 6330,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 6366,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 6372,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 6396,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 6402,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 6432,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 6438,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 6492,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 6498,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 6558,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 6564,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 6636,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 6642,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 6690,
+      "type": "press",
+      "key": "Space"
+    },
+    {
+      "tick": 6702,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 6708,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 6744,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 6750,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 6780,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 6792,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 6834,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 6846,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 6882,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 6888,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 6930,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 6936,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 6984,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 6990,
+      "type": "keyup",
+      "key": "a"
+    },
+    {
+      "tick": 7068,
+      "type": "keydown",
+      "key": "a"
+    },
+    {
+      "tick": 7074,
+      "type": "keyup",
+      "key": "a"
+    }
+  ],
+  "samples": [
+    {
+      "ticks": 186,
+      "state": {
+        "phase": "countdown",
+        "countdown": 5.655198531684391e-15,
+        "elapsed": 0,
+        "trackLength": 355.0908774486074,
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "controls": {
+          "steer": 0,
+          "pointers": 0
+        },
+        "racers": [
+          {
+            "id": 0,
+            "p": [
+              -6.168716907501221,
+              2.3657772541046143,
+              -53.13499069213867
+            ],
+            "heading": 1.3107152621147016,
+            "speed": 0,
+            "steer": 0,
+            "distance": -6,
+            "lane": -1.65,
+            "lap": 0,
+            "nextGate": 0,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 1,
+            "p": [
+              -5.320092678070068,
+              2.3657772541046143,
+              -56.32400894165039
+            ],
+            "heading": 1.3107152621147016,
+            "speed": 0,
+            "steer": 0,
+            "distance": -6,
+            "lane": 1.65,
+            "lap": 0,
+            "nextGate": 0,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 2,
+            "p": [
+              -9.497101783752441,
+              2.374702215194702,
+              -53.94228744506836
+            ],
+            "heading": 1.35606833575759,
+            "speed": 0,
+            "steer": 0,
+            "distance": -9.5,
+            "lane": -1.65,
+            "lap": 0,
+            "nextGate": 0,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 3,
+            "p": [
+              -8.793932914733887,
+              2.374702215194702,
+              -57.16650390625
+            ],
+            "heading": 1.35606833575759,
+            "speed": 0,
+            "steer": 0,
+            "distance": -9.5,
+            "lane": 1.65,
+            "lap": 0,
+            "nextGate": 0,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          }
+        ],
+        "projectiles": 0,
+        "traps": 0,
+        "events": []
+      },
+      "body": {
+        "collider": {
+          "categoryBits": 1,
+          "density": 1,
+          "friction": 0.029999999329447746,
+          "halfHeight": 0.5,
+          "maskBits": 4294967295,
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "radius": 0.7200000286102295,
+          "restitution": 0.07999999821186066,
+          "sensor": false,
+          "shape": "sphere",
+          "size": [
+            1,
+            1,
+            1
+          ]
+        },
+        "id": 100,
+        "name": "Kart body 0",
+        "physics": {
+          "contacts": [],
+          "overlaps": [],
+          "tick": 180
+        },
+        "rigidBody": {
+          "angularDamping": 0,
+          "angularVelocity": [
+            0,
+            0,
+            0
+          ],
+          "bullet": false,
+          "gravityScale": 1,
+          "linearDamping": 0,
+          "linearVelocity": [
+            0,
+            0,
+            0
+          ],
+          "lockRotation": [
+            true,
+            true,
+            true
+          ],
+          "lockTranslation": [
+            false,
+            false,
+            false
+          ],
+          "type": "kinematic"
+        },
+        "transform": {
+          "position": [
+            -6.168716907501221,
+            2.3657772541046143,
+            -53.13499069213867
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "ticks": 786,
+      "state": {
+        "phase": "racing",
+        "countdown": -0.01666666666666101,
+        "elapsed": 10.000000000000076,
+        "trackLength": 355.0908774486074,
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "controls": {
+          "steer": -1,
+          "pointers": 0
+        },
+        "racers": [
+          {
+            "id": 0,
+            "p": [
+              56.39637756347656,
+              4.054104804992676,
+              -10.640734672546387
+            ],
+            "heading": -0.25811876502259157,
+            "speed": 8.876331700388931,
+            "steer": -0.7378724805700587,
+            "distance": 78.41739466188997,
+            "lane": -0.3410283125632485,
+            "lap": 0,
+            "nextGate": 4,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 1,
+            "p": [
+              58.534889221191406,
+              3.8485777378082275,
+              -15.337228775024414
+            ],
+            "heading": -0.04433507801495074,
+            "speed": 8.625083166162506,
+            "steer": -0.15994768591778966,
+            "distance": 73.4075497243056,
+            "lane": 0.7563299666576973,
+            "lap": 0,
+            "nextGate": 4,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 2,
+            "p": [
+              55.223052978515625,
+              3.5663440227508545,
+              -20.941625595092773
+            ],
+            "heading": 0.2065965313529171,
+            "speed": 8.515585113297925,
+            "steer": -0.3680565491018999,
+            "distance": 67.40171420202026,
+            "lane": -2.721106425938473,
+            "lap": 0,
+            "nextGate": 4,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 3,
+            "p": [
+              56.02903747558594,
+              3.325819730758667,
+              -24.653400421142578
+            ],
+            "heading": 0.4078694504524118,
+            "speed": 8.69731244871373,
+            "steer": -0.3224690900354105,
+            "distance": 63.54844911635027,
+            "lane": -0.6377587073779987,
+            "lap": 0,
+            "nextGate": 3,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          }
+        ],
+        "projectiles": 0,
+        "traps": 0,
+        "events": [
+          {
+            "kind": "bump",
+            "time": 0.817,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 1.183,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 1.183,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 1.55,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 1.55,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 1.917,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 1.917,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 2.283,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 2.283,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 2.65,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 2.65,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 4.067,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 4.067,
+            "racer": 3
+          },
+          {
+            "kind": "pickup",
+            "time": 5.767,
+            "racer": 0,
+            "item": 1
+          },
+          {
+            "kind": "use",
+            "time": 5.8,
+            "racer": 0,
+            "item": 1
+          }
+        ]
+      },
+      "body": {
+        "collider": {
+          "categoryBits": 1,
+          "density": 1,
+          "friction": 0.029999999329447746,
+          "halfHeight": 0.5,
+          "maskBits": 4294967295,
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "radius": 0.7200000286102295,
+          "restitution": 0.07999999821186066,
+          "sensor": false,
+          "shape": "sphere",
+          "size": [
+            1,
+            1,
+            1
+          ]
+        },
+        "id": 100,
+        "name": "Kart body 0",
+        "physics": {
+          "contacts": [],
+          "overlaps": [],
+          "tick": 780
+        },
+        "rigidBody": {
+          "angularDamping": 0,
+          "angularVelocity": [
+            0,
+            0,
+            0
+          ],
+          "bullet": false,
+          "gravityScale": 1,
+          "linearDamping": 0,
+          "linearVelocity": [
+            -1.8019871711730957,
+            0.5624145269393921,
+            8.532668113708496
+          ],
+          "lockRotation": [
+            true,
+            true,
+            true
+          ],
+          "lockTranslation": [
+            false,
+            false,
+            false
+          ],
+          "type": "dynamic"
+        },
+        "transform": {
+          "position": [
+            56.3663444519043,
+            4.065561771392822,
+            -10.498523712158203
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "ticks": 1386,
+      "state": {
+        "phase": "racing",
+        "countdown": -0.01666666666666101,
+        "elapsed": 20.000000000000146,
+        "trackLength": 355.0908774486074,
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "controls": {
+          "steer": 0,
+          "pointers": 0
+        },
+        "racers": [
+          {
+            "id": 0,
+            "p": [
+              -1.5457075834274292,
+              5.917995452880859,
+              51.459442138671875
+            ],
+            "heading": -2.148707168481456,
+            "speed": 8.897008901840156,
+            "steer": -0.05070517639857216,
+            "distance": 177.67964763862543,
+            "lane": -0.48003314202101055,
+            "lap": 0,
+            "nextGate": 9,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 17.500000000000327,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 1,
+            "p": [
+              16.420900344848633,
+              5.873477935791016,
+              54.159523010253906
+            ],
+            "heading": -1.290212631953537,
+            "speed": 8.545952701109087,
+            "steer": -0.3008159966782274,
+            "distance": 157.5378163753932,
+            "lane": -1.8893189308907286,
+            "lap": 0,
+            "nextGate": 8,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 2,
+            "p": [
+              21.617826461791992,
+              5.672909259796143,
+              54.12649917602539
+            ],
+            "heading": -1.089176379811978,
+            "speed": 8.713141875117925,
+            "steer": -0.23987267991730654,
+            "distance": 152.7540328603549,
+            "lane": 0.4976062760647818,
+            "lap": 0,
+            "nextGate": 7,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 3,
+            "p": [
+              24.56511878967285,
+              5.5706467628479,
+              49.31629943847656
+            ],
+            "heading": -0.858032261752815,
+            "speed": 8.860774863674122,
+            "steer": -0.1984885741360282,
+            "distance": 147.32871187514885,
+            "lane": -1.3534686345399676,
+            "lap": 0,
+            "nextGate": 7,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          }
+        ],
+        "projectiles": 0,
+        "traps": 0,
+        "events": [
+          {
+            "kind": "bump",
+            "time": 1.183,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 1.55,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 1.55,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 1.917,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 1.917,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 2.283,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 2.283,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 2.65,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 2.65,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 4.067,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 4.067,
+            "racer": 3
+          },
+          {
+            "kind": "pickup",
+            "time": 5.767,
+            "racer": 0,
+            "item": 1
+          },
+          {
+            "kind": "use",
+            "time": 5.8,
+            "racer": 0,
+            "item": 1
+          },
+          {
+            "kind": "pickup",
+            "time": 14.95,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "use",
+            "time": 15,
+            "racer": 0,
+            "item": 0
+          }
+        ]
+      },
+      "body": {
+        "collider": {
+          "categoryBits": 1,
+          "density": 1,
+          "friction": 0.029999999329447746,
+          "halfHeight": 0.5,
+          "maskBits": 4294967295,
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "radius": 0.7200000286102295,
+          "restitution": 0.07999999821186066,
+          "sensor": false,
+          "shape": "sphere",
+          "size": [
+            1,
+            1,
+            1
+          ]
+        },
+        "id": 100,
+        "name": "Kart body 0",
+        "physics": {
+          "contacts": [
+            {
+              "entity": 1121,
+              "normal": [
+                -0.0012444495223462582,
+                0.999998927116394,
+                -0.0008059085812419653
+              ]
+            }
+          ],
+          "overlaps": [],
+          "tick": 1380
+        },
+        "rigidBody": {
+          "angularDamping": 0,
+          "angularVelocity": [
+            0,
+            0,
+            0
+          ],
+          "bullet": false,
+          "gravityScale": 1,
+          "linearDamping": 0,
+          "linearVelocity": [
+            -7.444209098815918,
+            -0.013011444360017776,
+            -4.650020599365234
+          ],
+          "lockRotation": [
+            true,
+            true,
+            true
+          ],
+          "lockTranslation": [
+            false,
+            false,
+            false
+          ],
+          "type": "dynamic"
+        },
+        "transform": {
+          "position": [
+            -1.6698435544967651,
+            5.917738914489746,
+            51.381900787353516
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "ticks": 1986,
+      "state": {
+        "phase": "racing",
+        "countdown": -0.01666666666666101,
+        "elapsed": 29.999999999999577,
+        "trackLength": 355.0908774486074,
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "controls": {
+          "steer": 0,
+          "pointers": 0
+        },
+        "racers": [
+          {
+            "id": 0,
+            "p": [
+              -57.212738037109375,
+              3.673731803894043,
+              -10.245121955871582
+            ],
+            "heading": -3.144284613501395,
+            "speed": 9.14636919843006,
+            "steer": -0.0000011307627628348425,
+            "distance": 267.5261326599052,
+            "lane": -0.81818050310889,
+            "lap": 0,
+            "nextGate": 13,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 17.500000000000327,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 1,
+            "p": [
+              -54.97602844238281,
+              4.270150184631348,
+              12.397120475769043
+            ],
+            "heading": -2.746664084599341,
+            "speed": 8.69388940587186,
+            "steer": -0.13809071403239254,
+            "distance": 244.59038365010306,
+            "lane": 0.5537517488333442,
+            "lap": 0,
+            "nextGate": 12,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 2,
+            "p": [
+              -49.0526123046875,
+              4.61787748336792,
+              17.785978317260742
+            ],
+            "heading": -2.52218315738756,
+            "speed": 8.744555904465308,
+            "steer": -0.18808499763417252,
+            "distance": 236.72377425465882,
+            "lane": -1.8014093253605625,
+            "lap": 0,
+            "nextGate": 11,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 3,
+            "p": [
+              -48.83245849609375,
+              4.6970367431640625,
+              21.099220275878906
+            ],
+            "heading": -2.4971791546230424,
+            "speed": 8.457542918670306,
+            "steer": -0.5236038179966123,
+            "distance": 234.00298821653664,
+            "lane": 0.21405076801325612,
+            "lap": 0,
+            "nextGate": 11,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          }
+        ],
+        "projectiles": 0,
+        "traps": 0,
+        "events": [
+          {
+            "kind": "bump",
+            "time": 1.917,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 2.283,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 2.283,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 2.65,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 2.65,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 4.067,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 4.067,
+            "racer": 3
+          },
+          {
+            "kind": "pickup",
+            "time": 5.767,
+            "racer": 0,
+            "item": 1
+          },
+          {
+            "kind": "use",
+            "time": 5.8,
+            "racer": 0,
+            "item": 1
+          },
+          {
+            "kind": "pickup",
+            "time": 14.95,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "use",
+            "time": 15,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "pickup",
+            "time": 22.967,
+            "racer": 0,
+            "item": 1
+          },
+          {
+            "kind": "use",
+            "time": 23,
+            "racer": 0,
+            "item": 1
+          },
+          {
+            "kind": "bump",
+            "time": 24.183,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 24.183,
+            "racer": 3
+          }
+        ]
+      },
+      "body": {
+        "collider": {
+          "categoryBits": 1,
+          "density": 1,
+          "friction": 0.029999999329447746,
+          "halfHeight": 0.5,
+          "maskBits": 4294967295,
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "radius": 0.7200000286102295,
+          "restitution": 0.07999999821186066,
+          "sensor": false,
+          "shape": "sphere",
+          "size": [
+            1,
+            1,
+            1
+          ]
+        },
+        "id": 100,
+        "name": "Kart body 0",
+        "physics": {
+          "contacts": [],
+          "overlaps": [],
+          "tick": 1980
+        },
+        "rigidBody": {
+          "angularDamping": 0,
+          "angularVelocity": [
+            0,
+            0,
+            0
+          ],
+          "bullet": false,
+          "gravityScale": 1,
+          "linearDamping": 0,
+          "linearVelocity": [
+            0.017668545246124268,
+            0.19835281372070312,
+            -8.948087692260742
+          ],
+          "lockRotation": [
+            true,
+            true,
+            true
+          ],
+          "lockTranslation": [
+            false,
+            false,
+            false
+          ],
+          "type": "dynamic"
+        },
+        "transform": {
+          "position": [
+            -57.21244430541992,
+            3.6791210174560547,
+            -10.394256591796875
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "ticks": 2586,
+      "state": {
+        "phase": "racing",
+        "countdown": -0.01666666666666101,
+        "elapsed": 39.99999999999901,
+        "trackLength": 355.0908774486074,
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "controls": {
+          "steer": 0,
+          "pointers": 0
+        },
+        "racers": [
+          {
+            "id": 0,
+            "p": [
+              11.35711669921875,
+              2.3466694355010986,
+              -47.70427703857422
+            ],
+            "heading": -5.124284729337706,
+            "speed": 9.1670324912789,
+            "steer": -7.770530632003964e-8,
+            "distance": 367.62634568402655,
+            "lane": -0.8816804121394577,
+            "lap": 1,
+            "nextGate": 17,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 34.59999999999946,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 1,
+            "p": [
+              -22.555143356323242,
+              2.4138965606689453,
+              -54.72817611694336
+            ],
+            "heading": -4.68254924542766,
+            "speed": 8.698117785808778,
+            "steer": -0.12796724045330113,
+            "distance": 331.959704641739,
+            "lane": -2.1157008643710347,
+            "lap": 0,
+            "nextGate": 15,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 2,
+            "p": [
+              -30.553667068481445,
+              2.5537850856781006,
+              -55.30031967163086
+            ],
+            "heading": -4.337881944447041,
+            "speed": 8.632923773619037,
+            "steer": -0.48868154269594966,
+            "distance": 323.88191832039524,
+            "lane": -0.23321937589381955,
+            "lap": 0,
+            "nextGate": 15,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 3,
+            "p": [
+              -34.2750358581543,
+              2.5499799251556396,
+              -54.384307861328125
+            ],
+            "heading": -4.19006160603771,
+            "speed": 8.790797788112446,
+            "steer": -0.22312505936213745,
+            "distance": 320.0689736704385,
+            "lane": 0.1834115646880715,
+            "lap": 0,
+            "nextGate": 15,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          }
+        ],
+        "projectiles": 0,
+        "traps": 0,
+        "events": [
+          {
+            "kind": "bump",
+            "time": 2.65,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 2.65,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 4.067,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 4.067,
+            "racer": 3
+          },
+          {
+            "kind": "pickup",
+            "time": 5.767,
+            "racer": 0,
+            "item": 1
+          },
+          {
+            "kind": "use",
+            "time": 5.8,
+            "racer": 0,
+            "item": 1
+          },
+          {
+            "kind": "pickup",
+            "time": 14.95,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "use",
+            "time": 15,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "pickup",
+            "time": 22.967,
+            "racer": 0,
+            "item": 1
+          },
+          {
+            "kind": "use",
+            "time": 23,
+            "racer": 0,
+            "item": 1
+          },
+          {
+            "kind": "bump",
+            "time": 24.183,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 24.183,
+            "racer": 3
+          },
+          {
+            "kind": "pickup",
+            "time": 32.067,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "use",
+            "time": 32.1,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "lap",
+            "time": 38.6,
+            "racer": 0,
+            "lap": 1
+          }
+        ]
+      },
+      "body": {
+        "collider": {
+          "categoryBits": 1,
+          "density": 1,
+          "friction": 0.029999999329447746,
+          "halfHeight": 0.5,
+          "maskBits": 4294967295,
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "radius": 0.7200000286102295,
+          "restitution": 0.07999999821186066,
+          "sensor": false,
+          "shape": "sphere",
+          "size": [
+            1,
+            1,
+            1
+          ]
+        },
+        "id": 100,
+        "name": "Kart body 0",
+        "physics": {
+          "contacts": [
+            {
+              "entity": 1006,
+              "normal": [
+                -0.003672837046906352,
+                0.9999920129776001,
+                -0.001562589779496193
+              ]
+            }
+          ],
+          "overlaps": [],
+          "tick": 2580
+        },
+        "rigidBody": {
+          "angularDamping": 0,
+          "angularVelocity": [
+            0,
+            0,
+            0
+          ],
+          "bullet": false,
+          "gravityScale": 1,
+          "linearDamping": 0,
+          "linearVelocity": [
+            8.28592586517334,
+            0.036090679466724396,
+            3.6206159591674805
+          ],
+          "lockRotation": [
+            true,
+            true,
+            true
+          ],
+          "lockTranslation": [
+            false,
+            false,
+            false
+          ],
+          "type": "dynamic"
+        },
+        "transform": {
+          "position": [
+            11.495318412780762,
+            2.344761371612549,
+            -47.643890380859375
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "ticks": 3186,
+      "state": {
+        "phase": "racing",
+        "countdown": -0.01666666666666101,
+        "elapsed": 49.999999999998444,
+        "trackLength": 355.0908774486074,
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "controls": {
+          "steer": 0,
+          "pointers": 0
+        },
+        "racers": [
+          {
+            "id": 0,
+            "p": [
+              44.289337158203125,
+              4.934963226318359,
+              19.049175262451172
+            ],
+            "heading": -6.630561435403963,
+            "speed": 8.888895202938325,
+            "steer": 0.19342452289704706,
+            "distance": 465.71118192131553,
+            "lane": -0.8499905260827676,
+            "lap": 1,
+            "nextGate": 21,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 45.69999999999883,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 1,
+            "p": [
+              55.594688415527344,
+              3.3967838287353516,
+              -23.466360092163086
+            ],
+            "heading": -5.903201098972058,
+            "speed": 8.475058674532024,
+            "steer": -0.34976519621253227,
+            "distance": 419.5439179947649,
+            "lane": -1.59826472801477,
+            "lap": 1,
+            "nextGate": 19,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 2,
+            "p": [
+              50.89695739746094,
+              3.0263960361480713,
+              -31.019887924194336
+            ],
+            "heading": -5.410812079923614,
+            "speed": 8.730942476218008,
+            "steer": -0.24934645113467296,
+            "distance": 410.48656461241,
+            "lane": 0.8812444233974914,
+            "lap": 1,
+            "nextGate": 19,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 3,
+            "p": [
+              45.97981643676758,
+              2.878756046295166,
+              -31.288448333740234
+            ],
+            "heading": -5.266428229390842,
+            "speed": 8.96638574659332,
+            "steer": -0.10318643758083058,
+            "distance": 406.01095754913615,
+            "lane": -1.208958401288843,
+            "lap": 1,
+            "nextGate": 19,
+            "item": 1,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          }
+        ],
+        "projectiles": 0,
+        "traps": 0,
+        "events": [
+          {
+            "kind": "pickup",
+            "time": 14.95,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "use",
+            "time": 15,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "pickup",
+            "time": 22.967,
+            "racer": 0,
+            "item": 1
+          },
+          {
+            "kind": "use",
+            "time": 23,
+            "racer": 0,
+            "item": 1
+          },
+          {
+            "kind": "bump",
+            "time": 24.183,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 24.183,
+            "racer": 3
+          },
+          {
+            "kind": "pickup",
+            "time": 32.067,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "use",
+            "time": 32.1,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "lap",
+            "time": 38.6,
+            "racer": 0,
+            "lap": 1
+          },
+          {
+            "kind": "lap",
+            "time": 42.617,
+            "racer": 1,
+            "lap": 1
+          },
+          {
+            "kind": "pickup",
+            "time": 43.15,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "use",
+            "time": 43.2,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "lap",
+            "time": 43.633,
+            "racer": 2,
+            "lap": 1
+          },
+          {
+            "kind": "lap",
+            "time": 44.183,
+            "racer": 3,
+            "lap": 1
+          },
+          {
+            "kind": "pickup",
+            "time": 48.883,
+            "racer": 3,
+            "item": 1
+          }
+        ]
+      },
+      "body": {
+        "collider": {
+          "categoryBits": 1,
+          "density": 1,
+          "friction": 0.029999999329447746,
+          "halfHeight": 0.5,
+          "maskBits": 4294967295,
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "radius": 0.7200000286102295,
+          "restitution": 0.07999999821186066,
+          "sensor": false,
+          "shape": "sphere",
+          "size": [
+            1,
+            1,
+            1
+          ]
+        },
+        "id": 100,
+        "name": "Kart body 0",
+        "physics": {
+          "contacts": [],
+          "overlaps": [],
+          "tick": 3180
+        },
+        "rigidBody": {
+          "angularDamping": 0,
+          "angularVelocity": [
+            0,
+            0,
+            0
+          ],
+          "bullet": false,
+          "gravityScale": 1,
+          "linearDamping": 0,
+          "linearVelocity": [
+            -3.2808291912078857,
+            0.6011907458305359,
+            8.023091316223145
+          ],
+          "lockRotation": [
+            true,
+            true,
+            true
+          ],
+          "lockTranslation": [
+            false,
+            false,
+            false
+          ],
+          "type": "dynamic"
+        },
+        "transform": {
+          "position": [
+            44.234657287597656,
+            4.947066307067871,
+            19.182893753051758
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "ticks": 3786,
+      "state": {
+        "phase": "racing",
+        "countdown": -0.01666666666666101,
+        "elapsed": 59.999999999997875,
+        "trackLength": 355.0908774486074,
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "controls": {
+          "steer": 0,
+          "pointers": 0
+        },
+        "racers": [
+          {
+            "id": 0,
+            "p": [
+              -19.991788864135742,
+              5.706407070159912,
+              39.0401611328125
+            ],
+            "heading": -8.424291518184688,
+            "speed": 9.077956617361066,
+            "steer": 0.00006163908550186421,
+            "distance": 555.036058876033,
+            "lane": 0.3514346753739257,
+            "lap": 1,
+            "nextGate": 26,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 45.69999999999883,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 1,
+            "p": [
+              23.561954498291016,
+              5.683091163635254,
+              52.25552749633789
+            ],
+            "heading": -7.287551830689095,
+            "speed": 8.655234901903409,
+            "steer": -0.2029713877145494,
+            "distance": 505.19355365051206,
+            "lane": 0.16596655855554418,
+            "lap": 1,
+            "nextGate": 23,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 2,
+            "p": [
+              34.441375732421875,
+              5.297826290130615,
+              38.989315032958984
+            ],
+            "heading": -7.070297737116337,
+            "speed": 8.742182508662042,
+            "steer": 0.036889503581533395,
+            "distance": 487.9990514939352,
+            "lane": 0.01143481851618803,
+            "lap": 1,
+            "nextGate": 22,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 51.983333333331736,
+            "jellyUntil": 0
+          },
+          {
+            "id": 3,
+            "p": [
+              35.427940368652344,
+              5.235166072845459,
+              35.74260330200195
+            ],
+            "heading": -7.043870558635666,
+            "speed": 6.645943402273102,
+            "steer": -0.06648455763222484,
+            "distance": 484.71015232894047,
+            "lane": -0.8724935932201046,
+            "lap": 1,
+            "nextGate": 22,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 59.683333333331326,
+            "jellyUntil": 59.683333333331326
+          }
+        ],
+        "projectiles": 1,
+        "traps": 0,
+        "events": [
+          {
+            "kind": "lap",
+            "time": 44.183,
+            "racer": 3,
+            "lap": 1
+          },
+          {
+            "kind": "pickup",
+            "time": 48.883,
+            "racer": 3,
+            "item": 1
+          },
+          {
+            "kind": "use",
+            "time": 50.783,
+            "racer": 3,
+            "item": 1
+          },
+          {
+            "kind": "hit",
+            "time": 50.783,
+            "racer": 2,
+            "owner": 3,
+            "item": 1
+          },
+          {
+            "kind": "pickup",
+            "time": 51.367,
+            "racer": 0,
+            "item": 2
+          },
+          {
+            "kind": "use",
+            "time": 51.4,
+            "racer": 0,
+            "item": 2
+          },
+          {
+            "kind": "bump",
+            "time": 51.5,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 51.5,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 51.867,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 51.867,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 52.233,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 52.233,
+            "racer": 3
+          },
+          {
+            "kind": "pickup",
+            "time": 57.05,
+            "racer": 1,
+            "item": 1
+          },
+          {
+            "kind": "use",
+            "time": 57.9,
+            "racer": 1,
+            "item": 1
+          },
+          {
+            "kind": "hit",
+            "time": 57.983,
+            "racer": 3,
+            "owner": 0,
+            "item": 2
+          }
+        ]
+      },
+      "body": {
+        "collider": {
+          "categoryBits": 1,
+          "density": 1,
+          "friction": 0.029999999329447746,
+          "halfHeight": 0.5,
+          "maskBits": 4294967295,
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "radius": 0.7200000286102295,
+          "restitution": 0.07999999821186066,
+          "sensor": false,
+          "shape": "sphere",
+          "size": [
+            1,
+            1,
+            1
+          ]
+        },
+        "id": 100,
+        "name": "Kart body 0",
+        "physics": {
+          "contacts": [
+            {
+              "entity": 1138,
+              "normal": [
+                -0.014162639155983925,
+                0.9998534321784973,
+                -0.009616421535611153
+              ]
+            }
+          ],
+          "overlaps": [],
+          "tick": 3780
+        },
+        "rigidBody": {
+          "angularDamping": 0,
+          "angularVelocity": [
+            0,
+            0,
+            0
+          ],
+          "bullet": false,
+          "gravityScale": 1,
+          "linearDamping": 0,
+          "linearVelocity": [
+            -7.570594310760498,
+            -0.15395209193229675,
+            -4.857308387756348
+          ],
+          "lockRotation": [
+            true,
+            true,
+            true
+          ],
+          "lockTranslation": [
+            false,
+            false,
+            false
+          ],
+          "type": "dynamic"
+        },
+        "transform": {
+          "position": [
+            -20.118003845214844,
+            5.703820705413818,
+            38.95918273925781
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "ticks": 4386,
+      "state": {
+        "phase": "racing",
+        "countdown": -0.01666666666666101,
+        "elapsed": 69.99999999999731,
+        "trackLength": 355.0908774486074,
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "controls": {
+          "steer": 0,
+          "pointers": 0
+        },
+        "racers": [
+          {
+            "id": 0,
+            "p": [
+              -54.543270111083984,
+              3.2241482734680176,
+              -26.071674346923828
+            ],
+            "heading": -9.744258398569123,
+            "speed": 7.349548728501567,
+            "steer": -0.0002394483288811362,
+            "distance": 638.8985425252373,
+            "lane": -0.963610178587364,
+            "lap": 1,
+            "nextGate": 29,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 45.69999999999883,
+            "slowUntil": 71.09999999999732,
+            "jellyUntil": 0
+          },
+          {
+            "id": 1,
+            "p": [
+              -49.204410552978516,
+              4.52125358581543,
+              16.650890350341797
+            ],
+            "heading": -8.824771431100428,
+            "speed": 8.674462927613668,
+            "steer": -0.1659801286809303,
+            "distance": 592.8987236945497,
+            "lane": -2.368922606957463,
+            "lap": 1,
+            "nextGate": 27,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 2,
+            "p": [
+              -39.91117858886719,
+              5.116795539855957,
+              27.359050750732422
+            ],
+            "heading": -8.397096966568979,
+            "speed": 8.86664554112486,
+            "steer": -0.09389803076526282,
+            "distance": 578.1785768198682,
+            "lane": -0.09579900814773946,
+            "lap": 1,
+            "nextGate": 27,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 51.983333333331736,
+            "jellyUntil": 0
+          },
+          {
+            "id": 3,
+            "p": [
+              -34.427242279052734,
+              5.339999675750732,
+              32.362545013427734
+            ],
+            "heading": -8.359785059200334,
+            "speed": 9.18923077615966,
+            "steer": -0.1423224893516922,
+            "distance": 571.0085443444765,
+            "lane": 1.7747062486318304,
+            "lap": 1,
+            "nextGate": 26,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 72.46666666666398,
+            "slowUntil": 59.683333333331326,
+            "jellyUntil": 59.683333333331326
+          }
+        ],
+        "projectiles": 0,
+        "traps": 0,
+        "events": [
+          {
+            "kind": "bump",
+            "time": 51.867,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 51.867,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 52.233,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 52.233,
+            "racer": 3
+          },
+          {
+            "kind": "pickup",
+            "time": 57.05,
+            "racer": 1,
+            "item": 1
+          },
+          {
+            "kind": "use",
+            "time": 57.9,
+            "racer": 1,
+            "item": 1
+          },
+          {
+            "kind": "hit",
+            "time": 57.983,
+            "racer": 3,
+            "owner": 0,
+            "item": 2
+          },
+          {
+            "kind": "pickup",
+            "time": 60.5,
+            "racer": 0,
+            "item": 1
+          },
+          {
+            "kind": "use",
+            "time": 60.5,
+            "racer": 0,
+            "item": 1
+          },
+          {
+            "kind": "hit",
+            "time": 61.033,
+            "racer": 0,
+            "owner": 1,
+            "item": 1
+          },
+          {
+            "kind": "pickup",
+            "time": 66.25,
+            "racer": 1,
+            "item": 1
+          },
+          {
+            "kind": "use",
+            "time": 66.967,
+            "racer": 1,
+            "item": 1
+          },
+          {
+            "kind": "pickup",
+            "time": 68.717,
+            "racer": 3,
+            "item": 0
+          },
+          {
+            "kind": "hit",
+            "time": 69.9,
+            "racer": 0,
+            "owner": 1,
+            "item": 1
+          },
+          {
+            "kind": "use",
+            "time": 69.967,
+            "racer": 3,
+            "item": 0
+          }
+        ]
+      },
+      "body": {
+        "collider": {
+          "categoryBits": 1,
+          "density": 1,
+          "friction": 0.029999999329447746,
+          "halfHeight": 0.5,
+          "maskBits": 4294967295,
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "radius": 0.7200000286102295,
+          "restitution": 0.07999999821186066,
+          "sensor": false,
+          "shape": "sphere",
+          "size": [
+            1,
+            1,
+            1
+          ]
+        },
+        "id": 100,
+        "name": "Kart body 0",
+        "physics": {
+          "contacts": [
+            {
+              "entity": 1199,
+              "normal": [
+                0.005638564471155405,
+                0.999767005443573,
+                -0.02083457261323929
+              ]
+            },
+            {
+              "entity": 1200,
+              "normal": [
+                -0.04324875399470329,
+                0.9887493848800659,
+                0.143192857503891
+              ]
+            }
+          ],
+          "overlaps": [],
+          "tick": 4380
+        },
+        "rigidBody": {
+          "angularDamping": 0,
+          "angularVelocity": [
+            0,
+            0,
+            0
+          ],
+          "bullet": false,
+          "gravityScale": 1,
+          "linearDamping": 0,
+          "linearVelocity": [
+            2.4508090019226074,
+            1.291131615638733,
+            -7.3972086906433105
+          ],
+          "lockRotation": [
+            true,
+            true,
+            true
+          ],
+          "lockTranslation": [
+            false,
+            false,
+            false
+          ],
+          "type": "dynamic"
+        },
+        "transform": {
+          "position": [
+            -54.501651763916016,
+            3.232571840286255,
+            -26.197486877441406
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "ticks": 4986,
+      "state": {
+        "phase": "racing",
+        "countdown": -0.01666666666666101,
+        "elapsed": 79.99999999999675,
+        "trackLength": 355.0908774486074,
+        "order": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "controls": {
+          "steer": 0,
+          "pointers": 0
+        },
+        "racers": [
+          {
+            "id": 0,
+            "p": [
+              19.85387420654297,
+              2.393235683441162,
+              -44.121402740478516
+            ],
+            "heading": -11.394284737885279,
+            "speed": 9.197451163915524,
+            "steer": -8.183323894825737e-15,
+            "distance": 731.9570848605864,
+            "lane": -0.7267034025363579,
+            "lap": 2,
+            "nextGate": 33,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 72.89999999999729,
+            "slowUntil": 71.09999999999732,
+            "jellyUntil": 0
+          },
+          {
+            "id": 1,
+            "p": [
+              -28.69989013671875,
+              2.4834723472595215,
+              -56.17084503173828
+            ],
+            "heading": -10.755799066298414,
+            "speed": 8.68305109217024,
+            "steer": -0.14927608173341178,
+            "distance": 680.9904188678715,
+            "lane": 0.1371651776578325,
+            "lap": 1,
+            "nextGate": 31,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 0,
+            "jellyUntil": 0
+          },
+          {
+            "id": 2,
+            "p": [
+              -44.50547790527344,
+              2.7632973194122314,
+              -47.387020111083984
+            ],
+            "heading": -10.258759006539114,
+            "speed": 8.792159514481595,
+            "steer": -0.15266837704242775,
+            "distance": 662.779254315109,
+            "lane": 0.35311077537942054,
+            "lap": 1,
+            "nextGate": 30,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 51.983333333331736,
+            "jellyUntil": 0
+          },
+          {
+            "id": 3,
+            "p": [
+              -42.913299560546875,
+              2.7466962337493896,
+              -46.130313873291016
+            ],
+            "heading": -10.25381706482559,
+            "speed": 4.694967454465944,
+            "steer": -0.1765669448856213,
+            "distance": 663.0243397696711,
+            "lane": -1.660417108006866,
+            "lap": 1,
+            "nextGate": 30,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 72.46666666666398,
+            "slowUntil": 80.18333333333017,
+            "jellyUntil": 80.18333333333017
+          }
+        ],
+        "projectiles": 0,
+        "traps": 0,
+        "events": [
+          {
+            "kind": "use",
+            "time": 60.5,
+            "racer": 0,
+            "item": 1
+          },
+          {
+            "kind": "hit",
+            "time": 61.033,
+            "racer": 0,
+            "owner": 1,
+            "item": 1
+          },
+          {
+            "kind": "pickup",
+            "time": 66.25,
+            "racer": 1,
+            "item": 1
+          },
+          {
+            "kind": "use",
+            "time": 66.967,
+            "racer": 1,
+            "item": 1
+          },
+          {
+            "kind": "pickup",
+            "time": 68.717,
+            "racer": 3,
+            "item": 0
+          },
+          {
+            "kind": "hit",
+            "time": 69.9,
+            "racer": 0,
+            "owner": 1,
+            "item": 1
+          },
+          {
+            "kind": "use",
+            "time": 69.967,
+            "racer": 3,
+            "item": 0
+          },
+          {
+            "kind": "pickup",
+            "time": 70.333,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "use",
+            "time": 70.4,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "bump",
+            "time": 72.25,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 72.25,
+            "racer": 3
+          },
+          {
+            "kind": "pickup",
+            "time": 75.4,
+            "racer": 1,
+            "item": 2
+          },
+          {
+            "kind": "use",
+            "time": 77.333,
+            "racer": 1,
+            "item": 2
+          },
+          {
+            "kind": "lap",
+            "time": 77.583,
+            "racer": 0,
+            "lap": 2
+          },
+          {
+            "kind": "hit",
+            "time": 78.483,
+            "racer": 3,
+            "owner": 1,
+            "item": 2
+          }
+        ]
+      },
+      "body": {
+        "collider": {
+          "categoryBits": 1,
+          "density": 1,
+          "friction": 0.029999999329447746,
+          "halfHeight": 0.5,
+          "maskBits": 4294967295,
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "radius": 0.7200000286102295,
+          "restitution": 0.07999999821186066,
+          "sensor": false,
+          "shape": "sphere",
+          "size": [
+            1,
+            1,
+            1
+          ]
+        },
+        "id": 100,
+        "name": "Kart body 0",
+        "physics": {
+          "contacts": [
+            {
+              "entity": 1010,
+              "normal": [
+                -0.005996970925480127,
+                0.9999783039093018,
+                -0.00272399396635592
+              ]
+            },
+            {
+              "entity": 1011,
+              "normal": [
+                -0.08052485436201096,
+                0.9960683584213257,
+                -0.03692692145705223
+              ]
+            }
+          ],
+          "overlaps": [],
+          "tick": 4980
+        },
+        "rigidBody": {
+          "angularDamping": 0,
+          "angularVelocity": [
+            0,
+            0,
+            0
+          ],
+          "bullet": false,
+          "gravityScale": 1,
+          "linearDamping": 0,
+          "linearVelocity": [
+            8.275205612182617,
+            0.7980859279632568,
+            3.4822399616241455
+          ],
+          "lockRotation": [
+            true,
+            true,
+            true
+          ],
+          "lockTranslation": [
+            false,
+            false,
+            false
+          ],
+          "type": "dynamic"
+        },
+        "transform": {
+          "position": [
+            19.992244720458984,
+            2.4039740562438965,
+            -44.06315994262695
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "ticks": 5586,
+      "state": {
+        "phase": "racing",
+        "countdown": -0.01666666666666101,
+        "elapsed": 89.99999999999618,
+        "trackLength": 355.0908774486074,
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "controls": {
+          "steer": 0,
+          "pointers": 0
+        },
+        "racers": [
+          {
+            "id": 0,
+            "p": [
+              44.08579635620117,
+              4.92971658706665,
+              19.167387008666992
+            ],
+            "heading": -13.044284737882498,
+            "speed": 9.190953848099053,
+            "steer": -2.5216813606082557e-11,
+            "distance": 820.996214590029,
+            "lane": -0.9831176023439345,
+            "lap": 2,
+            "nextGate": 37,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 72.89999999999729,
+            "slowUntil": 71.09999999999732,
+            "jellyUntil": 0
+          },
+          {
+            "id": 1,
+            "p": [
+              45.32958984375,
+              2.776479721069336,
+              -33.2807502746582
+            ],
+            "heading": -11.530131961268378,
+            "speed": 8.901198799365774,
+            "steer": -0.07354579000741661,
+            "distance": 759.6328133893514,
+            "lane": 0.2859536646529728,
+            "lap": 2,
+            "nextGate": 35,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 92.31666666666285,
+            "slowUntil": 89.44999999999631,
+            "jellyUntil": 89.44999999999631
+          },
+          {
+            "id": 2,
+            "p": [
+              35.26508712768555,
+              2.6249430179595947,
+              -36.001922607421875
+            ],
+            "heading": -11.43965959075837,
+            "speed": 8.948388299663005,
+            "steer": -0.0012673732700406906,
+            "distance": 749.3678007481001,
+            "lane": -1.5747489001081663,
+            "lap": 2,
+            "nextGate": 34,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 51.983333333331736,
+            "jellyUntil": 0
+          },
+          {
+            "id": 3,
+            "p": [
+              33.10301971435547,
+              2.5809125900268555,
+              -39.30370330810547
+            ],
+            "heading": -11.414186082969785,
+            "speed": 9.020362680166144,
+            "steer": 0.010147166626959183,
+            "distance": 746.0078492708103,
+            "lane": 0.49634278345464183,
+            "lap": 2,
+            "nextGate": 34,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 72.46666666666398,
+            "slowUntil": 80.18333333333017,
+            "jellyUntil": 80.18333333333017
+          }
+        ],
+        "projectiles": 0,
+        "traps": 0,
+        "events": [
+          {
+            "kind": "bump",
+            "time": 72.25,
+            "racer": 3
+          },
+          {
+            "kind": "pickup",
+            "time": 75.4,
+            "racer": 1,
+            "item": 2
+          },
+          {
+            "kind": "use",
+            "time": 77.333,
+            "racer": 1,
+            "item": 2
+          },
+          {
+            "kind": "lap",
+            "time": 77.583,
+            "racer": 0,
+            "lap": 2
+          },
+          {
+            "kind": "hit",
+            "time": 78.483,
+            "racer": 3,
+            "owner": 1,
+            "item": 2
+          },
+          {
+            "kind": "pickup",
+            "time": 82.133,
+            "racer": 0,
+            "item": 2
+          },
+          {
+            "kind": "use",
+            "time": 82.2,
+            "racer": 0,
+            "item": 2
+          },
+          {
+            "kind": "bump",
+            "time": 83.133,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 83.133,
+            "racer": 3
+          },
+          {
+            "kind": "lap",
+            "time": 83.45,
+            "racer": 1,
+            "lap": 2
+          },
+          {
+            "kind": "lap",
+            "time": 85.55,
+            "racer": 2,
+            "lap": 2
+          },
+          {
+            "kind": "lap",
+            "time": 85.817,
+            "racer": 3,
+            "lap": 2
+          },
+          {
+            "kind": "hit",
+            "time": 87.75,
+            "racer": 1,
+            "owner": 0,
+            "item": 2
+          },
+          {
+            "kind": "pickup",
+            "time": 88.3,
+            "racer": 1,
+            "item": 0
+          },
+          {
+            "kind": "use",
+            "time": 89.817,
+            "racer": 1,
+            "item": 0
+          }
+        ]
+      },
+      "body": {
+        "collider": {
+          "categoryBits": 1,
+          "density": 1,
+          "friction": 0.029999999329447746,
+          "halfHeight": 0.5,
+          "maskBits": 4294967295,
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "radius": 0.7200000286102295,
+          "restitution": 0.07999999821186066,
+          "sensor": false,
+          "shape": "sphere",
+          "size": [
+            1,
+            1,
+            1
+          ]
+        },
+        "id": 100,
+        "name": "Kart body 0",
+        "physics": {
+          "contacts": [],
+          "overlaps": [],
+          "tick": 5580
+        },
+        "rigidBody": {
+          "angularDamping": 0,
+          "angularVelocity": [
+            0,
+            0,
+            0
+          ],
+          "bullet": false,
+          "gravityScale": 1,
+          "linearDamping": 0,
+          "linearVelocity": [
+            -4.151967525482178,
+            -0.0006911903619766235,
+            8.006396293640137
+          ],
+          "lockRotation": [
+            true,
+            true,
+            true
+          ],
+          "lockTranslation": [
+            false,
+            false,
+            false
+          ],
+          "type": "dynamic"
+        },
+        "transform": {
+          "position": [
+            44.016597747802734,
+            4.931788444519043,
+            19.300827026367188
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "ticks": 6186,
+      "state": {
+        "phase": "racing",
+        "countdown": -0.01666666666666101,
+        "elapsed": 99.99999999999561,
+        "trackLength": 355.0908774486074,
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "controls": {
+          "steer": 0,
+          "pointers": 0
+        },
+        "racers": [
+          {
+            "id": 0,
+            "p": [
+              -20.335729598999023,
+              5.744610786437988,
+              38.90655517578125
+            ],
+            "heading": -14.694284770451343,
+            "speed": 9.151303327499265,
+            "steer": 2.960552664596094e-7,
+            "distance": 910.4914687556719,
+            "lane": 0.43298712014447627,
+            "lap": 2,
+            "nextGate": 42,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 72.89999999999729,
+            "slowUntil": 71.09999999999732,
+            "jellyUntil": 0
+          },
+          {
+            "id": 1,
+            "p": [
+              30.081478118896484,
+              5.470040798187256,
+              42.410518646240234
+            ],
+            "heading": -13.21640346273146,
+            "speed": 8.573948872169824,
+            "steer": -0.07288571346371166,
+            "distance": 848.4434963281985,
+            "lane": -1.6480229745764818,
+            "lap": 2,
+            "nextGate": 39,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 92.31666666666285,
+            "slowUntil": 98.61666666666245,
+            "jellyUntil": 98.61666666666245
+          },
+          {
+            "id": 2,
+            "p": [
+              37.20420455932617,
+              5.256389617919922,
+              35.95699691772461
+            ],
+            "heading": -13.089752958908617,
+            "speed": 8.900759872975534,
+            "steer": -0.049218662036468866,
+            "distance": 839.0641231374634,
+            "lane": 0.7579189496749069,
+            "lap": 2,
+            "nextGate": 38,
+            "item": 2,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 51.983333333331736,
+            "jellyUntil": 0
+          },
+          {
+            "id": 3,
+            "p": [
+              39.3995246887207,
+              5.079756259918213,
+              28.7789306640625
+            ],
+            "heading": -13.16510356257261,
+            "speed": 8.53253127131915,
+            "steer": -0.3531804036822465,
+            "distance": 831.7361030957904,
+            "lane": -0.859060241468504,
+            "lap": 2,
+            "nextGate": 38,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 72.46666666666398,
+            "slowUntil": 80.18333333333017,
+            "jellyUntil": 80.18333333333017
+          }
+        ],
+        "projectiles": 0,
+        "traps": 0,
+        "events": [
+          {
+            "kind": "hit",
+            "time": 78.483,
+            "racer": 3,
+            "owner": 1,
+            "item": 2
+          },
+          {
+            "kind": "pickup",
+            "time": 82.133,
+            "racer": 0,
+            "item": 2
+          },
+          {
+            "kind": "use",
+            "time": 82.2,
+            "racer": 0,
+            "item": 2
+          },
+          {
+            "kind": "bump",
+            "time": 83.133,
+            "racer": 2
+          },
+          {
+            "kind": "bump",
+            "time": 83.133,
+            "racer": 3
+          },
+          {
+            "kind": "lap",
+            "time": 83.45,
+            "racer": 1,
+            "lap": 2
+          },
+          {
+            "kind": "lap",
+            "time": 85.55,
+            "racer": 2,
+            "lap": 2
+          },
+          {
+            "kind": "lap",
+            "time": 85.817,
+            "racer": 3,
+            "lap": 2
+          },
+          {
+            "kind": "hit",
+            "time": 87.75,
+            "racer": 1,
+            "owner": 0,
+            "item": 2
+          },
+          {
+            "kind": "pickup",
+            "time": 88.3,
+            "racer": 1,
+            "item": 0
+          },
+          {
+            "kind": "use",
+            "time": 89.817,
+            "racer": 1,
+            "item": 0
+          },
+          {
+            "kind": "pickup",
+            "time": 91.317,
+            "racer": 0,
+            "item": 2
+          },
+          {
+            "kind": "use",
+            "time": 91.4,
+            "racer": 0,
+            "item": 2
+          },
+          {
+            "kind": "hit",
+            "time": 96.917,
+            "racer": 1,
+            "owner": 0,
+            "item": 2
+          },
+          {
+            "kind": "pickup",
+            "time": 99.283,
+            "racer": 2,
+            "item": 2
+          }
+        ]
+      },
+      "body": {
+        "collider": {
+          "categoryBits": 1,
+          "density": 1,
+          "friction": 0.029999999329447746,
+          "halfHeight": 0.5,
+          "maskBits": 4294967295,
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "radius": 0.7200000286102295,
+          "restitution": 0.07999999821186066,
+          "sensor": false,
+          "shape": "sphere",
+          "size": [
+            1,
+            1,
+            1
+          ]
+        },
+        "id": 100,
+        "name": "Kart body 0",
+        "physics": {
+          "contacts": [],
+          "overlaps": [],
+          "tick": 6180
+        },
+        "rigidBody": {
+          "angularDamping": 0,
+          "angularVelocity": [
+            0,
+            0,
+            0
+          ],
+          "bullet": false,
+          "gravityScale": 1,
+          "linearDamping": 0,
+          "linearVelocity": [
+            -7.427213191986084,
+            1.1708751916885376,
+            -4.616937637329102
+          ],
+          "lockRotation": [
+            true,
+            true,
+            true
+          ],
+          "lockTranslation": [
+            false,
+            false,
+            false
+          ],
+          "type": "dynamic"
+        },
+        "transform": {
+          "position": [
+            -20.459516525268555,
+            5.766208648681641,
+            38.82960510253906
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "ticks": 6786,
+      "state": {
+        "phase": "racing",
+        "countdown": -0.01666666666666101,
+        "elapsed": 109.99999999999504,
+        "trackLength": 355.0908774486074,
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "controls": {
+          "steer": 0,
+          "pointers": 0
+        },
+        "racers": [
+          {
+            "id": 0,
+            "p": [
+              -45.90586853027344,
+              3.0230872631073,
+              -43.758296966552734
+            ],
+            "heading": -16.344184252974287,
+            "speed": 13.260552093353027,
+            "steer": -0.0009134991909644518,
+            "distance": 1014.1736106070264,
+            "lane": -0.9683127986266749,
+            "lap": 2,
+            "nextGate": 46,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 110.99999999999513,
+            "slowUntil": 71.09999999999732,
+            "jellyUntil": 0
+          },
+          {
+            "id": 1,
+            "p": [
+              -46.62339782714844,
+              4.897819519042969,
+              23.841724395751953
+            ],
+            "heading": -14.907415045465077,
+            "speed": 12.671193868001003,
+            "steer": -0.2118827462758187,
+            "distance": 940.7428892902365,
+            "lane": 0.7310352809095211,
+            "lap": 2,
+            "nextGate": 43,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 110.99999999999513,
+            "slowUntil": 98.61666666666245,
+            "jellyUntil": 98.61666666666245
+          },
+          {
+            "id": 2,
+            "p": [
+              -33.19015884399414,
+              5.426428318023682,
+              31.4874210357666
+            ],
+            "heading": -14.679982724038535,
+            "speed": 8.934377792566705,
+            "steer": -0.0172048530082824,
+            "distance": 925.3959901286241,
+            "lane": 0.4323779124562607,
+            "lap": 2,
+            "nextGate": 42,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 0,
+            "slowUntil": 51.983333333331736,
+            "jellyUntil": 0
+          },
+          {
+            "id": 3,
+            "p": [
+              -21.720857620239258,
+              5.739109992980957,
+              35.860965728759766
+            ],
+            "heading": -14.685947642489065,
+            "speed": 9.003837978980778,
+            "steer": 0.04302216331496586,
+            "distance": 913.2968087375026,
+            "lane": -1.3646167362896082,
+            "lap": 2,
+            "nextGate": 42,
+            "item": null,
+            "recoveries": 0,
+            "finished": null,
+            "boostUntil": 72.46666666666398,
+            "slowUntil": 102.4333333333289,
+            "jellyUntil": 102.4333333333289
+          }
+        ],
+        "projectiles": 0,
+        "traps": 0,
+        "events": [
+          {
+            "kind": "hit",
+            "time": 87.75,
+            "racer": 1,
+            "owner": 0,
+            "item": 2
+          },
+          {
+            "kind": "pickup",
+            "time": 88.3,
+            "racer": 1,
+            "item": 0
+          },
+          {
+            "kind": "use",
+            "time": 89.817,
+            "racer": 1,
+            "item": 0
+          },
+          {
+            "kind": "pickup",
+            "time": 91.317,
+            "racer": 0,
+            "item": 2
+          },
+          {
+            "kind": "use",
+            "time": 91.4,
+            "racer": 0,
+            "item": 2
+          },
+          {
+            "kind": "hit",
+            "time": 96.917,
+            "racer": 1,
+            "owner": 0,
+            "item": 2
+          },
+          {
+            "kind": "pickup",
+            "time": 99.283,
+            "racer": 2,
+            "item": 2
+          },
+          {
+            "kind": "use",
+            "time": 100.2,
+            "racer": 2,
+            "item": 2
+          },
+          {
+            "kind": "pickup",
+            "time": 100.45,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "use",
+            "time": 100.5,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "hit",
+            "time": 100.733,
+            "racer": 3,
+            "owner": 2,
+            "item": 2
+          },
+          {
+            "kind": "pickup",
+            "time": 107.433,
+            "racer": 1,
+            "item": 0
+          },
+          {
+            "kind": "pickup",
+            "time": 108.483,
+            "racer": 0,
+            "item": 0
+          },
+          {
+            "kind": "use",
+            "time": 108.5,
+            "racer": 1,
+            "item": 0
+          },
+          {
+            "kind": "use",
+            "time": 108.5,
+            "racer": 0,
+            "item": 0
+          }
+        ]
+      },
+      "body": {
+        "collider": {
+          "categoryBits": 1,
+          "density": 1,
+          "friction": 0.029999999329447746,
+          "halfHeight": 0.5,
+          "maskBits": 4294967295,
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "radius": 0.7200000286102295,
+          "restitution": 0.07999999821186066,
+          "sensor": false,
+          "shape": "sphere",
+          "size": [
+            1,
+            1,
+            1
+          ]
+        },
+        "id": 100,
+        "name": "Kart body 0",
+        "physics": {
+          "contacts": [],
+          "overlaps": [],
+          "tick": 6780
+        },
+        "rigidBody": {
+          "angularDamping": 0,
+          "angularVelocity": [
+            0,
+            0,
+            0
+          ],
+          "bullet": false,
+          "gravityScale": 1,
+          "linearDamping": 0,
+          "linearVelocity": [
+            7.743805408477783,
+            -0.1829165816307068,
+            -10.50634479522705
+          ],
+          "lockRotation": [
+            true,
+            true,
+            true
+          ],
+          "lockTranslation": [
+            false,
+            false,
+            false
+          ],
+          "type": "dynamic"
+        },
+        "transform": {
+          "position": [
+            -45.77680587768555,
+            3.0221219062805176,
+            -43.93340301513672
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "final": {
+    "ticks": 7986,
+    "seconds": 133.1,
+    "paused": true,
+    "seed": 0,
+    "scene": {
+      "entities": [
+        {
+          "collider": {
+            "categoryBits": 1,
+            "density": 1,
+            "friction": 0.029999999329447746,
+            "halfHeight": 0.5,
+            "maskBits": 4294967295,
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "radius": 0.7200000286102295,
+            "restitution": 0.07999999821186066,
+            "sensor": false,
+            "shape": "sphere",
+            "size": [
+              1,
+              1,
+              1
+            ]
+          },
+          "id": 100,
+          "name": "Kart body 0",
+          "physics": {
+            "contacts": [
+              {
+                "entity": 1001,
+                "normal": [
+                  -0.0008699735044501722,
+                  0.9999995827674866,
+                  -0.000313553842715919
+                ]
+              }
+            ],
+            "overlaps": [],
+            "tick": 7986
+          },
+          "rigidBody": {
+            "angularDamping": 0,
+            "angularVelocity": [
+              0,
+              0,
+              0
+            ],
+            "bullet": false,
+            "gravityScale": 1,
+            "linearDamping": 0,
+            "linearVelocity": [
+              0,
+              0,
+              0
+            ],
+            "lockRotation": [
+              true,
+              true,
+              true
+            ],
+            "lockTranslation": [
+              false,
+              false,
+              false
+            ],
+            "type": "dynamic"
+          },
+          "transform": {
+            "position": [
+              1.8846335411071777,
+              2.320737361907959,
+              -51.522151947021484
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "collider": {
+            "categoryBits": 1,
+            "density": 1,
+            "friction": 0.029999999329447746,
+            "halfHeight": 0.5,
+            "maskBits": 4294967295,
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "radius": 0.7200000286102295,
+            "restitution": 0.07999999821186066,
+            "sensor": false,
+            "shape": "sphere",
+            "size": [
+              1,
+              1,
+              1
+            ]
+          },
+          "id": 101,
+          "name": "Kart body 1",
+          "physics": {
+            "contacts": [
+              {
+                "entity": 103,
+                "normal": [
+                  0.9717347621917725,
+                  0.0005818091449327767,
+                  0.2360747754573822
+                ]
+              },
+              {
+                "entity": 1001,
+                "normal": [
+                  -0.0008701481856405735,
+                  0.9999995827674866,
+                  -0.000312824675347656
+                ]
+              }
+            ],
+            "overlaps": [],
+            "tick": 7986
+          },
+          "rigidBody": {
+            "angularDamping": 0,
+            "angularVelocity": [
+              0,
+              0,
+              0
+            ],
+            "bullet": false,
+            "gravityScale": 1,
+            "linearDamping": 0,
+            "linearVelocity": [
+              5.3499982222149356e-12,
+              -4.49807302516092e-9,
+              1.5696888233662776e-12
+            ],
+            "lockRotation": [
+              true,
+              true,
+              true
+            ],
+            "lockTranslation": [
+              false,
+              false,
+              false
+            ],
+            "type": "dynamic"
+          },
+          "transform": {
+            "position": [
+              2.698937177658081,
+              2.321072578430176,
+              -52.71202087402344
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "collider": {
+            "categoryBits": 1,
+            "density": 1,
+            "friction": 0.029999999329447746,
+            "halfHeight": 0.5,
+            "maskBits": 4294967295,
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "radius": 0.7200000286102295,
+            "restitution": 0.07999999821186066,
+            "sensor": false,
+            "shape": "sphere",
+            "size": [
+              1,
+              1,
+              1
+            ]
+          },
+          "id": 102,
+          "name": "Kart body 2",
+          "physics": {
+            "contacts": [
+              {
+                "entity": 1000,
+                "normal": [
+                  -0.00029273491236381233,
+                  0.9999999403953552,
+                  -0.00010084281529998407
+                ]
+              }
+            ],
+            "overlaps": [],
+            "tick": 7986
+          },
+          "rigidBody": {
+            "angularDamping": 0,
+            "angularVelocity": [
+              0,
+              0,
+              0
+            ],
+            "bullet": false,
+            "gravityScale": 1,
+            "linearDamping": 0,
+            "linearVelocity": [
+              3.400424473248842e-13,
+              2.618320893432724e-9,
+              -3.7940001617817187e-13
+            ],
+            "lockRotation": [
+              true,
+              true,
+              true
+            ],
+            "lockTranslation": [
+              false,
+              false,
+              false
+            ],
+            "type": "dynamic"
+          },
+          "transform": {
+            "position": [
+              2.278468132019043,
+              2.3204152584075928,
+              -54.11061096191406
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "collider": {
+            "categoryBits": 1,
+            "density": 1,
+            "friction": 0.029999999329447746,
+            "halfHeight": 0.5,
+            "maskBits": 4294967295,
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "radius": 0.7200000286102295,
+            "restitution": 0.07999999821186066,
+            "sensor": false,
+            "shape": "sphere",
+            "size": [
+              1,
+              1,
+              1
+            ]
+          },
+          "id": 103,
+          "name": "Kart body 3",
+          "physics": {
+            "contacts": [
+              {
+                "entity": 101,
+                "normal": [
+                  -0.9717347621917725,
+                  -0.0005818091449327767,
+                  -0.2360747754573822
+                ]
+              },
+              {
+                "entity": 1000,
+                "normal": [
+                  -0.0002926493179984391,
+                  0.9999999403953552,
+                  -0.00010090101568493992
+                ]
+              }
+            ],
+            "overlaps": [],
+            "tick": 7986
+          },
+          "rigidBody": {
+            "angularDamping": 0,
+            "angularVelocity": [
+              0,
+              0,
+              0
+            ],
+            "bullet": false,
+            "gravityScale": 1,
+            "linearDamping": 0,
+            "linearVelocity": [
+              1.4697965067256291e-12,
+              -4.3417119899302747e-10,
+              1.5881740367262864e-12
+            ],
+            "lockRotation": [
+              true,
+              true,
+              true
+            ],
+            "lockTranslation": [
+              false,
+              false,
+              false
+            ],
+            "type": "dynamic"
+          },
+          "transform": {
+            "position": [
+              1.2996429204940796,
+              2.320234775543213,
+              -53.05196762084961
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "entities_requested": [
+        100,
+        101,
+        102,
+        103
+      ]
+    },
+    "game": {
+      "1": {
+        "phase": "finished",
+        "countdown": -0.01666666666666101,
+        "elapsed": 130.09999999999567,
+        "trackLength": 355.0908774486074,
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "controls": {
+          "steer": 0,
+          "pointers": 0
+        },
+        "racers": [
+          {
+            "id": 0,
+            "p": [
+              1.8846335411071777,
+              2.320737361907959,
+              -51.522151947021484
+            ],
+            "heading": -17.663870653676597,
+            "speed": 1.9301612513086205e-35,
+            "steer": -3.0622437220586497e-89,
+            "distance": 1065.3189415438426,
+            "lane": -0.6140229435356767,
+            "lap": 3,
+            "nextGate": 49,
+            "item": null,
+            "recoveries": 0,
+            "finished": 115.01666666666142,
+            "boostUntil": 110.99999999999513,
+            "slowUntil": 71.09999999999732,
+            "jellyUntil": 0
+          },
+          {
+            "id": 1,
+            "p": [
+              2.698937177658081,
+              2.321072578430176,
+              -52.71202087402344
+            ],
+            "heading": -17.38840353337191,
+            "speed": 5.90151403196238e-19,
+            "steer": -1.9867877422936443e-44,
+            "distance": 1065.3812225800789,
+            "lane": 0.21810971543699065,
+            "lap": 3,
+            "nextGate": 49,
+            "item": null,
+            "recoveries": 0,
+            "finished": 122.73333333332765,
+            "boostUntil": 119.48333333332798,
+            "slowUntil": 98.61666666666245,
+            "jellyUntil": 98.61666666666245
+          },
+          {
+            "id": 2,
+            "p": [
+              2.278468132019043,
+              2.3204152584075928,
+              -54.11061096191406
+            ],
+            "heading": -17.476207878910472,
+            "speed": 7.740442027697903e-14,
+            "steer": -2.1583002945346194e-34,
+            "distance": 1065.334969034076,
+            "lane": 1.0451268757603096,
+            "lap": 3,
+            "nextGate": 49,
+            "item": null,
+            "recoveries": 0,
+            "finished": 124.48333333332755,
+            "boostUntil": 121.78333333332785,
+            "slowUntil": 51.983333333331736,
+            "jellyUntil": 0
+          },
+          {
+            "id": 3,
+            "p": [
+              1.2996429204940796,
+              2.320234775543213,
+              -53.05196762084961
+            ],
+            "heading": -17.78599634150278,
+            "speed": 1.1711310205509245e-7,
+            "steer": 5.687008297470262e-18,
+            "distance": 1065.361187565457,
+            "lane": 1.0353929857502442,
+            "lap": 3,
+            "nextGate": 49,
+            "item": null,
+            "recoveries": 0,
+            "finished": 127.21666666666073,
+            "boostUntil": 72.46666666666398,
+            "slowUntil": 102.4333333333289,
+            "jellyUntil": 102.4333333333289
+          }
+        ],
+        "projectiles": 0,
+        "traps": 0,
+        "events": [
+          {
+            "kind": "bump",
+            "time": 127.6,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 127.883,
+            "racer": 1
+          },
+          {
+            "kind": "bump",
+            "time": 127.967,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 128.233,
+            "racer": 1
+          },
+          {
+            "kind": "bump",
+            "time": 128.317,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 128.583,
+            "racer": 1
+          },
+          {
+            "kind": "bump",
+            "time": 128.667,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 128.933,
+            "racer": 1
+          },
+          {
+            "kind": "bump",
+            "time": 129.017,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 129.283,
+            "racer": 1
+          },
+          {
+            "kind": "bump",
+            "time": 129.367,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 129.633,
+            "racer": 1
+          },
+          {
+            "kind": "bump",
+            "time": 129.717,
+            "racer": 3
+          },
+          {
+            "kind": "bump",
+            "time": 129.983,
+            "racer": 1
+          },
+          {
+            "kind": "bump",
+            "time": 130.067,
+            "racer": 3
+          }
+        ]
+      }
+    },
+    "keys": []
+  },
+  "errors": []
+}

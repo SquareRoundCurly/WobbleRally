@@ -1,0 +1,9 @@
+{
+  "sourceSha": "4b6fc18a06670254c137da262b4785d02c02085edb5206db1255051113ac74af",
+  "ticks": 468,
+  "frames": 98,
+  "errors": [
+    "page.screenshot: Target page, context or browser has been closed\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n\n    at capture (/game/tools/record.mjs:79:15)\n    at async file:///game/tools/record.mjs:101:23"
+  ],
+  "encoderLog": ""
+}

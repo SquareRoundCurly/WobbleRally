@@ -1,0 +1,2423 @@
+{
+  "sourceSha": "4b6fc18a06670254c137da262b4785d02c02085edb5206db1255051113ac74af",
+  "browser": "151.0.7922.34",
+  "checks": [
+    {
+      "run": 0,
+      "observation": {
+        "ticks": 7446,
+        "seconds": 124.1,
+        "paused": true,
+        "seed": 0,
+        "scene": {
+          "entities": [
+            {
+              "collider": {
+                "categoryBits": 1,
+                "density": 1,
+                "friction": 0.029999999329447746,
+                "halfHeight": 0.5,
+                "maskBits": 4294967295,
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "radius": 0.7200000286102295,
+                "restitution": 0.07999999821186066,
+                "sensor": false,
+                "shape": "sphere",
+                "size": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "id": 100,
+              "name": "Kart body 0",
+              "physics": {
+                "contacts": [
+                  {
+                    "entity": 103,
+                    "normal": [
+                      -0.032696135342121124,
+                      0.00030943239107728004,
+                      0.99946528673172
+                    ]
+                  },
+                  {
+                    "entity": 1000,
+                    "normal": [
+                      -0.0008701775223016739,
+                      0.9999995827674866,
+                      -0.00031314813531935215
+                    ]
+                  }
+                ],
+                "overlaps": [],
+                "tick": 7446
+              },
+              "rigidBody": {
+                "angularDamping": 0,
+                "angularVelocity": [
+                  0,
+                  0,
+                  0
+                ],
+                "bullet": false,
+                "gravityScale": 1,
+                "linearDamping": 0,
+                "linearVelocity": [
+                  0.06115949526429176,
+                  0.00022197786893229932,
+                  0.5388884544372559
+                ],
+                "lockRotation": [
+                  true,
+                  true,
+                  true
+                ],
+                "lockTranslation": [
+                  false,
+                  false,
+                  false
+                ],
+                "type": "dynamic"
+              },
+              "transform": {
+                "position": [
+                  2.005869150161743,
+                  2.3216888904571533,
+                  -51.384918212890625
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "collider": {
+                "categoryBits": 1,
+                "density": 1,
+                "friction": 0.029999999329447746,
+                "halfHeight": 0.5,
+                "maskBits": 4294967295,
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "radius": 0.7200000286102295,
+                "restitution": 0.07999999821186066,
+                "sensor": false,
+                "shape": "sphere",
+                "size": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "id": 101,
+              "name": "Kart body 1",
+              "physics": {
+                "contacts": [
+                  {
+                    "entity": 103,
+                    "normal": [
+                      -0.9797531366348267,
+                      -0.0005736192688345909,
+                      -0.20020842552185059
+                    ]
+                  },
+                  {
+                    "entity": 1000,
+                    "normal": [
+                      -0.000870507734362036,
+                      0.9999995827674866,
+                      -0.00031247493461705744
+                    ]
+                  }
+                ],
+                "overlaps": [],
+                "tick": 7446
+              },
+              "rigidBody": {
+                "angularDamping": 0,
+                "angularVelocity": [
+                  0,
+                  0,
+                  0
+                ],
+                "bullet": false,
+                "gravityScale": 1,
+                "linearDamping": 0,
+                "linearVelocity": [
+                  2.036860227584839,
+                  0.0017757131718099117,
+                  0.008366996422410011
+                ],
+                "lockRotation": [
+                  true,
+                  true,
+                  true
+                ],
+                "lockTranslation": [
+                  false,
+                  false,
+                  false
+                ],
+                "type": "dynamic"
+              },
+              "transform": {
+                "position": [
+                  0.7555323243141174,
+                  2.3203868865966797,
+                  -53.10396194458008
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "collider": {
+                "categoryBits": 1,
+                "density": 1,
+                "friction": 0.029999999329447746,
+                "halfHeight": 0.5,
+                "maskBits": 4294967295,
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "radius": 0.7200000286102295,
+                "restitution": 0.07999999821186066,
+                "sensor": false,
+                "shape": "sphere",
+                "size": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "id": 102,
+              "name": "Kart body 2",
+              "physics": {
+                "contacts": [
+                  {
+                    "entity": 103,
+                    "normal": [
+                      0.8127632737159729,
+                      0.0005500189145095646,
+                      -0.5825938582420349
+                    ]
+                  },
+                  {
+                    "entity": 1000,
+                    "normal": [
+                      -0.0008706856751814485,
+                      0.9999995827674866,
+                      -0.00031271460466086864
+                    ]
+                  }
+                ],
+                "overlaps": [],
+                "tick": 7446
+              },
+              "rigidBody": {
+                "angularDamping": 0,
+                "angularVelocity": [
+                  0,
+                  0,
+                  0
+                ],
+                "bullet": false,
+                "gravityScale": 1,
+                "linearDamping": 0,
+                "linearVelocity": [
+                  1.2128721475601196,
+                  0.000844181515276432,
+                  -0.677432656288147
+                ],
+                "lockRotation": [
+                  true,
+                  true,
+                  true
+                ],
+                "lockTranslation": [
+                  false,
+                  false,
+                  false
+                ],
+                "type": "dynamic"
+              },
+              "transform": {
+                "position": [
+                  3.239025592803955,
+                  2.3220436573028564,
+                  -53.67999267578125
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "collider": {
+                "categoryBits": 1,
+                "density": 1,
+                "friction": 0.029999999329447746,
+                "halfHeight": 0.5,
+                "maskBits": 4294967295,
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "radius": 0.7200000286102295,
+                "restitution": 0.07999999821186066,
+                "sensor": false,
+                "shape": "sphere",
+                "size": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "id": 103,
+              "name": "Kart body 3",
+              "physics": {
+                "contacts": [
+                  {
+                    "entity": 100,
+                    "normal": [
+                      0.032696135342121124,
+                      -0.00030943239107728004,
+                      -0.99946528673172
+                    ]
+                  },
+                  {
+                    "entity": 101,
+                    "normal": [
+                      0.9797531366348267,
+                      0.0005736192688345909,
+                      0.20020842552185059
+                    ]
+                  },
+                  {
+                    "entity": 102,
+                    "normal": [
+                      -0.8127632737159729,
+                      -0.0005500189145095646,
+                      0.5825938582420349
+                    ]
+                  },
+                  {
+                    "entity": 1000,
+                    "normal": [
+                      -0.0008701836923137307,
+                      0.9999995827674866,
+                      -0.000312886229949072
+                    ]
+                  }
+                ],
+                "overlaps": [],
+                "tick": 7446
+              },
+              "rigidBody": {
+                "angularDamping": 0,
+                "angularVelocity": [
+                  0,
+                  0,
+                  0
+                ],
+                "bullet": false,
+                "gravityScale": 1,
+                "linearDamping": 0,
+                "linearVelocity": [
+                  1.9205901622772217,
+                  0.0018519129371270537,
+                  0.5773687362670898
+                ],
+                "lockRotation": [
+                  true,
+                  true,
+                  true
+                ],
+                "lockTranslation": [
+                  false,
+                  false,
+                  false
+                ],
+                "type": "dynamic"
+              },
+              "transform": {
+                "position": [
+                  2.0870659351348877,
+                  2.321282148361206,
+                  -52.82234191894531
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            }
+          ],
+          "entities_requested": [
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        "game": {
+          "1": {
+            "phase": "finished",
+            "countdown": -0.01666666666666101,
+            "elapsed": 121.09999999999441,
+            "trackLength": 355.0908774486074,
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ],
+            "controls": {
+              "steer": 0,
+              "pointers": 0
+            },
+            "racers": [
+              {
+                "id": 0,
+                "p": [
+                  2.0048394203186035,
+                  2.321685314178467,
+                  -51.39371109008789
+                ],
+                "heading": -17.545947151037975,
+                "speed": 1.8410472741448992e-22,
+                "steer": -5.551924328088227e-66,
+                "distance": 1065.2992962486758,
+                "lane": -0.9122305392334117,
+                "lap": 3,
+                "nextGate": 49,
+                "item": null,
+                "recoveries": 0,
+                "finished": 111.09999999999498,
+                "boostUntil": 98.59999999999583,
+                "slowUntil": 0,
+                "jellyUntil": 0
+              },
+              {
+                "id": 1,
+                "p": [
+                  0.7239425778388977,
+                  2.320462465286255,
+                  -53.10360336303711
+                ],
+                "heading": -17.38130703982357,
+                "speed": 3.7214372040669597,
+                "steer": -0.0186935446468832,
+                "distance": 1065.3041246240289,
+                "lane": 0.14652521767097218,
+                "lap": 3,
+                "nextGate": 49,
+                "item": null,
+                "recoveries": 0,
+                "finished": 120.94999999999442,
+                "boostUntil": 106.33333333332872,
+                "slowUntil": 115.11666666666152,
+                "jellyUntil": 115.11666666666152
+              },
+              {
+                "id": 2,
+                "p": [
+                  3.21945858001709,
+                  2.3220300674438477,
+                  -53.66915512084961
+                ],
+                "heading": -17.533281432664754,
+                "speed": 3.665725445656038e-8,
+                "steer": -1.139501151620404e-22,
+                "distance": 1065.3145677358348,
+                "lane": 1.0303568892045476,
+                "lap": 3,
+                "nextGate": 49,
+                "item": null,
+                "recoveries": 0,
+                "finished": 117.41666666666129,
+                "boostUntil": 97.86666666666254,
+                "slowUntil": 38.01666666666586,
+                "jellyUntil": 0
+              },
+              {
+                "id": 3,
+                "p": [
+                  2.051898956298828,
+                  2.321239948272705,
+                  -52.83224105834961
+                ],
+                "heading": -17.484894962466903,
+                "speed": 0.005357160430144254,
+                "steer": 1.6505159379219843e-9,
+                "distance": 1065.3829883297813,
+                "lane": 0.5222593467044356,
+                "lap": 3,
+                "nextGate": 49,
+                "item": null,
+                "recoveries": 0,
+                "finished": 119.69999999999449,
+                "boostUntil": 107.93333333332863,
+                "slowUntil": 59.83333333333132,
+                "jellyUntil": 59.83333333333132
+              }
+            ],
+            "projectiles": 0,
+            "traps": 0,
+            "events": [
+              {
+                "kind": "pickup",
+                "time": 104.583,
+                "racer": 3,
+                "item": 0
+              },
+              {
+                "kind": "use",
+                "time": 105.433,
+                "racer": 3,
+                "item": 0
+              },
+              {
+                "kind": "pickup",
+                "time": 109.967,
+                "racer": 2,
+                "item": 1
+              },
+              {
+                "kind": "lap",
+                "time": 111.1,
+                "racer": 0,
+                "lap": 3
+              },
+              {
+                "kind": "finish",
+                "time": 111.1,
+                "racer": 0,
+                "position": 1
+              },
+              {
+                "kind": "pickup",
+                "time": 111.95,
+                "racer": 3,
+                "item": 2
+              },
+              {
+                "kind": "use",
+                "time": 112.15,
+                "racer": 2,
+                "item": 1
+              },
+              {
+                "kind": "use",
+                "time": 112.917,
+                "racer": 3,
+                "item": 2
+              },
+              {
+                "kind": "hit",
+                "time": 113.417,
+                "racer": 1,
+                "owner": 3,
+                "item": 2
+              },
+              {
+                "kind": "lap",
+                "time": 117.417,
+                "racer": 2,
+                "lap": 3
+              },
+              {
+                "kind": "finish",
+                "time": 117.417,
+                "racer": 2,
+                "position": 2
+              },
+              {
+                "kind": "lap",
+                "time": 119.7,
+                "racer": 3,
+                "lap": 3
+              },
+              {
+                "kind": "finish",
+                "time": 119.7,
+                "racer": 3,
+                "position": 3
+              },
+              {
+                "kind": "lap",
+                "time": 120.95,
+                "racer": 1,
+                "lap": 3
+              },
+              {
+                "kind": "finish",
+                "time": 120.95,
+                "racer": 1,
+                "position": 4
+              }
+            ]
+          }
+        },
+        "keys": []
+      },
+      "rendering": {
+        "requested": 308,
+        "presented": 20,
+        "stride": 16
+      }
+    },
+    {
+      "run": 1,
+      "observation": {
+        "ticks": 7446,
+        "seconds": 124.1,
+        "paused": true,
+        "seed": 0,
+        "scene": {
+          "entities": [
+            {
+              "collider": {
+                "categoryBits": 1,
+                "density": 1,
+                "friction": 0.029999999329447746,
+                "halfHeight": 0.5,
+                "maskBits": 4294967295,
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "radius": 0.7200000286102295,
+                "restitution": 0.07999999821186066,
+                "sensor": false,
+                "shape": "sphere",
+                "size": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "id": 100,
+              "name": "Kart body 0",
+              "physics": {
+                "contacts": [
+                  {
+                    "entity": 103,
+                    "normal": [
+                      -0.032696135342121124,
+                      0.00030943239107728004,
+                      0.99946528673172
+                    ]
+                  },
+                  {
+                    "entity": 1000,
+                    "normal": [
+                      -0.0008701775223016739,
+                      0.9999995827674866,
+                      -0.00031314813531935215
+                    ]
+                  }
+                ],
+                "overlaps": [],
+                "tick": 7446
+              },
+              "rigidBody": {
+                "angularDamping": 0,
+                "angularVelocity": [
+                  0,
+                  0,
+                  0
+                ],
+                "bullet": false,
+                "gravityScale": 1,
+                "linearDamping": 0,
+                "linearVelocity": [
+                  0.06115949526429176,
+                  0.00022197786893229932,
+                  0.5388884544372559
+                ],
+                "lockRotation": [
+                  true,
+                  true,
+                  true
+                ],
+                "lockTranslation": [
+                  false,
+                  false,
+                  false
+                ],
+                "type": "dynamic"
+              },
+              "transform": {
+                "position": [
+                  2.005869150161743,
+                  2.3216888904571533,
+                  -51.384918212890625
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "collider": {
+                "categoryBits": 1,
+                "density": 1,
+                "friction": 0.029999999329447746,
+                "halfHeight": 0.5,
+                "maskBits": 4294967295,
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "radius": 0.7200000286102295,
+                "restitution": 0.07999999821186066,
+                "sensor": false,
+                "shape": "sphere",
+                "size": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "id": 101,
+              "name": "Kart body 1",
+              "physics": {
+                "contacts": [
+                  {
+                    "entity": 103,
+                    "normal": [
+                      -0.9797531366348267,
+                      -0.0005736192688345909,
+                      -0.20020842552185059
+                    ]
+                  },
+                  {
+                    "entity": 1000,
+                    "normal": [
+                      -0.000870507734362036,
+                      0.9999995827674866,
+                      -0.00031247493461705744
+                    ]
+                  }
+                ],
+                "overlaps": [],
+                "tick": 7446
+              },
+              "rigidBody": {
+                "angularDamping": 0,
+                "angularVelocity": [
+                  0,
+                  0,
+                  0
+                ],
+                "bullet": false,
+                "gravityScale": 1,
+                "linearDamping": 0,
+                "linearVelocity": [
+                  2.036860227584839,
+                  0.0017757131718099117,
+                  0.008366996422410011
+                ],
+                "lockRotation": [
+                  true,
+                  true,
+                  true
+                ],
+                "lockTranslation": [
+                  false,
+                  false,
+                  false
+                ],
+                "type": "dynamic"
+              },
+              "transform": {
+                "position": [
+                  0.7555323243141174,
+                  2.3203868865966797,
+                  -53.10396194458008
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "collider": {
+                "categoryBits": 1,
+                "density": 1,
+                "friction": 0.029999999329447746,
+                "halfHeight": 0.5,
+                "maskBits": 4294967295,
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "radius": 0.7200000286102295,
+                "restitution": 0.07999999821186066,
+                "sensor": false,
+                "shape": "sphere",
+                "size": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "id": 102,
+              "name": "Kart body 2",
+              "physics": {
+                "contacts": [
+                  {
+                    "entity": 103,
+                    "normal": [
+                      0.8127632737159729,
+                      0.0005500189145095646,
+                      -0.5825938582420349
+                    ]
+                  },
+                  {
+                    "entity": 1000,
+                    "normal": [
+                      -0.0008706856751814485,
+                      0.9999995827674866,
+                      -0.00031271460466086864
+                    ]
+                  }
+                ],
+                "overlaps": [],
+                "tick": 7446
+              },
+              "rigidBody": {
+                "angularDamping": 0,
+                "angularVelocity": [
+                  0,
+                  0,
+                  0
+                ],
+                "bullet": false,
+                "gravityScale": 1,
+                "linearDamping": 0,
+                "linearVelocity": [
+                  1.2128721475601196,
+                  0.000844181515276432,
+                  -0.677432656288147
+                ],
+                "lockRotation": [
+                  true,
+                  true,
+                  true
+                ],
+                "lockTranslation": [
+                  false,
+                  false,
+                  false
+                ],
+                "type": "dynamic"
+              },
+              "transform": {
+                "position": [
+                  3.239025592803955,
+                  2.3220436573028564,
+                  -53.67999267578125
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "collider": {
+                "categoryBits": 1,
+                "density": 1,
+                "friction": 0.029999999329447746,
+                "halfHeight": 0.5,
+                "maskBits": 4294967295,
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "radius": 0.7200000286102295,
+                "restitution": 0.07999999821186066,
+                "sensor": false,
+                "shape": "sphere",
+                "size": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "id": 103,
+              "name": "Kart body 3",
+              "physics": {
+                "contacts": [
+                  {
+                    "entity": 100,
+                    "normal": [
+                      0.032696135342121124,
+                      -0.00030943239107728004,
+                      -0.99946528673172
+                    ]
+                  },
+                  {
+                    "entity": 101,
+                    "normal": [
+                      0.9797531366348267,
+                      0.0005736192688345909,
+                      0.20020842552185059
+                    ]
+                  },
+                  {
+                    "entity": 102,
+                    "normal": [
+                      -0.8127632737159729,
+                      -0.0005500189145095646,
+                      0.5825938582420349
+                    ]
+                  },
+                  {
+                    "entity": 1000,
+                    "normal": [
+                      -0.0008701836923137307,
+                      0.9999995827674866,
+                      -0.000312886229949072
+                    ]
+                  }
+                ],
+                "overlaps": [],
+                "tick": 7446
+              },
+              "rigidBody": {
+                "angularDamping": 0,
+                "angularVelocity": [
+                  0,
+                  0,
+                  0
+                ],
+                "bullet": false,
+                "gravityScale": 1,
+                "linearDamping": 0,
+                "linearVelocity": [
+                  1.9205901622772217,
+                  0.0018519129371270537,
+                  0.5773687362670898
+                ],
+                "lockRotation": [
+                  true,
+                  true,
+                  true
+                ],
+                "lockTranslation": [
+                  false,
+                  false,
+                  false
+                ],
+                "type": "dynamic"
+              },
+              "transform": {
+                "position": [
+                  2.0870659351348877,
+                  2.321282148361206,
+                  -52.82234191894531
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            }
+          ],
+          "entities_requested": [
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        "game": {
+          "1": {
+            "phase": "finished",
+            "countdown": -0.01666666666666101,
+            "elapsed": 121.09999999999441,
+            "trackLength": 355.0908774486074,
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ],
+            "controls": {
+              "steer": 0,
+              "pointers": 0
+            },
+            "racers": [
+              {
+                "id": 0,
+                "p": [
+                  2.0048394203186035,
+                  2.321685314178467,
+                  -51.39371109008789
+                ],
+                "heading": -17.545947151037975,
+                "speed": 1.8410472741448992e-22,
+                "steer": -5.551924328088227e-66,
+                "distance": 1065.2992962486758,
+                "lane": -0.9122305392334117,
+                "lap": 3,
+                "nextGate": 49,
+                "item": null,
+                "recoveries": 0,
+                "finished": 111.09999999999498,
+                "boostUntil": 98.59999999999583,
+                "slowUntil": 0,
+                "jellyUntil": 0
+              },
+              {
+                "id": 1,
+                "p": [
+                  0.7239425778388977,
+                  2.320462465286255,
+                  -53.10360336303711
+                ],
+                "heading": -17.38130703982357,
+                "speed": 3.7214372040669597,
+                "steer": -0.0186935446468832,
+                "distance": 1065.3041246240289,
+                "lane": 0.14652521767097218,
+                "lap": 3,
+                "nextGate": 49,
+                "item": null,
+                "recoveries": 0,
+                "finished": 120.94999999999442,
+                "boostUntil": 106.33333333332872,
+                "slowUntil": 115.11666666666152,
+                "jellyUntil": 115.11666666666152
+              },
+              {
+                "id": 2,
+                "p": [
+                  3.21945858001709,
+                  2.3220300674438477,
+                  -53.66915512084961
+                ],
+                "heading": -17.533281432664754,
+                "speed": 3.665725445656038e-8,
+                "steer": -1.139501151620404e-22,
+                "distance": 1065.3145677358348,
+                "lane": 1.0303568892045476,
+                "lap": 3,
+                "nextGate": 49,
+                "item": null,
+                "recoveries": 0,
+                "finished": 117.41666666666129,
+                "boostUntil": 97.86666666666254,
+                "slowUntil": 38.01666666666586,
+                "jellyUntil": 0
+              },
+              {
+                "id": 3,
+                "p": [
+                  2.051898956298828,
+                  2.321239948272705,
+                  -52.83224105834961
+                ],
+                "heading": -17.484894962466903,
+                "speed": 0.005357160430144254,
+                "steer": 1.6505159379219843e-9,
+                "distance": 1065.3829883297813,
+                "lane": 0.5222593467044356,
+                "lap": 3,
+                "nextGate": 49,
+                "item": null,
+                "recoveries": 0,
+                "finished": 119.69999999999449,
+                "boostUntil": 107.93333333332863,
+                "slowUntil": 59.83333333333132,
+                "jellyUntil": 59.83333333333132
+              }
+            ],
+            "projectiles": 0,
+            "traps": 0,
+            "events": [
+              {
+                "kind": "pickup",
+                "time": 104.583,
+                "racer": 3,
+                "item": 0
+              },
+              {
+                "kind": "use",
+                "time": 105.433,
+                "racer": 3,
+                "item": 0
+              },
+              {
+                "kind": "pickup",
+                "time": 109.967,
+                "racer": 2,
+                "item": 1
+              },
+              {
+                "kind": "lap",
+                "time": 111.1,
+                "racer": 0,
+                "lap": 3
+              },
+              {
+                "kind": "finish",
+                "time": 111.1,
+                "racer": 0,
+                "position": 1
+              },
+              {
+                "kind": "pickup",
+                "time": 111.95,
+                "racer": 3,
+                "item": 2
+              },
+              {
+                "kind": "use",
+                "time": 112.15,
+                "racer": 2,
+                "item": 1
+              },
+              {
+                "kind": "use",
+                "time": 112.917,
+                "racer": 3,
+                "item": 2
+              },
+              {
+                "kind": "hit",
+                "time": 113.417,
+                "racer": 1,
+                "owner": 3,
+                "item": 2
+              },
+              {
+                "kind": "lap",
+                "time": 117.417,
+                "racer": 2,
+                "lap": 3
+              },
+              {
+                "kind": "finish",
+                "time": 117.417,
+                "racer": 2,
+                "position": 2
+              },
+              {
+                "kind": "lap",
+                "time": 119.7,
+                "racer": 3,
+                "lap": 3
+              },
+              {
+                "kind": "finish",
+                "time": 119.7,
+                "racer": 3,
+                "position": 3
+              },
+              {
+                "kind": "lap",
+                "time": 120.95,
+                "racer": 1,
+                "lap": 3
+              },
+              {
+                "kind": "finish",
+                "time": 120.95,
+                "racer": 1,
+                "position": 4
+              }
+            ]
+          }
+        },
+        "keys": []
+      },
+      "rendering": {
+        "requested": 308,
+        "presented": 20,
+        "stride": 16
+      }
+    },
+    {
+      "run": 2,
+      "observation": {
+        "ticks": 14892,
+        "seconds": 248.2,
+        "paused": true,
+        "seed": 0,
+        "scene": {
+          "entities": [
+            {
+              "collider": {
+                "categoryBits": 1,
+                "density": 1,
+                "friction": 0.029999999329447746,
+                "halfHeight": 0.5,
+                "maskBits": 4294967295,
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "radius": 0.7200000286102295,
+                "restitution": 0.07999999821186066,
+                "sensor": false,
+                "shape": "sphere",
+                "size": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "id": 100,
+              "name": "Kart body 0",
+              "physics": {
+                "contacts": [
+                  {
+                    "entity": 103,
+                    "normal": [
+                      -0.032696135342121124,
+                      0.00030943239107728004,
+                      0.99946528673172
+                    ]
+                  },
+                  {
+                    "entity": 1000,
+                    "normal": [
+                      -0.0008701775223016739,
+                      0.9999995827674866,
+                      -0.00031314813531935215
+                    ]
+                  }
+                ],
+                "overlaps": [],
+                "tick": 7446
+              },
+              "rigidBody": {
+                "angularDamping": 0,
+                "angularVelocity": [
+                  0,
+                  0,
+                  0
+                ],
+                "bullet": false,
+                "gravityScale": 1,
+                "linearDamping": 0,
+                "linearVelocity": [
+                  0.06115949526429176,
+                  0.00022197786893229932,
+                  0.5388884544372559
+                ],
+                "lockRotation": [
+                  true,
+                  true,
+                  true
+                ],
+                "lockTranslation": [
+                  false,
+                  false,
+                  false
+                ],
+                "type": "dynamic"
+              },
+              "transform": {
+                "position": [
+                  2.005869150161743,
+                  2.3216888904571533,
+                  -51.384918212890625
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "collider": {
+                "categoryBits": 1,
+                "density": 1,
+                "friction": 0.029999999329447746,
+                "halfHeight": 0.5,
+                "maskBits": 4294967295,
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "radius": 0.7200000286102295,
+                "restitution": 0.07999999821186066,
+                "sensor": false,
+                "shape": "sphere",
+                "size": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "id": 101,
+              "name": "Kart body 1",
+              "physics": {
+                "contacts": [
+                  {
+                    "entity": 103,
+                    "normal": [
+                      -0.9797531366348267,
+                      -0.0005736192688345909,
+                      -0.20020842552185059
+                    ]
+                  },
+                  {
+                    "entity": 1000,
+                    "normal": [
+                      -0.000870507734362036,
+                      0.9999995827674866,
+                      -0.00031247493461705744
+                    ]
+                  }
+                ],
+                "overlaps": [],
+                "tick": 7446
+              },
+              "rigidBody": {
+                "angularDamping": 0,
+                "angularVelocity": [
+                  0,
+                  0,
+                  0
+                ],
+                "bullet": false,
+                "gravityScale": 1,
+                "linearDamping": 0,
+                "linearVelocity": [
+                  2.036860227584839,
+                  0.0017757131718099117,
+                  0.008366996422410011
+                ],
+                "lockRotation": [
+                  true,
+                  true,
+                  true
+                ],
+                "lockTranslation": [
+                  false,
+                  false,
+                  false
+                ],
+                "type": "dynamic"
+              },
+              "transform": {
+                "position": [
+                  0.7555323243141174,
+                  2.3203868865966797,
+                  -53.10396194458008
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "collider": {
+                "categoryBits": 1,
+                "density": 1,
+                "friction": 0.029999999329447746,
+                "halfHeight": 0.5,
+                "maskBits": 4294967295,
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "radius": 0.7200000286102295,
+                "restitution": 0.07999999821186066,
+                "sensor": false,
+                "shape": "sphere",
+                "size": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "id": 102,
+              "name": "Kart body 2",
+              "physics": {
+                "contacts": [
+                  {
+                    "entity": 103,
+                    "normal": [
+                      0.8127632737159729,
+                      0.0005500189145095646,
+                      -0.5825938582420349
+                    ]
+                  },
+                  {
+                    "entity": 1000,
+                    "normal": [
+                      -0.0008706856751814485,
+                      0.9999995827674866,
+                      -0.00031271460466086864
+                    ]
+                  }
+                ],
+                "overlaps": [],
+                "tick": 7446
+              },
+              "rigidBody": {
+                "angularDamping": 0,
+                "angularVelocity": [
+                  0,
+                  0,
+                  0
+                ],
+                "bullet": false,
+                "gravityScale": 1,
+                "linearDamping": 0,
+                "linearVelocity": [
+                  1.2128721475601196,
+                  0.000844181515276432,
+                  -0.677432656288147
+                ],
+                "lockRotation": [
+                  true,
+                  true,
+                  true
+                ],
+                "lockTranslation": [
+                  false,
+                  false,
+                  false
+                ],
+                "type": "dynamic"
+              },
+              "transform": {
+                "position": [
+                  3.239025592803955,
+                  2.3220436573028564,
+                  -53.67999267578125
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "collider": {
+                "categoryBits": 1,
+                "density": 1,
+                "friction": 0.029999999329447746,
+                "halfHeight": 0.5,
+                "maskBits": 4294967295,
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "radius": 0.7200000286102295,
+                "restitution": 0.07999999821186066,
+                "sensor": false,
+                "shape": "sphere",
+                "size": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "id": 103,
+              "name": "Kart body 3",
+              "physics": {
+                "contacts": [
+                  {
+                    "entity": 100,
+                    "normal": [
+                      0.032696135342121124,
+                      -0.00030943239107728004,
+                      -0.99946528673172
+                    ]
+                  },
+                  {
+                    "entity": 101,
+                    "normal": [
+                      0.9797531366348267,
+                      0.0005736192688345909,
+                      0.20020842552185059
+                    ]
+                  },
+                  {
+                    "entity": 102,
+                    "normal": [
+                      -0.8127632737159729,
+                      -0.0005500189145095646,
+                      0.5825938582420349
+                    ]
+                  },
+                  {
+                    "entity": 1000,
+                    "normal": [
+                      -0.0008701836923137307,
+                      0.9999995827674866,
+                      -0.000312886229949072
+                    ]
+                  }
+                ],
+                "overlaps": [],
+                "tick": 7446
+              },
+              "rigidBody": {
+                "angularDamping": 0,
+                "angularVelocity": [
+                  0,
+                  0,
+                  0
+                ],
+                "bullet": false,
+                "gravityScale": 1,
+                "linearDamping": 0,
+                "linearVelocity": [
+                  1.9205901622772217,
+                  0.0018519129371270537,
+                  0.5773687362670898
+                ],
+                "lockRotation": [
+                  true,
+                  true,
+                  true
+                ],
+                "lockTranslation": [
+                  false,
+                  false,
+                  false
+                ],
+                "type": "dynamic"
+              },
+              "transform": {
+                "position": [
+                  2.0870659351348877,
+                  2.321282148361206,
+                  -52.82234191894531
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            }
+          ],
+          "entities_requested": [
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        "game": {
+          "1": {
+            "phase": "finished",
+            "countdown": -0.01666666666666101,
+            "elapsed": 121.09999999999441,
+            "trackLength": 355.0908774486074,
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ],
+            "controls": {
+              "steer": 0,
+              "pointers": 0
+            },
+            "racers": [
+              {
+                "id": 0,
+                "p": [
+                  2.0048394203186035,
+                  2.321685314178467,
+                  -51.39371109008789
+                ],
+                "heading": -17.545947151037975,
+                "speed": 1.8410472741448992e-22,
+                "steer": -5.551924328088227e-66,
+                "distance": 1065.2992962486758,
+                "lane": -0.9122305392334117,
+                "lap": 3,
+                "nextGate": 49,
+                "item": null,
+                "recoveries": 0,
+                "finished": 111.09999999999498,
+                "boostUntil": 98.59999999999583,
+                "slowUntil": 0,
+                "jellyUntil": 0
+              },
+              {
+                "id": 1,
+                "p": [
+                  0.7239425778388977,
+                  2.320462465286255,
+                  -53.10360336303711
+                ],
+                "heading": -17.38130703982357,
+                "speed": 3.7214372040669597,
+                "steer": -0.0186935446468832,
+                "distance": 1065.3041246240289,
+                "lane": 0.14652521767097218,
+                "lap": 3,
+                "nextGate": 49,
+                "item": null,
+                "recoveries": 0,
+                "finished": 120.94999999999442,
+                "boostUntil": 106.33333333332872,
+                "slowUntil": 115.11666666666152,
+                "jellyUntil": 115.11666666666152
+              },
+              {
+                "id": 2,
+                "p": [
+                  3.21945858001709,
+                  2.3220300674438477,
+                  -53.66915512084961
+                ],
+                "heading": -17.533281432664754,
+                "speed": 3.665725445656038e-8,
+                "steer": -1.139501151620404e-22,
+                "distance": 1065.3145677358348,
+                "lane": 1.0303568892045476,
+                "lap": 3,
+                "nextGate": 49,
+                "item": null,
+                "recoveries": 0,
+                "finished": 117.41666666666129,
+                "boostUntil": 97.86666666666254,
+                "slowUntil": 38.01666666666586,
+                "jellyUntil": 0
+              },
+              {
+                "id": 3,
+                "p": [
+                  2.051898956298828,
+                  2.321239948272705,
+                  -52.83224105834961
+                ],
+                "heading": -17.484894962466903,
+                "speed": 0.005357160430144254,
+                "steer": 1.6505159379219843e-9,
+                "distance": 1065.3829883297813,
+                "lane": 0.5222593467044356,
+                "lap": 3,
+                "nextGate": 49,
+                "item": null,
+                "recoveries": 0,
+                "finished": 119.69999999999449,
+                "boostUntil": 107.93333333332863,
+                "slowUntil": 59.83333333333132,
+                "jellyUntil": 59.83333333333132
+              }
+            ],
+            "projectiles": 0,
+            "traps": 0,
+            "events": [
+              {
+                "kind": "pickup",
+                "time": 104.583,
+                "racer": 3,
+                "item": 0
+              },
+              {
+                "kind": "use",
+                "time": 105.433,
+                "racer": 3,
+                "item": 0
+              },
+              {
+                "kind": "pickup",
+                "time": 109.967,
+                "racer": 2,
+                "item": 1
+              },
+              {
+                "kind": "lap",
+                "time": 111.1,
+                "racer": 0,
+                "lap": 3
+              },
+              {
+                "kind": "finish",
+                "time": 111.1,
+                "racer": 0,
+                "position": 1
+              },
+              {
+                "kind": "pickup",
+                "time": 111.95,
+                "racer": 3,
+                "item": 2
+              },
+              {
+                "kind": "use",
+                "time": 112.15,
+                "racer": 2,
+                "item": 1
+              },
+              {
+                "kind": "use",
+                "time": 112.917,
+                "racer": 3,
+                "item": 2
+              },
+              {
+                "kind": "hit",
+                "time": 113.417,
+                "racer": 1,
+                "owner": 3,
+                "item": 2
+              },
+              {
+                "kind": "lap",
+                "time": 117.417,
+                "racer": 2,
+                "lap": 3
+              },
+              {
+                "kind": "finish",
+                "time": 117.417,
+                "racer": 2,
+                "position": 2
+              },
+              {
+                "kind": "lap",
+                "time": 119.7,
+                "racer": 3,
+                "lap": 3
+              },
+              {
+                "kind": "finish",
+                "time": 119.7,
+                "racer": 3,
+                "position": 3
+              },
+              {
+                "kind": "lap",
+                "time": 120.95,
+                "racer": 1,
+                "lap": 3
+              },
+              {
+                "kind": "finish",
+                "time": 120.95,
+                "racer": 1,
+                "position": 4
+              }
+            ]
+          }
+        },
+        "keys": []
+      },
+      "rendering": {
+        "requested": 616,
+        "presented": 40,
+        "stride": 16
+      }
+    },
+    {
+      "run": 3,
+      "observation": {
+        "ticks": 22338,
+        "seconds": 372.3,
+        "paused": true,
+        "seed": 0,
+        "scene": {
+          "entities": [
+            {
+              "collider": {
+                "categoryBits": 1,
+                "density": 1,
+                "friction": 0.029999999329447746,
+                "halfHeight": 0.5,
+                "maskBits": 4294967295,
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "radius": 0.7200000286102295,
+                "restitution": 0.07999999821186066,
+                "sensor": false,
+                "shape": "sphere",
+                "size": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "id": 100,
+              "name": "Kart body 0",
+              "physics": {
+                "contacts": [
+                  {
+                    "entity": 103,
+                    "normal": [
+                      -0.032696135342121124,
+                      0.00030943239107728004,
+                      0.99946528673172
+                    ]
+                  },
+                  {
+                    "entity": 1000,
+                    "normal": [
+                      -0.0008701775223016739,
+                      0.9999995827674866,
+                      -0.00031314813531935215
+                    ]
+                  }
+                ],
+                "overlaps": [],
+                "tick": 7446
+              },
+              "rigidBody": {
+                "angularDamping": 0,
+                "angularVelocity": [
+                  0,
+                  0,
+                  0
+                ],
+                "bullet": false,
+                "gravityScale": 1,
+                "linearDamping": 0,
+                "linearVelocity": [
+                  0.06115949526429176,
+                  0.00022197786893229932,
+                  0.5388884544372559
+                ],
+                "lockRotation": [
+                  true,
+                  true,
+                  true
+                ],
+                "lockTranslation": [
+                  false,
+                  false,
+                  false
+                ],
+                "type": "dynamic"
+              },
+              "transform": {
+                "position": [
+                  2.005869150161743,
+                  2.3216888904571533,
+                  -51.384918212890625
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "collider": {
+                "categoryBits": 1,
+                "density": 1,
+                "friction": 0.029999999329447746,
+                "halfHeight": 0.5,
+                "maskBits": 4294967295,
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "radius": 0.7200000286102295,
+                "restitution": 0.07999999821186066,
+                "sensor": false,
+                "shape": "sphere",
+                "size": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "id": 101,
+              "name": "Kart body 1",
+              "physics": {
+                "contacts": [
+                  {
+                    "entity": 103,
+                    "normal": [
+                      -0.9797531366348267,
+                      -0.0005736192688345909,
+                      -0.20020842552185059
+                    ]
+                  },
+                  {
+                    "entity": 1000,
+                    "normal": [
+                      -0.000870507734362036,
+                      0.9999995827674866,
+                      -0.00031247493461705744
+                    ]
+                  }
+                ],
+                "overlaps": [],
+                "tick": 7446
+              },
+              "rigidBody": {
+                "angularDamping": 0,
+                "angularVelocity": [
+                  0,
+                  0,
+                  0
+                ],
+                "bullet": false,
+                "gravityScale": 1,
+                "linearDamping": 0,
+                "linearVelocity": [
+                  2.036860227584839,
+                  0.0017757131718099117,
+                  0.008366996422410011
+                ],
+                "lockRotation": [
+                  true,
+                  true,
+                  true
+                ],
+                "lockTranslation": [
+                  false,
+                  false,
+                  false
+                ],
+                "type": "dynamic"
+              },
+              "transform": {
+                "position": [
+                  0.7555323243141174,
+                  2.3203868865966797,
+                  -53.10396194458008
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "collider": {
+                "categoryBits": 1,
+                "density": 1,
+                "friction": 0.029999999329447746,
+                "halfHeight": 0.5,
+                "maskBits": 4294967295,
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "radius": 0.7200000286102295,
+                "restitution": 0.07999999821186066,
+                "sensor": false,
+                "shape": "sphere",
+                "size": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "id": 102,
+              "name": "Kart body 2",
+              "physics": {
+                "contacts": [
+                  {
+                    "entity": 103,
+                    "normal": [
+                      0.8127632737159729,
+                      0.0005500189145095646,
+                      -0.5825938582420349
+                    ]
+                  },
+                  {
+                    "entity": 1000,
+                    "normal": [
+                      -0.0008706856751814485,
+                      0.9999995827674866,
+                      -0.00031271460466086864
+                    ]
+                  }
+                ],
+                "overlaps": [],
+                "tick": 7446
+              },
+              "rigidBody": {
+                "angularDamping": 0,
+                "angularVelocity": [
+                  0,
+                  0,
+                  0
+                ],
+                "bullet": false,
+                "gravityScale": 1,
+                "linearDamping": 0,
+                "linearVelocity": [
+                  1.2128721475601196,
+                  0.000844181515276432,
+                  -0.677432656288147
+                ],
+                "lockRotation": [
+                  true,
+                  true,
+                  true
+                ],
+                "lockTranslation": [
+                  false,
+                  false,
+                  false
+                ],
+                "type": "dynamic"
+              },
+              "transform": {
+                "position": [
+                  3.239025592803955,
+                  2.3220436573028564,
+                  -53.67999267578125
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "collider": {
+                "categoryBits": 1,
+                "density": 1,
+                "friction": 0.029999999329447746,
+                "halfHeight": 0.5,
+                "maskBits": 4294967295,
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "radius": 0.7200000286102295,
+                "restitution": 0.07999999821186066,
+                "sensor": false,
+                "shape": "sphere",
+                "size": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "id": 103,
+              "name": "Kart body 3",
+              "physics": {
+                "contacts": [
+                  {
+                    "entity": 100,
+                    "normal": [
+                      0.032696135342121124,
+                      -0.00030943239107728004,
+                      -0.99946528673172
+                    ]
+                  },
+                  {
+                    "entity": 101,
+                    "normal": [
+                      0.9797531366348267,
+                      0.0005736192688345909,
+                      0.20020842552185059
+                    ]
+                  },
+                  {
+                    "entity": 102,
+                    "normal": [
+                      -0.8127632737159729,
+                      -0.0005500189145095646,
+                      0.5825938582420349
+                    ]
+                  },
+                  {
+                    "entity": 1000,
+                    "normal": [
+                      -0.0008701836923137307,
+                      0.9999995827674866,
+                      -0.000312886229949072
+                    ]
+                  }
+                ],
+                "overlaps": [],
+                "tick": 7446
+              },
+              "rigidBody": {
+                "angularDamping": 0,
+                "angularVelocity": [
+                  0,
+                  0,
+                  0
+                ],
+                "bullet": false,
+                "gravityScale": 1,
+                "linearDamping": 0,
+                "linearVelocity": [
+                  1.9205901622772217,
+                  0.0018519129371270537,
+                  0.5773687362670898
+                ],
+                "lockRotation": [
+                  true,
+                  true,
+                  true
+                ],
+                "lockTranslation": [
+                  false,
+                  false,
+                  false
+                ],
+                "type": "dynamic"
+              },
+              "transform": {
+                "position": [
+                  2.0870659351348877,
+                  2.321282148361206,
+                  -52.82234191894531
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            }
+          ],
+          "entities_requested": [
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        "game": {
+          "1": {
+            "phase": "finished",
+            "countdown": -0.01666666666666101,
+            "elapsed": 121.09999999999441,
+            "trackLength": 355.0908774486074,
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ],
+            "controls": {
+              "steer": 0,
+              "pointers": 0
+            },
+            "racers": [
+              {
+                "id": 0,
+                "p": [
+                  2.0048394203186035,
+                  2.321685314178467,
+                  -51.39371109008789
+                ],
+                "heading": -17.545947151037975,
+                "speed": 1.8410472741448992e-22,
+                "steer": -5.551924328088227e-66,
+                "distance": 1065.2992962486758,
+                "lane": -0.9122305392334117,
+                "lap": 3,
+                "nextGate": 49,
+                "item": null,
+                "recoveries": 0,
+                "finished": 111.09999999999498,
+                "boostUntil": 98.59999999999583,
+                "slowUntil": 0,
+                "jellyUntil": 0
+              },
+              {
+                "id": 1,
+                "p": [
+                  0.7239425778388977,
+                  2.320462465286255,
+                  -53.10360336303711
+                ],
+                "heading": -17.38130703982357,
+                "speed": 3.7214372040669597,
+                "steer": -0.0186935446468832,
+                "distance": 1065.3041246240289,
+                "lane": 0.14652521767097218,
+                "lap": 3,
+                "nextGate": 49,
+                "item": null,
+                "recoveries": 0,
+                "finished": 120.94999999999442,
+                "boostUntil": 106.33333333332872,
+                "slowUntil": 115.11666666666152,
+                "jellyUntil": 115.11666666666152
+              },
+              {
+                "id": 2,
+                "p": [
+                  3.21945858001709,
+                  2.3220300674438477,
+                  -53.66915512084961
+                ],
+                "heading": -17.533281432664754,
+                "speed": 3.665725445656038e-8,
+                "steer": -1.139501151620404e-22,
+                "distance": 1065.3145677358348,
+                "lane": 1.0303568892045476,
+                "lap": 3,
+                "nextGate": 49,
+                "item": null,
+                "recoveries": 0,
+                "finished": 117.41666666666129,
+                "boostUntil": 97.86666666666254,
+                "slowUntil": 38.01666666666586,
+                "jellyUntil": 0
+              },
+              {
+                "id": 3,
+                "p": [
+                  2.051898956298828,
+                  2.321239948272705,
+                  -52.83224105834961
+                ],
+                "heading": -17.484894962466903,
+                "speed": 0.005357160430144254,
+                "steer": 1.6505159379219843e-9,
+                "distance": 1065.3829883297813,
+                "lane": 0.5222593467044356,
+                "lap": 3,
+                "nextGate": 49,
+                "item": null,
+                "recoveries": 0,
+                "finished": 119.69999999999449,
+                "boostUntil": 107.93333333332863,
+                "slowUntil": 59.83333333333132,
+                "jellyUntil": 59.83333333333132
+              }
+            ],
+            "projectiles": 0,
+            "traps": 0,
+            "events": [
+              {
+                "kind": "pickup",
+                "time": 104.583,
+                "racer": 3,
+                "item": 0
+              },
+              {
+                "kind": "use",
+                "time": 105.433,
+                "racer": 3,
+                "item": 0
+              },
+              {
+                "kind": "pickup",
+                "time": 109.967,
+                "racer": 2,
+                "item": 1
+              },
+              {
+                "kind": "lap",
+                "time": 111.1,
+                "racer": 0,
+                "lap": 3
+              },
+              {
+                "kind": "finish",
+                "time": 111.1,
+                "racer": 0,
+                "position": 1
+              },
+              {
+                "kind": "pickup",
+                "time": 111.95,
+                "racer": 3,
+                "item": 2
+              },
+              {
+                "kind": "use",
+                "time": 112.15,
+                "racer": 2,
+                "item": 1
+              },
+              {
+                "kind": "use",
+                "time": 112.917,
+                "racer": 3,
+                "item": 2
+              },
+              {
+                "kind": "hit",
+                "time": 113.417,
+                "racer": 1,
+                "owner": 3,
+                "item": 2
+              },
+              {
+                "kind": "lap",
+                "time": 117.417,
+                "racer": 2,
+                "lap": 3
+              },
+              {
+                "kind": "finish",
+                "time": 117.417,
+                "racer": 2,
+                "position": 2
+              },
+              {
+                "kind": "lap",
+                "time": 119.7,
+                "racer": 3,
+                "lap": 3
+              },
+              {
+                "kind": "finish",
+                "time": 119.7,
+                "racer": 3,
+                "position": 3
+              },
+              {
+                "kind": "lap",
+                "time": 120.95,
+                "racer": 1,
+                "lap": 3
+              },
+              {
+                "kind": "finish",
+                "time": 120.95,
+                "racer": 1,
+                "position": 4
+              }
+            ]
+          }
+        },
+        "keys": []
+      },
+      "rendering": {
+        "requested": 924,
+        "presented": 60,
+        "stride": 16
+      }
+    }
+  ],
+  "errors": []
+}

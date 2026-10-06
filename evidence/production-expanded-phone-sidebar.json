@@ -1,0 +1,1980 @@
+{
+  "deploymentId": "7433d627-92a8-410e-9695-81c9c78c17ce",
+  "releaseId": "4e074fdb-3e91-420a-b6be-2f28df152fca",
+  "moduleId": "995db5ed-c126-4ebf-a564-043975d3edeb",
+  "runtime": {
+    "build": "2fc2f81246d85e8ffa164bc1fa4805ccad19bc771ad167eda99dda73590dfcf9",
+    "kind": "atlas-web"
+  },
+  "checks": [
+    "Public catalog exposes the exact published release to a separate player",
+    "The production PWA launches all 13 verified payload files without a workspace",
+    "The published game races four native karts and stores its live checkpoint",
+    "Reload restores the saved race and native bodies exactly; explicit resume advances play"
+  ],
+  "errors": [
+    "AssertionError [ERR_ASSERTION]: Steer right must remain reachable in the published phone layout\n    at file:///game/tests/production.mjs:146:12"
+  ],
+  "requests": [
+    {
+      "path": "/api/sessions",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/realms",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/activate",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/jelly.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/goose.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/kart-0.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/kart-1.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/kart-2.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/pickup.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/kart-3.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/soda.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/picnic.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/game.json",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/wheel.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/scene/scene.json",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/scripts/main.js",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/activate",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/kart-0.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/kart-1.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/jelly.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/goose.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/kart-2.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/kart-3.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/pickup.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/soda.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/picnic.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/assets/wheel.gltf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/game.json",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/scene/scene.json",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/files/scripts/main.js",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/sessions/a04469d3-2d27-4b2b-9907-7fc9a75335dc/save",
+      "method": "PUT",
+      "status": 200
+    }
+  ],
+  "notice": "Actual public PWA smoke check under software rendering; not a physical-device performance result.",
+  "browser": "151.0.7922.34",
+  "realm": {
+    "realm_id": "module:995db5ed-c126-4ebf-a564-043975d3edeb",
+    "module_id": "wobble-rally",
+    "version": "0.1.0",
+    "title": "Wobble Rally",
+    "summary": "A tiny picnic. A very silly race. Three rivals, three buttons, and one honking goose.",
+    "art_ref": null,
+    "available": true,
+    "execution_policy": "browser",
+    "release_id": "4e074fdb-3e91-420a-b6be-2f28df152fca"
+  },
+  "session": {
+    "id": 114,
+    "uuid": "a04469d3-2d27-4b2b-9907-7fc9a75335dc",
+    "state": "active",
+    "title": "Wobble Rally",
+    "realm_id": "module:995db5ed-c126-4ebf-a564-043975d3edeb",
+    "module_id": "wobble-rally",
+    "created_at": "2026-10-01T19:22:44.824659+00:00",
+    "release_id": "4e074fdb-3e91-420a-b6be-2f28df152fca",
+    "updated_at": "2026-10-01T19:22:44.824659+00:00",
+    "last_played_at": null,
+    "module_version": "0.1.0",
+    "execution_policy": "browser",
+    "workspace_status": "none"
+  },
+  "browserFiles": [
+    "assets/jelly.gltf",
+    "assets/goose.gltf",
+    "assets/kart-0.gltf",
+    "assets/kart-1.gltf",
+    "assets/kart-2.gltf",
+    "assets/pickup.gltf",
+    "assets/kart-3.gltf",
+    "assets/soda.gltf",
+    "assets/picnic.gltf",
+    "game.json",
+    "assets/wheel.gltf",
+    "scene/scene.json",
+    "scripts/main.js"
+  ],
+  "verifiedFiles": {
+    "assets/goose.gltf": "9fde2183f57a2f831a4a9abd2156af3d8eae160e639f9fd537032752b4ee505a",
+    "assets/jelly.gltf": "04260a3d311ae55c6f2bcccd71f6f3f6bccbba08b58491b2882d027a9c9b35ed",
+    "assets/kart-0.gltf": "25afd3cc4bedd411bd409e20c07f3e43c6c70c14192723257cd18b38aa1e4af0",
+    "assets/kart-1.gltf": "981a5f37e9915f94ed81fbc2f2d5beed37e3af5716077a45801a3f492f6e4c3a",
+    "assets/kart-2.gltf": "2c6e7d9125c452cf718456cc93c270546864b66a360a1156efac3f19ec0b7b7a",
+    "assets/kart-3.gltf": "12a7d796367a7a918b24de26d21c0e438128577ddb63e77aff93b7a0ea44c5da",
+    "assets/pickup.gltf": "8ebbc51fbc0725f9386aed443932e383f404f62ca960cda2c6005e8010ef5481",
+    "assets/picnic.gltf": "57c772e41b28a5f55859aba5b562517306c00da605d5eaf032001471d513faa8",
+    "assets/soda.gltf": "a4d099dee6907c7f93347893f7f09b57b4b9900cee2a1e0bd11d5379972b37c0",
+    "assets/wheel.gltf": "16d5b3bc7df110193b6124d6e17cca158353f1fbbe5857682db7c1efa889956e",
+    "game.json": "3cbb2bd7164482d49747f05dfb5ee8225902bb807d7c2f3aa446ff6cc07e9d7b",
+    "scene/scene.json": "477a2c0d89a2e2a211d6db0dedcd6ade43b718ae33ef59d64fe7664062d388fd",
+    "scripts/main.js": "4b6fc18a06670254c137da262b4785d02c02085edb5206db1255051113ac74af"
+  },
+  "initial": {
+    "revision": 1,
+    "snapshot": {
+      "format": 1,
+      "random": 0,
+      "scripts": [
+        {
+          "state": {
+            "race": {
+              "seed": 7321,
+              "phase": "title",
+              "ticks": 0,
+              "camera": [
+                -18.022757700629455,
+                7.674702129798795,
+                -57.90122773638691
+              ],
+              "events": [],
+              "gooses": [],
+              "racers": [
+                {
+                  "p": [
+                    -9.49710212077321,
+                    2.374702129798795,
+                    -53.94228887178366
+                  ],
+                  "s": 345.5908774486074,
+                  "id": 0,
+                  "lap": 0,
+                  "item": null,
+                  "lane": -1.65,
+                  "name": "Pip",
+                  "index": 235,
+                  "speed": 0,
+                  "steer": 0,
+                  "stuck": 0,
+                  "wheel": 0,
+                  "aiUseAt": 0,
+                  "heading": 1.35606833575759,
+                  "distance": -9.5,
+                  "finished": null,
+                  "nextGate": 0,
+                  "bumpUntil": 0,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                },
+                {
+                  "p": [
+                    -5.3200926608282,
+                    2.3657773690762243,
+                    -56.324009238060015
+                  ],
+                  "s": 349.0908774486074,
+                  "id": 1,
+                  "lap": 0,
+                  "item": null,
+                  "lane": 1.65,
+                  "name": "Mochi",
+                  "index": 236,
+                  "speed": 0,
+                  "steer": 0,
+                  "stuck": 0,
+                  "wheel": 0,
+                  "aiUseAt": 0,
+                  "heading": 1.3107152621147016,
+                  "distance": -6,
+                  "finished": null,
+                  "nextGate": 0,
+                  "bumpUntil": 0,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                },
+                {
+                  "p": [
+                    -6.168717001596438,
+                    2.3657773690762243,
+                    -53.13499109319855
+                  ],
+                  "s": 349.0908774486074,
+                  "id": 2,
+                  "lap": 0,
+                  "item": null,
+                  "lane": -1.65,
+                  "name": "Crumb",
+                  "index": 236,
+                  "speed": 0,
+                  "steer": 0,
+                  "stuck": 0,
+                  "wheel": 0,
+                  "aiUseAt": 0,
+                  "heading": 1.3107152621147016,
+                  "distance": -6,
+                  "finished": null,
+                  "nextGate": 0,
+                  "bumpUntil": 0,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                },
+                {
+                  "p": [
+                    -8.793932596322982,
+                    2.374702129798795,
+                    -57.166502360354855
+                  ],
+                  "s": 345.5908774486074,
+                  "id": 3,
+                  "lap": 0,
+                  "item": null,
+                  "lane": 1.65,
+                  "name": "Plum",
+                  "index": 235,
+                  "speed": 0,
+                  "steer": 0,
+                  "stuck": 0,
+                  "wheel": 0,
+                  "aiUseAt": 0,
+                  "heading": 1.35606833575759,
+                  "distance": -9.5,
+                  "finished": null,
+                  "nextGate": 0,
+                  "bumpUntil": 0,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                }
+              ],
+              "random": 7321,
+              "elapsed": 0,
+              "jellies": [],
+              "message": "",
+              "pickups": [
+                {
+                  "s": 42.610905293832886,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 42.610905293832886,
+                  "lane": 0,
+                  "ready": 0
+                },
+                {
+                  "s": 42.610905293832886,
+                  "lane": 3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 124.28180710701258,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 124.28180710701258,
+                  "lane": 0,
+                  "ready": 0
+                },
+                {
+                  "s": 124.28180710701258,
+                  "lane": 3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 205.95270892019232,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 205.95270892019232,
+                  "lane": 0,
+                  "ready": 0
+                },
+                {
+                  "s": 205.95270892019232,
+                  "lane": 3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 287.623610733372,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 287.623610733372,
+                  "lane": 0,
+                  "ready": 0
+                },
+                {
+                  "s": 287.623610733372,
+                  "lane": 3.1,
+                  "ready": 0
+                }
+              ],
+              "version": 1,
+              "finishes": [],
+              "countdown": 3,
+              "itemSerial": 0,
+              "resumePhase": null,
+              "messageUntil": 0,
+              "pausedMotion": null
+            },
+            "bodies": [
+              {
+                "type": "kinematic",
+                "position": [
+                  -9.497101783752441,
+                  2.374702215194702,
+                  -53.94228744506836
+                ],
+                "velocity": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "type": "kinematic",
+                "position": [
+                  -5.320092678070068,
+                  2.3657772541046143,
+                  -56.32400894165039
+                ],
+                "velocity": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "type": "kinematic",
+                "position": [
+                  -6.168716907501221,
+                  2.3657772541046143,
+                  -53.13499069213867
+                ],
+                "velocity": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "type": "kinematic",
+                "position": [
+                  -8.793932914733887,
+                  2.374702215194702,
+                  -57.16650390625
+                ],
+                "velocity": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "version": 1
+          },
+          "entity": 1,
+          "source": "scripts/main.js"
+        }
+      ],
+      "elapsedSeconds": 0.09999999999999999
+    },
+    "updated_at": "2026-10-01T19:22:50.361967+00:00",
+    "schema_version": 1
+  },
+  "racing": {
+    "revision": 10,
+    "snapshot": {
+      "format": 1,
+      "random": 0,
+      "scripts": [
+        {
+          "state": {
+            "race": {
+              "seed": 7321,
+              "phase": "racing",
+              "ticks": 348,
+              "camera": [
+                0.503257855490259,
+                7.6388704919294685,
+                -51.71862677474944
+              ],
+              "events": [
+                {
+                  "kind": "start",
+                  "time": 0
+                },
+                {
+                  "kind": "bump",
+                  "time": 2.6,
+                  "racer": 0
+                },
+                {
+                  "kind": "bump",
+                  "time": 2.6,
+                  "racer": 3
+                }
+              ],
+              "gooses": [],
+              "racers": [
+                {
+                  "p": [
+                    10.91907787322998,
+                    2.3400988578796387,
+                    -49.39485168457031
+                  ],
+                  "s": 11.474698326101645,
+                  "id": 0,
+                  "lap": 0,
+                  "item": null,
+                  "lane": 0.5070889794245732,
+                  "name": "Pip",
+                  "index": 5,
+                  "speed": 7.748155233929697,
+                  "steer": 0,
+                  "stuck": 0,
+                  "wheel": 55.00952652734642,
+                  "aiUseAt": 0,
+                  "heading": 1.35606833575759,
+                  "distance": 11.474698326098945,
+                  "finished": null,
+                  "nextGate": 1,
+                  "bumpUntil": 2.9499999999999957,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                },
+                {
+                  "p": [
+                    13.564128875732422,
+                    2.3504419326782227,
+                    -49.303871154785156
+                  ],
+                  "s": 13.939728149091707,
+                  "id": 1,
+                  "lap": 0,
+                  "item": null,
+                  "lane": 1.4544894431498052,
+                  "name": "Mochi",
+                  "index": 6,
+                  "speed": 9.017983252123168,
+                  "steer": -0.04126165367417036,
+                  "stuck": 0,
+                  "wheel": 53.02081211919162,
+                  "aiUseAt": 0,
+                  "heading": 1.1290881679410305,
+                  "distance": 13.939728149089746,
+                  "finished": null,
+                  "nextGate": 1,
+                  "bumpUntil": 0,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                },
+                {
+                  "p": [
+                    12.953947067260742,
+                    2.3537721633911133,
+                    -46.08303451538086
+                  ],
+                  "s": 14.652834712482957,
+                  "id": 2,
+                  "lap": 0,
+                  "item": null,
+                  "lane": -1.7433539036452057,
+                  "name": "Crumb",
+                  "index": 7,
+                  "speed": 9.158281290733298,
+                  "steer": -0.023572900576253008,
+                  "stuck": 0,
+                  "wheel": 53.631296299951735,
+                  "aiUseAt": 0,
+                  "heading": 1.1777029913497303,
+                  "distance": 14.652834712481564,
+                  "finished": null,
+                  "nextGate": 1,
+                  "bumpUntil": 0,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                },
+                {
+                  "p": [
+                    10.433318138122559,
+                    2.337460994720459,
+                    -50.748836517333984
+                  ],
+                  "s": 10.506661803442114,
+                  "id": 3,
+                  "lap": 0,
+                  "item": null,
+                  "lane": 1.5711159463079531,
+                  "name": "Plum",
+                  "index": 5,
+                  "speed": 7.4775437788978065,
+                  "steer": -0.6652817182712747,
+                  "stuck": 0,
+                  "wheel": 53.34435001818102,
+                  "aiUseAt": 0,
+                  "heading": 1.1191362400885865,
+                  "distance": 10.50666180343947,
+                  "finished": null,
+                  "nextGate": 1,
+                  "bumpUntil": 2.9499999999999957,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                }
+              ],
+              "random": 7321,
+              "elapsed": 2.799999999999995,
+              "jellies": [],
+              "message": "GO! Picnic rules apply.",
+              "pickups": [
+                {
+                  "s": 42.610905293832886,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 42.610905293832886,
+                  "lane": 0,
+                  "ready": 0
+                },
+                {
+                  "s": 42.610905293832886,
+                  "lane": 3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 124.28180710701258,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 124.28180710701258,
+                  "lane": 0,
+                  "ready": 0
+                },
+                {
+                  "s": 124.28180710701258,
+                  "lane": 3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 205.95270892019232,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 205.95270892019232,
+                  "lane": 0,
+                  "ready": 0
+                },
+                {
+                  "s": 205.95270892019232,
+                  "lane": 3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 287.623610733372,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 287.623610733372,
+                  "lane": 0,
+                  "ready": 0
+                },
+                {
+                  "s": 287.623610733372,
+                  "lane": 3.1,
+                  "ready": 0
+                }
+              ],
+              "version": 1,
+              "finishes": [],
+              "countdown": -0.01666666666666101,
+              "itemSerial": 0,
+              "resumePhase": null,
+              "messageUntil": 2,
+              "pausedMotion": null
+            },
+            "bodies": [
+              {
+                "type": "dynamic",
+                "position": [
+                  11.045464515686035,
+                  2.340458631515503,
+                  -49.35956573486328
+                ],
+                "velocity": [
+                  7.579866886138916,
+                  0.021566161885857582,
+                  2.1161444187164307
+                ]
+              },
+              {
+                "type": "dynamic",
+                "position": [
+                  13.699197769165039,
+                  2.3511226177215576,
+                  -49.2410774230957
+                ],
+                "velocity": [
+                  8.100845336914062,
+                  0.041277654469013214,
+                  3.7661056518554688
+                ]
+              },
+              {
+                "type": "dynamic",
+                "position": [
+                  13.093805313110352,
+                  2.354466199874878,
+                  -46.02540969848633
+                ],
+                "velocity": [
+                  8.388178825378418,
+                  0.041922397911548615,
+                  3.456155300140381
+                ]
+              },
+              {
+                "type": "dynamic",
+                "position": [
+                  10.543981552124023,
+                  2.3377861976623535,
+                  -50.707916259765625
+                ],
+                "velocity": [
+                  6.6366143226623535,
+                  0.01950361207127571,
+                  2.4540653228759766
+                ]
+              }
+            ],
+            "version": 1
+          },
+          "entity": 1,
+          "source": "scripts/main.js"
+        }
+      ],
+      "elapsedSeconds": 8.199999999999987
+    },
+    "updated_at": "2026-10-01T19:23:35.5381+00:00",
+    "schema_version": 1
+  },
+  "paused": {
+    "revision": 17,
+    "snapshot": {
+      "format": 1,
+      "random": 0,
+      "scripts": [
+        {
+          "state": {
+            "race": {
+              "seed": 7321,
+              "phase": "paused",
+              "ticks": 564,
+              "camera": [
+                30.667926535311082,
+                7.913355265823548,
+                -44.25860475554578
+              ],
+              "events": [
+                {
+                  "kind": "start",
+                  "time": 0
+                },
+                {
+                  "kind": "bump",
+                  "time": 2.6,
+                  "racer": 0
+                },
+                {
+                  "kind": "bump",
+                  "time": 2.6,
+                  "racer": 3
+                },
+                {
+                  "kind": "bump",
+                  "time": 2.967,
+                  "racer": 0
+                },
+                {
+                  "kind": "bump",
+                  "time": 2.967,
+                  "racer": 3
+                },
+                {
+                  "item": 1,
+                  "kind": "pickup",
+                  "time": 5.817,
+                  "racer": 1
+                },
+                {
+                  "kind": "bump",
+                  "time": 6.033,
+                  "racer": 0
+                },
+                {
+                  "kind": "bump",
+                  "time": 6.4,
+                  "racer": 0
+                }
+              ],
+              "gooses": [],
+              "racers": [
+                {
+                  "p": [
+                    40.898006439208984,
+                    2.6214475631713867,
+                    -41.80195236206055
+                  ],
+                  "s": 41.81816657162648,
+                  "id": 0,
+                  "lap": 0,
+                  "item": null,
+                  "lane": 6.069246400888714,
+                  "name": "Pip",
+                  "index": 22,
+                  "speed": 5.963812838400889,
+                  "steer": 9.434304079894381e-18,
+                  "stuck": 0,
+                  "wheel": 136.50578099549057,
+                  "aiUseAt": 0,
+                  "heading": 1.3560683357575893,
+                  "distance": 41.818166571623436,
+                  "finished": null,
+                  "nextGate": 2,
+                  "bumpUntil": 6.749999999999982,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                },
+                {
+                  "p": [
+                    42.37531280517578,
+                    2.7040822505950928,
+                    -34.690162658691406
+                  ],
+                  "s": 46.17967526455118,
+                  "id": 1,
+                  "lap": 0,
+                  "item": 1,
+                  "lane": 0.27019323544165275,
+                  "name": "Mochi",
+                  "index": 25,
+                  "speed": 9.068959805590069,
+                  "steer": -0.03860082279559506,
+                  "stuck": 0,
+                  "wheel": 137.99010007107674,
+                  "aiUseAt": 7.371705221237289,
+                  "heading": 1.0657300335628797,
+                  "distance": 46.179675264549104,
+                  "finished": null,
+                  "nextGate": 3,
+                  "bumpUntil": 0,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                },
+                {
+                  "p": [
+                    42.64406967163086,
+                    2.729053258895874,
+                    -32.481605529785156
+                  ],
+                  "s": 47.38017211744494,
+                  "id": 2,
+                  "lap": 0,
+                  "item": null,
+                  "lane": -1.6061071446080157,
+                  "name": "Crumb",
+                  "index": 26,
+                  "speed": 9.165809519049006,
+                  "steer": -0.0445256485731104,
+                  "stuck": 0,
+                  "wheel": 139.52322614479223,
+                  "aiUseAt": 0,
+                  "heading": 1.1084450057882795,
+                  "distance": 47.38017211744321,
+                  "finished": null,
+                  "nextGate": 3,
+                  "bumpUntil": 0,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                },
+                {
+                  "p": [
+                    35.605098724365234,
+                    2.5801045894622803,
+                    -36.33589553833008
+                  ],
+                  "s": 39.35205861043568,
+                  "id": 3,
+                  "lap": 0,
+                  "item": null,
+                  "lane": -1.1279920082034656,
+                  "name": "Plum",
+                  "index": 20,
+                  "speed": 8.928662014572316,
+                  "steer": 0.0010245547582812247,
+                  "stuck": 0,
+                  "wheel": 130.6710421931783,
+                  "aiUseAt": 0,
+                  "heading": 0.9880879331304488,
+                  "distance": 39.35205861043269,
+                  "finished": null,
+                  "nextGate": 2,
+                  "bumpUntil": 3.316666666666661,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                }
+              ],
+              "random": 2160213311,
+              "elapsed": 6.399999999999983,
+              "jellies": [],
+              "message": "GO! Picnic rules apply.",
+              "pickups": [
+                {
+                  "s": 42.610905293832886,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 42.610905293832886,
+                  "lane": 0,
+                  "ready": 7.316666666666651
+                },
+                {
+                  "s": 42.610905293832886,
+                  "lane": 3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 124.28180710701258,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 124.28180710701258,
+                  "lane": 0,
+                  "ready": 0
+                },
+                {
+                  "s": 124.28180710701258,
+                  "lane": 3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 205.95270892019232,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 205.95270892019232,
+                  "lane": 0,
+                  "ready": 0
+                },
+                {
+                  "s": 205.95270892019232,
+                  "lane": 3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 287.623610733372,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 287.623610733372,
+                  "lane": 0,
+                  "ready": 0
+                },
+                {
+                  "s": 287.623610733372,
+                  "lane": 3.1,
+                  "ready": 0
+                }
+              ],
+              "version": 1,
+              "finishes": [],
+              "countdown": -0.01666666666666101,
+              "itemSerial": 0,
+              "resumePhase": "racing",
+              "messageUntil": 2,
+              "pausedMotion": [
+                {
+                  "type": "dynamic",
+                  "velocity": [
+                    6.936570644378662,
+                    0.13167665898799896,
+                    3.2618961334228516
+                  ]
+                },
+                {
+                  "type": "dynamic",
+                  "velocity": [
+                    7.841702461242676,
+                    0.18817666172981262,
+                    4.297405242919922
+                  ]
+                },
+                {
+                  "type": "dynamic",
+                  "velocity": [
+                    8.128633499145508,
+                    0.19097743928432465,
+                    4.004814147949219
+                  ]
+                },
+                {
+                  "type": "dynamic",
+                  "velocity": [
+                    6.740206241607666,
+                    2.1856369972229004,
+                    4.485090255737305
+                  ]
+                }
+              ]
+            },
+            "bodies": [
+              {
+                "type": "kinematic",
+                "position": [
+                  41.01369094848633,
+                  2.623631000518799,
+                  -41.747562408447266
+                ],
+                "velocity": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "type": "kinematic",
+                "position": [
+                  42.506080627441406,
+                  2.7071707248687744,
+                  -34.618499755859375
+                ],
+                "velocity": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "type": "kinematic",
+                "position": [
+                  42.77962112426758,
+                  2.732236862182617,
+                  -32.41482162475586
+                ],
+                "velocity": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "type": "kinematic",
+                "position": [
+                  35.72334671020508,
+                  2.594865560531616,
+                  -36.25830078125
+                ],
+                "velocity": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "version": 1
+          },
+          "entity": 1,
+          "source": "scripts/main.js"
+        }
+      ],
+      "elapsedSeconds": 12.90000000000022
+    },
+    "updated_at": "2026-10-01T19:24:02.872038+00:00",
+    "schema_version": 1
+  },
+  "restored": {
+    "revision": 18,
+    "snapshot": {
+      "format": 1,
+      "random": 0,
+      "scripts": [
+        {
+          "state": {
+            "race": {
+              "seed": 7321,
+              "phase": "paused",
+              "ticks": 564,
+              "camera": [
+                30.667926535311082,
+                7.913355265823548,
+                -44.25860475554578
+              ],
+              "events": [
+                {
+                  "kind": "start",
+                  "time": 0
+                },
+                {
+                  "kind": "bump",
+                  "time": 2.6,
+                  "racer": 0
+                },
+                {
+                  "kind": "bump",
+                  "time": 2.6,
+                  "racer": 3
+                },
+                {
+                  "kind": "bump",
+                  "time": 2.967,
+                  "racer": 0
+                },
+                {
+                  "kind": "bump",
+                  "time": 2.967,
+                  "racer": 3
+                },
+                {
+                  "item": 1,
+                  "kind": "pickup",
+                  "time": 5.817,
+                  "racer": 1
+                },
+                {
+                  "kind": "bump",
+                  "time": 6.033,
+                  "racer": 0
+                },
+                {
+                  "kind": "bump",
+                  "time": 6.4,
+                  "racer": 0
+                }
+              ],
+              "gooses": [],
+              "racers": [
+                {
+                  "p": [
+                    40.898006439208984,
+                    2.6214475631713867,
+                    -41.80195236206055
+                  ],
+                  "s": 41.81816657162648,
+                  "id": 0,
+                  "lap": 0,
+                  "item": null,
+                  "lane": 6.069246400888714,
+                  "name": "Pip",
+                  "index": 22,
+                  "speed": 5.963812838400889,
+                  "steer": 9.434304079894381e-18,
+                  "stuck": 0,
+                  "wheel": 136.50578099549057,
+                  "aiUseAt": 0,
+                  "heading": 1.3560683357575893,
+                  "distance": 41.818166571623436,
+                  "finished": null,
+                  "nextGate": 2,
+                  "bumpUntil": 6.749999999999982,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                },
+                {
+                  "p": [
+                    42.37531280517578,
+                    2.7040822505950928,
+                    -34.690162658691406
+                  ],
+                  "s": 46.17967526455118,
+                  "id": 1,
+                  "lap": 0,
+                  "item": 1,
+                  "lane": 0.27019323544165275,
+                  "name": "Mochi",
+                  "index": 25,
+                  "speed": 9.068959805590069,
+                  "steer": -0.03860082279559506,
+                  "stuck": 0,
+                  "wheel": 137.99010007107674,
+                  "aiUseAt": 7.371705221237289,
+                  "heading": 1.0657300335628797,
+                  "distance": 46.179675264549104,
+                  "finished": null,
+                  "nextGate": 3,
+                  "bumpUntil": 0,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                },
+                {
+                  "p": [
+                    42.64406967163086,
+                    2.729053258895874,
+                    -32.481605529785156
+                  ],
+                  "s": 47.38017211744494,
+                  "id": 2,
+                  "lap": 0,
+                  "item": null,
+                  "lane": -1.6061071446080157,
+                  "name": "Crumb",
+                  "index": 26,
+                  "speed": 9.165809519049006,
+                  "steer": -0.0445256485731104,
+                  "stuck": 0,
+                  "wheel": 139.52322614479223,
+                  "aiUseAt": 0,
+                  "heading": 1.1084450057882795,
+                  "distance": 47.38017211744321,
+                  "finished": null,
+                  "nextGate": 3,
+                  "bumpUntil": 0,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                },
+                {
+                  "p": [
+                    35.605098724365234,
+                    2.5801045894622803,
+                    -36.33589553833008
+                  ],
+                  "s": 39.35205861043568,
+                  "id": 3,
+                  "lap": 0,
+                  "item": null,
+                  "lane": -1.1279920082034656,
+                  "name": "Plum",
+                  "index": 20,
+                  "speed": 8.928662014572316,
+                  "steer": 0.0010245547582812247,
+                  "stuck": 0,
+                  "wheel": 130.6710421931783,
+                  "aiUseAt": 0,
+                  "heading": 0.9880879331304488,
+                  "distance": 39.35205861043269,
+                  "finished": null,
+                  "nextGate": 2,
+                  "bumpUntil": 3.316666666666661,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                }
+              ],
+              "random": 2160213311,
+              "elapsed": 6.399999999999983,
+              "jellies": [],
+              "message": "GO! Picnic rules apply.",
+              "pickups": [
+                {
+                  "s": 42.610905293832886,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 42.610905293832886,
+                  "lane": 0,
+                  "ready": 7.316666666666651
+                },
+                {
+                  "s": 42.610905293832886,
+                  "lane": 3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 124.28180710701258,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 124.28180710701258,
+                  "lane": 0,
+                  "ready": 0
+                },
+                {
+                  "s": 124.28180710701258,
+                  "lane": 3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 205.95270892019232,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 205.95270892019232,
+                  "lane": 0,
+                  "ready": 0
+                },
+                {
+                  "s": 205.95270892019232,
+                  "lane": 3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 287.623610733372,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 287.623610733372,
+                  "lane": 0,
+                  "ready": 0
+                },
+                {
+                  "s": 287.623610733372,
+                  "lane": 3.1,
+                  "ready": 0
+                }
+              ],
+              "version": 1,
+              "finishes": [],
+              "countdown": -0.01666666666666101,
+              "itemSerial": 0,
+              "resumePhase": "racing",
+              "messageUntil": 2,
+              "pausedMotion": [
+                {
+                  "type": "dynamic",
+                  "velocity": [
+                    6.936570644378662,
+                    0.13167665898799896,
+                    3.2618961334228516
+                  ]
+                },
+                {
+                  "type": "dynamic",
+                  "velocity": [
+                    7.841702461242676,
+                    0.18817666172981262,
+                    4.297405242919922
+                  ]
+                },
+                {
+                  "type": "dynamic",
+                  "velocity": [
+                    8.128633499145508,
+                    0.19097743928432465,
+                    4.004814147949219
+                  ]
+                },
+                {
+                  "type": "dynamic",
+                  "velocity": [
+                    6.740206241607666,
+                    2.1856369972229004,
+                    4.485090255737305
+                  ]
+                }
+              ]
+            },
+            "bodies": [
+              {
+                "type": "kinematic",
+                "position": [
+                  41.01369094848633,
+                  2.623631000518799,
+                  -41.747562408447266
+                ],
+                "velocity": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "type": "kinematic",
+                "position": [
+                  42.506080627441406,
+                  2.7071707248687744,
+                  -34.618499755859375
+                ],
+                "velocity": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "type": "kinematic",
+                "position": [
+                  42.77962112426758,
+                  2.732236862182617,
+                  -32.41482162475586
+                ],
+                "velocity": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "type": "kinematic",
+                "position": [
+                  35.72334671020508,
+                  2.594865560531616,
+                  -36.25830078125
+                ],
+                "velocity": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "version": 1
+          },
+          "entity": 1,
+          "source": "scripts/main.js"
+        }
+      ],
+      "elapsedSeconds": 13.000000000000226
+    },
+    "updated_at": "2026-10-01T19:24:09.802874+00:00",
+    "schema_version": 1
+  },
+  "resumed": {
+    "revision": 21,
+    "snapshot": {
+      "format": 1,
+      "random": 0,
+      "scripts": [
+        {
+          "state": {
+            "race": {
+              "seed": 7321,
+              "phase": "racing",
+              "ticks": 612,
+              "camera": [
+                35.671474878373274,
+                8.006481314171994,
+                -41.9294576587186
+              ],
+              "events": [
+                {
+                  "kind": "start",
+                  "time": 0
+                },
+                {
+                  "kind": "bump",
+                  "time": 2.6,
+                  "racer": 0
+                },
+                {
+                  "kind": "bump",
+                  "time": 2.6,
+                  "racer": 3
+                },
+                {
+                  "kind": "bump",
+                  "time": 2.967,
+                  "racer": 0
+                },
+                {
+                  "kind": "bump",
+                  "time": 2.967,
+                  "racer": 3
+                },
+                {
+                  "item": 1,
+                  "kind": "pickup",
+                  "time": 5.817,
+                  "racer": 1
+                },
+                {
+                  "kind": "bump",
+                  "time": 6.033,
+                  "racer": 0
+                },
+                {
+                  "kind": "bump",
+                  "time": 6.4,
+                  "racer": 0
+                },
+                {
+                  "kind": "bump",
+                  "time": 6.833,
+                  "racer": 0
+                },
+                {
+                  "item": 0,
+                  "kind": "pickup",
+                  "time": 6.95,
+                  "racer": 3
+                },
+                {
+                  "kind": "bump",
+                  "time": 7.2,
+                  "racer": 0
+                }
+              ],
+              "gooses": [],
+              "racers": [
+                {
+                  "p": [
+                    45.77014923095703,
+                    2.7248353958129883,
+                    -39.4913444519043
+                  ],
+                  "s": 47.15144657352283,
+                  "id": 0,
+                  "lap": 0,
+                  "item": null,
+                  "lane": 6.065693451625399,
+                  "name": "Pip",
+                  "index": 26,
+                  "speed": 5.633867638191097,
+                  "steer": 2.1039201141118254e-22,
+                  "stuck": 0,
+                  "wheel": 150.6732396113398,
+                  "aiUseAt": 0,
+                  "heading": 1.3560683357575893,
+                  "distance": 47.15144657351945,
+                  "finished": null,
+                  "nextGate": 3,
+                  "bumpUntil": 7.549999999999979,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                },
+                {
+                  "p": [
+                    48.61146926879883,
+                    2.8803181648254395,
+                    -31.492990493774414
+                  ],
+                  "s": 53.181345250617824,
+                  "id": 1,
+                  "lap": 0,
+                  "item": 1,
+                  "lane": 0.1827877312766012,
+                  "name": "Mochi",
+                  "index": 30,
+                  "speed": 8.673328078629861,
+                  "steer": -0.40344992918801953,
+                  "stuck": 0,
+                  "wheel": 156.42768581332493,
+                  "aiUseAt": 7.371705221237289,
+                  "heading": 0.9628673340175185,
+                  "distance": 53.181345250615635,
+                  "finished": null,
+                  "nextGate": 3,
+                  "bumpUntil": 0,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                },
+                {
+                  "p": [
+                    48.902557373046875,
+                    2.925826072692871,
+                    -29.011253356933594
+                  ],
+                  "s": 54.659674684833476,
+                  "id": 2,
+                  "lap": 0,
+                  "item": null,
+                  "lane": -1.8520952335342102,
+                  "name": "Crumb",
+                  "index": 32,
+                  "speed": 9.018529531122658,
+                  "steer": -0.2160948598448993,
+                  "stuck": 0,
+                  "wheel": 158.3482713885199,
+                  "aiUseAt": 0,
+                  "heading": 0.9559314109974107,
+                  "distance": 54.659674684831685,
+                  "finished": null,
+                  "nextGate": 3,
+                  "bumpUntil": 0,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                },
+                {
+                  "p": [
+                    41.70137023925781,
+                    2.7075722217559814,
+                    -32.87565612792969
+                  ],
+                  "s": 46.35287530906322,
+                  "id": 3,
+                  "lap": 0,
+                  "item": 0,
+                  "lane": -1.6576676517022697,
+                  "name": "Plum",
+                  "index": 25,
+                  "speed": 8.691767580035132,
+                  "steer": 0.3859979898375335,
+                  "stuck": 0,
+                  "wheel": 149.16842014017047,
+                  "aiUseAt": 8.717700447654332,
+                  "heading": 1.3780853300549698,
+                  "distance": 46.352875309060465,
+                  "finished": null,
+                  "nextGate": 3,
+                  "bumpUntil": 3.316666666666661,
+                  "slowUntil": 0,
+                  "boostUntil": 0,
+                  "jellyUntil": 0,
+                  "recoveries": 0,
+                  "immuneUntil": 0,
+                  "recoverUntil": 0
+                }
+              ],
+              "random": 2697493238,
+              "elapsed": 7.19999999999998,
+              "jellies": [],
+              "message": "GO! Picnic rules apply.",
+              "pickups": [
+                {
+                  "s": 42.610905293832886,
+                  "lane": -3.1,
+                  "ready": 8.449999999999982
+                },
+                {
+                  "s": 42.610905293832886,
+                  "lane": 0,
+                  "ready": 7.316666666666651
+                },
+                {
+                  "s": 42.610905293832886,
+                  "lane": 3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 124.28180710701258,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 124.28180710701258,
+                  "lane": 0,
+                  "ready": 0
+                },
+                {
+                  "s": 124.28180710701258,
+                  "lane": 3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 205.95270892019232,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 205.95270892019232,
+                  "lane": 0,
+                  "ready": 0
+                },
+                {
+                  "s": 205.95270892019232,
+                  "lane": 3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 287.623610733372,
+                  "lane": -3.1,
+                  "ready": 0
+                },
+                {
+                  "s": 287.623610733372,
+                  "lane": 0,
+                  "ready": 0
+                },
+                {
+                  "s": 287.623610733372,
+                  "lane": 3.1,
+                  "ready": 0
+                }
+              ],
+              "version": 1,
+              "finishes": [],
+              "countdown": -0.01666666666666101,
+              "itemSerial": 0,
+              "resumePhase": null,
+              "messageUntil": 2,
+              "pausedMotion": null
+            },
+            "bodies": [
+              {
+                "type": "dynamic",
+                "position": [
+                  45.87742614746094,
+                  2.7273402214050293,
+                  -39.44011688232422
+                ],
+                "velocity": [
+                  6.4319329261779785,
+                  0.1502324640750885,
+                  3.071854829788208
+                ]
+              },
+              {
+                "type": "dynamic",
+                "position": [
+                  48.73246383666992,
+                  2.8847556114196777,
+                  -31.41765594482422
+                ],
+                "velocity": [
+                  7.254472255706787,
+                  0.2691587805747986,
+                  4.517003536224365
+                ]
+              },
+              {
+                "type": "dynamic",
+                "position": [
+                  49.025657653808594,
+                  2.930464506149292,
+                  -28.928457260131836
+                ],
+                "velocity": [
+                  7.381111145019531,
+                  0.27944323420524597,
+                  4.964639663696289
+                ]
+              },
+              {
+                "type": "dynamic",
+                "position": [
+                  41.83963394165039,
+                  2.7105252742767334,
+                  -32.8392448425293
+                ],
+                "velocity": [
+                  8.291111946105957,
+                  0.1775246411561966,
+                  2.183246374130249
+                ]
+              }
+            ],
+            "version": 1
+          },
+          "entity": 1,
+          "source": "scripts/main.js"
+        }
+      ],
+      "elapsedSeconds": 16.20000000000036
+    },
+    "updated_at": "2026-10-01T19:24:25.556275+00:00",
+    "schema_version": 1
+  },
+  "testSessionDeleted": true,
+  "finishedAt": "2026-10-01T19:24:31.842Z"
+}

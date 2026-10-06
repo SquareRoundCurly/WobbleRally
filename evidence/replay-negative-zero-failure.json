@@ -1,0 +1,8 @@
+{
+  "sourceSha": "483843f5dc47f49a72634ed7a7893f283979b288c8794f34cce6f5c98fdf91f4",
+  "browser": "151.0.7922.34",
+  "checks": [],
+  "errors": [
+    "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n... Skipped lines\n\n  {\n    position: [\n      1.7235530614852905,\n      2.3213484287261963,\n      -51.68777084350586\n...\n      0,\n+     -0,\n      0,\n-     0\n    ],\n    scale: [\n      1,\n      1,\n      1\n\n    at file:///game/tests/replay.mjs:45:14"
+  ]
+}

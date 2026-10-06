@@ -1,0 +1,41 @@
+{
+  "diagnostic": true,
+  "timings": [
+    {
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "method": "playwright",
+      "renderMs": 27,
+      "captureMs": 3415
+    },
+    {
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "method": "cdp",
+      "renderMs": 15,
+      "captureMs": 3000
+    },
+    {
+      "viewport": {
+        "width": 640,
+        "height": 400
+      },
+      "method": "playwright",
+      "renderMs": 215,
+      "captureMs": 1549
+    },
+    {
+      "viewport": {
+        "width": 640,
+        "height": 400
+      },
+      "method": "cdp",
+      "renderMs": 5,
+      "captureMs": 1987
+    }
+  ]
+}
